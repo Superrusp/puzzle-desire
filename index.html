@@ -1,0 +1,2210 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
+        <link
+            rel="icon"
+            type="image/svg"
+            sizes="32x32"
+            href="./icons/favicon_32x32.svg" />
+        <link
+            rel="icon"
+            type="image/svg"
+            sizes="16x16"
+            href="./icons/favicon_16x16.svg" />
+        <link rel="stylesheet" href="https://use.typekit.net/wiq3rly.css" />
+
+        <link
+            href="https://fonts.cdnfonts.com/css/helvetica-neue-55"
+            rel="stylesheet" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="./css/style.min.css" />
+        <link rel="stylesheet" href="./css/lang.css" />
+        <title id="title"></title>
+    </head>
+    <body>
+        <nav class="nav">
+            <div class="container">
+                <div class="nav_subwrapper">
+                    <img class="nav_logo" src="./icons/logo.svg" alt="logo" />
+                    <nav class="nav_menu">
+                        <a href="#about" class="nav_about-us" id="nav_about-us"
+                            >about us</a
+                        >
+                        <a
+                            href="#services"
+                            class="nav_services"
+                            id="nav_services"
+                            >services</a
+                        >
+                        <a
+                            href="#work"
+                            class="nav_our-process"
+                            id="nav_our-process"
+                            >our process</a
+                        >
+                        <a href="#price" class="nav_our-process" id="nav_price"
+                            >price</a
+                        >
+                        <a
+                            href="#contacts"
+                            class="nav_contacts"
+                            id="nav_contacts"
+                            >contacts</a
+                        >
+                    </nav>
+                    <div class="nav-wrapper">
+                        <div class="nav_language-switcher">
+                            <div class="nav_language" id="nav_language">EN</div>
+                            <img
+                                src="./icons/arrow_down.svg"
+                                alt="arrow_down" />
+
+                            <div
+                                class="languages_dropdown"
+                                id="languages_dropdown">
+                                <div class="nav_language_pick" data-lang="en">
+                                    English
+                                </div>
+                                <div class="nav_language_pick" data-lang="es">
+                                    Spanish
+                                </div>
+                                <div class="nav_language_pick" data-lang="uk">
+                                    Ukrainian
+                                </div>
+                                <div class="nav_language_pick" data-lang="ru">
+                                    Russian
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hamburger">
+                            <span class="hamburger-span"></span>
+                            <span class="hamburger-span"></span>
+                        </div>
+                        <a
+                            href="#messangers"
+                            class="nav-scrolled-btn"
+                            id="nav-scrolled-btn"
+                            >Contact us</a
+                        >
+                    </div>
+                </div>
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a
+                            href="#about-mobile"
+                            class="nav_link"
+                            id="nav_link_about-mobile"
+                            onclick="toggleMenu()"
+                            >about us</a
+                        >
+                    </li>
+                    <li class="nav_item">
+                        <a
+                            href="#services-mobile"
+                            class="nav_link"
+                            id="nav_link_services-mobile"
+                            onclick="toggleMenu()"
+                            >services</a
+                        >
+                    </li>
+                    <li class="nav_item">
+                        <a
+                            href="#work-mobile"
+                            class="nav_link"
+                            id="nav_link_work-mobile"
+                            onclick="toggleMenu()"
+                            >our process</a
+                        >
+                    </li>
+                    <li class="nav_item">
+                        <a
+                            href="#price"
+                            class="nav_link"
+                            id="nav_link_price-mobile"
+                            onclick="toggleMenu()"
+                            >price</a
+                        >
+                    </li>
+                    <li class="nav_item">
+                        <a
+                            href="#contacts-mobile"
+                            class="nav_link"
+                            id="nav_link_contacts-mobile"
+                            onclick="toggleMenu()"
+                            >contacts</a
+                        >
+                    </li>
+                </ul>
+                <a
+                    href="#messangers-mobile"
+                    class="nav_btn"
+                    id="nav_btn_messangers-mobile"
+                    onclick="toggleMenu()"
+                    >Contact us</a
+                >
+            </div>
+        </nav>
+        <div class="header-container">
+            <div id="container3D"></div>
+            <section class="header">
+                <div class="container">
+                    <div class="wrap">
+                        <h1 class="wrap_title" id="wrap_title">
+                            Transform your ideas to
+                            <span class="wrap_span" id="wrap_span"
+                                >reality</span
+                            >
+                            now
+                        </h1>
+                        <h2 class="wrap_subtitle" id="wrap_subtitle">
+                            We create websites, platforms and apps
+                        </h2>
+                        <div id="about"></div>
+                        <a class="wrap_btn" id="wrap_btn">
+                            <button class="main-btn">
+                                <div class="bg-gradient"></div>
+                                <div class="bg-fullfill"></div>
+                                <span id="contact_us">Contact us</span>
+
+                                <svg
+                                    class="contantUsSvg"
+                                    viewBox="0 0 40 40"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        clip-rule="evenodd"
+                                        d="M28.3346 10.417H13.335C12.6446 10.417 12.085 10.9766 12.085 11.667C12.085 12.3573 12.6446 12.917 13.335 12.917H25.3169L10.7841 27.4498C10.2959 27.9379 10.2959 28.7294 10.7841 29.2175C11.2722 29.7057 12.0637 29.7057 12.5519 29.2175L27.085 14.6844V26.667C27.085 27.3573 27.6446 27.917 28.335 27.917C29.0253 27.917 29.585 27.3573 29.585 26.667V11.667C29.585 10.9766 29.0253 10.417 28.335 10.417H28.3346Z" />
+                                </svg>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <div class="container">
+                <section class="about-us">
+                    <div class="about-us__title-wrapper">
+                        <div class="subtitle" id="about_us_subtitle">
+                            What we do
+                        </div>
+                        <h2 class="title" id="about_us_title">
+                            We are the
+                            <span class="about-us_span" id="about_us_span"
+                                >team of experts</span
+                            >
+                            in research, design and development focus on
+                            creating innovative and unique products.
+                        </h2>
+                    </div>
+
+                    <div class="about-us_circle">
+                        <!-- <img src="./icons/puzzle_2-section.svg" alt="circle" /> -->
+                    </div>
+                    <div id="services"></div>
+                    <div class="about-us_descr" id="about_us_descr">
+                        In our approach we mix competencies of in-depth market
+                        research, visual design and development to create
+                        project the make a great impact.
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="container" id="about-mobile">
+            <section class="services" id="services-mobile">
+                <div class="subtitle" id="services_subtitle">
+                    The service we do
+                </div>
+                <h2 class="title" id="services_title">
+                    Empowering your vision with creative solutions.
+                </h2>
+                <div class="services_wrap">
+                    <div class="services_item branding-hover">
+                        <img
+                            src="./icons/arrow_services.svg"
+                            alt="arrow"
+                            class="services_arrow" />
+                        <div>
+                            <img
+                                src="./icons/services_icon-1.svg"
+                                alt="icon"
+                                class="services_icon" />
+                        </div>
+                        <h3
+                            class="services_title"
+                            id="services_title_logo_branding">
+                            Logo & Branding
+                        </h3>
+                        <div
+                            class="services_descr"
+                            id="services_descr_logo_branding">
+                            Crafting distinctive identities with iconic logos
+                            and strategic branding to make your business stand
+                            out.
+                        </div>
+                    </div>
+                    <div class="services_item design-hover">
+                        <img
+                            src="./icons/arrow_services.svg"
+                            alt="arrow"
+                            class="services_arrow" />
+                        <div>
+                            <img
+                                src="./icons/services_icon-2.svg"
+                                alt="icon"
+                                class="services_icon" />
+                        </div>
+                        <h3
+                            class="services_title"
+                            id="services_title_ui_ux_design">
+                            UI/UX Design
+                        </h3>
+                        <div
+                            class="services_descr"
+                            id="services_descr_ui_ux_design">
+                            Creating an aesthetics and usable interfaces design
+                            which includes mobile/web apps design and website
+                            design.
+                        </div>
+                    </div>
+                    <div class="services_item development-hover">
+                        <img
+                            src="./icons/arrow_services.svg"
+                            alt="arrow"
+                            class="services_arrow" />
+                        <div>
+                            <img
+                                src="./icons/services_icon-3.svg"
+                                alt="icon"
+                                class="services_icon" />
+                        </div>
+                        <h3
+                            class="services_title"
+                            id="services_title_development">
+                            Development
+                        </h3>
+                        <div
+                            class="services_descr"
+                            id="services_descr_development">
+                            We’re ready to apply the design that we’ve made into
+                            front-end development by our talented and experts
+                            human resource.
+                        </div>
+                    </div>
+                    <div class="services_item illustration-hover">
+                        <img
+                            src="./icons/arrow_services.svg"
+                            alt="arrow"
+                            class="services_arrow" />
+                        <div>
+                            <img
+                                src="./icons/services_icon-4.svg"
+                                alt="icon"
+                                class="services_icon" />
+                        </div>
+                        <h3
+                            class="services_title"
+                            id="services_title_illustration">
+                            Illustration
+                        </h3>
+                        <div
+                            class="services_descr"
+                            id="services_descr_illustration">
+                            Our talented illustrators craft visuals that enhance
+                            your storytelling and connect emotionally with your
+                            audience.
+                        </div>
+                    </div>
+                    <div class="services_item animation-hover">
+                        <img
+                            src="./icons/arrow_services.svg"
+                            alt="arrow"
+                            class="services_arrow" />
+                        <div>
+                            <img
+                                src="./icons/services_icon-5.svg"
+                                alt="icon"
+                                class="services_icon" />
+                        </div>
+                        <h3
+                            class="services_title"
+                            id="services_title_animation">
+                            Animation
+                        </h3>
+                        <div
+                            class="services_descr"
+                            id="services_descr_animation">
+                            Animating ideas with captivating motion and
+                            storytelling to engage viewers like never before.
+                        </div>
+                    </div>
+                    <div class="services_item supporting-hover">
+                        <img
+                            src="./icons/arrow_services.svg"
+                            alt="arrow"
+                            class="services_arrow" />
+                        <div>
+                            <img
+                                src="./icons/services_icon-6.svg"
+                                alt="icon"
+                                class="services_icon" />
+                        </div>
+                        <h3
+                            class="services_title"
+                            id="services_title_supporting">
+                            Supporting
+                        </h3>
+                        <div
+                            class="services_descr"
+                            id="services_descr_supporting">
+                            We're here to ensure your product continues to
+                            thrive, offering assistance and updates to guarantee
+                            its success.
+                        </div>
+                    </div>
+                    <!-- Modals -->
+                    <div
+                        class="services_modal"
+                        id="services_modal_logo_branding">
+                        <div class="services_modal-top">
+                            <div class="services_modal-info">
+                                <div>
+                                    <img
+                                        src="./icons/services_icon-1.svg"
+                                        alt="icon"
+                                        class="services_icon" />
+                                </div>
+                                <div>
+                                    <h3 class="services_title">
+                                        Logo & Branding
+                                    </h3>
+                                    <div class="services_descr">
+                                        Crafting distinctive identities with
+                                        iconic logos and strategic branding to
+                                        make your business stand out.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="services_modal-close">
+                                <img src="./icons/close_btn.svg" alt="close" />
+                            </div>
+                        </div>
+                        <div class="services_modal-divider"></div>
+                        <div class="services_modal-bottom">
+                            <div class="services_modal-wrap">
+                                <div class="services_modal-item">
+                                    <div class="services_modal-number branding">
+                                        1
+                                    </div>
+                                    <div class="services_modal-text">
+                                        <div class="services_modal-title">
+                                            Overview client brief
+                                        </div>
+                                        <div class="services_modal_subtitle">
+                                            Understanding our clients’ needs,
+                                            problems and their main goals to
+                                            establish a proper and suitable
+                                            design as the problem solver
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="services_modal-item">
+                                    <div class="services_modal-number branding">
+                                        2
+                                    </div>
+                                    <div class="services_modal-text">
+                                        <div class="services_modal-title">
+                                            Research and moodboard
+                                        </div>
+                                        <div class="services_modal_subtitle">
+                                            We brainstorm at this stage. Various
+                                            ideas, competitors and inspirations
+                                            are collected and then selected as
+                                            ideas to be used continuously
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="services_modal-wrap">
+                                <div class="services_modal-item">
+                                    <div class="services_modal-number branding">
+                                        3
+                                    </div>
+                                    <div class="services_modal-text">
+                                        <div class="services_modal-title">
+                                            Ideation
+                                        </div>
+                                        <div class="services_modal-subtitle">
+                                            Started to realize our idea by
+                                            constructing it into a real design.
+                                            We translate both of client’s idea
+                                            and ours into a tangible things that
+                                            clients can see
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="services_modal-item">
+                                    <div class="services_modal-number branding">
+                                        4
+                                    </div>
+                                    <div class="services_modal-text">
+                                        <div class="services_modal-title">
+                                            Daily update
+                                        </div>
+                                        <div class="services_modal-subtitle">
+                                            To work efficiently, we always
+                                            update our progress every day. It
+                                            helps us to stay on a good work
+                                            rhythm and updated our work to
+                                            clients
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Repeat modal structure for other services... -->
+                    <div
+                        class="services_modal"
+                        id="services_modal_ux_ui_design">
+                        <div class="services_modal-top">
+                            <div class="services_modal-info">
+                                <div>
+                                    <img
+                                        src="./icons/services_icon-2.svg"
+                                        alt="icon"
+                                        class="services_icon" />
+                                </div>
+                                <div>
+                                    <h3 class="services_title">
+                                        Logo & Branding
+                                    </h3>
+                                    <div class="services_descr">
+                                        Creating an aesthetics and usable
+                                        interfaces design which includes
+                                        mobile/web apps design and website
+                                        design.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="services_modal-close">
+                                <img src="./icons/close_btn.svg" alt="close" />
+                            </div>
+                        </div>
+                        <div class="services_modal-divider"></div>
+                        <div class="services_modal-bottom">
+                            <div class="services_modal-wrap">
+                                <div class="services_modal-item">
+                                    <div class="services_modal-number design">
+                                        1
+                                    </div>
+                                    <div class="services_modal-text">
+                                        <div class="services_modal-title">
+                                            Overview client brief
+                                        </div>
+                                        <div class="services_modal-subtitle">
+                                            Understanding our clients’ needs,
+                                            problems and their main goals to
+                                            establish a proper and suitable
+                                            design as the problem solver
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="services_modal-item">
+                                    <div class="services_modal-number design">
+                                        2
+                                    </div>
+                                    <div class="services_modal-text">
+                                        <div class="services_modal-title">
+                                            Research and moodboard
+                                        </div>
+                                        <div class="services_modal-subtitle">
+                                            We brainstorm at this stage. Various
+                                            ideas, competitors and inspirations
+                                            are collected and then selected as
+                                            ideas to be used continuously
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="services_modal-wrap">
+                                <div class="services_modal-item">
+                                    <div class="services_modal-number design">
+                                        3
+                                    </div>
+                                    <div class="services_modal-text">
+                                        <div class="services_modal-title">
+                                            Ideation
+                                        </div>
+                                        <div class="services_modal-subtitle">
+                                            Started to realize our idea by
+                                            constructing it into a real design.
+                                            We translate both of client’s idea
+                                            and ours into a tangible things that
+                                            clients can see
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="services_modal-item">
+                                    <div class="services_modal-number design">
+                                        4
+                                    </div>
+                                    <div class="services_modal-text">
+                                        <div class="services_modal-title">
+                                            Daily update
+                                        </div>
+                                        <div class="services_modal-subtitle">
+                                            To work efficiently, we always
+                                            update our progress every day. It
+                                            helps us to stay on a good work
+                                            rhythm and updated our work to
+                                            clients
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services_modal" id="services_modal_development">
+                        <div class="services_modal-top">
+                            <div class="services_modal-info">
+                                <div>
+                                    <img
+                                        src="./icons/services_icon-3.svg"
+                                        alt="icon"
+                                        class="services_icon" />
+                                </div>
+                                <div>
+                                    <h3 class="services_title">Development</h3>
+                                    <div class="services_descr">
+                                        We’re ready to apply the design that
+                                        we’ve made into front-end development by
+                                        our talented and experts human resource.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="services_modal-close">
+                                <img src="./icons/close_btn.svg" alt="close" />
+                            </div>
+                        </div>
+                        <div class="services_modal-divider"></div>
+                        <div class="services_modal-bottom">
+                            <div class="services_modal-wrap">
+                                <div class="services_modal-item">
+                                    <div
+                                        class="services_modal-number development">
+                                        1
+                                    </div>
+                                    <div class="services_modal-text">
+                                        <div class="services_modal-title">
+                                            Overview client brief
+                                        </div>
+                                        <div class="services_modal-subtitle">
+                                            Understanding our clients’ needs,
+                                            problems and their main goals to
+                                            establish a proper and suitable
+                                            design as the problem solver
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="services_modal-item">
+                                    <div
+                                        class="services_modal-number development">
+                                        2
+                                    </div>
+                                    <div class="services_modal-text">
+                                        <div class="services_modal-title">
+                                            Research and moodboard
+                                        </div>
+                                        <div class="services_modal-subtitle">
+                                            We brainstorm at this stage. Various
+                                            ideas, competitors and inspirations
+                                            are collected and then selected as
+                                            ideas to be used continuously
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="services_modal-wrap">
+                                <div class="services_modal-item">
+                                    <div
+                                        class="services_modal-number development">
+                                        3
+                                    </div>
+                                    <div class="services_modal-text">
+                                        <div class="services_modal-title">
+                                            Ideation
+                                        </div>
+                                        <div class="services_modal-subtitle">
+                                            Started to realize our idea by
+                                            constructing it into a real design.
+                                            We translate both of client’s idea
+                                            and ours into a tangible things that
+                                            clients can see
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="services_modal-item">
+                                    <div
+                                        class="services_modal-number development">
+                                        4
+                                    </div>
+                                    <div class="services_modal-text">
+                                        <div class="services_modal-title">
+                                            Daily update
+                                        </div>
+                                        <div class="services_modal-subtitle">
+                                            To work efficiently, we always
+                                            update our progress every day. It
+                                            helps us to stay on a good work
+                                            rhythm and updated our work to
+                                            clients
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="services_modal"
+                        id="services_modal_illustration">
+                        <div class="services_modal-top">
+                            <div class="services_modal-info">
+                                <div>
+                                    <img
+                                        src="./icons/services_icon-4.svg"
+                                        alt="icon"
+                                        class="services_icon" />
+                                </div>
+                                <div>
+                                    <h3 class="services_title">Illustration</h3>
+                                    <div class="services_descr">
+                                        Our talented illustrators craft visuals
+                                        that enhance your storytelling and
+                                        connect emotionally with your audience.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="services_modal-close">
+                                <img src="./icons/close_btn.svg" alt="close" />
+                            </div>
+                        </div>
+                        <div class="services_modal-divider"></div>
+                        <div class="services_modal-bottom">
+                            <div class="services_modal-wrap">
+                                <div class="services_modal-item">
+                                    <div
+                                        class="services_modal-number illustration">
+                                        1
+                                    </div>
+                                    <div class="services_modal-text">
+                                        <div class="services_modal-title">
+                                            Overview client brief
+                                        </div>
+                                        <div class="services_modal-subtitle">
+                                            Understanding our clients’ needs,
+                                            problems and their main goals to
+                                            establish a proper and suitable
+                                            design as the problem solver
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="services_modal-item">
+                                    <div
+                                        class="services_modal-number illustration">
+                                        2
+                                    </div>
+                                    <div class="services_modal-text">
+                                        <div class="services_modal-title">
+                                            Research and moodboard
+                                        </div>
+                                        <div class="services_modal-subtitle">
+                                            We brainstorm at this stage. Various
+                                            ideas, competitors and inspirations
+                                            are collected and then selected as
+                                            ideas to be used continuously
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="services_modal-wrap">
+                                <div class="services_modal-item">
+                                    <div
+                                        class="services_modal-number illustration">
+                                        3
+                                    </div>
+                                    <div class="services_modal-text">
+                                        <div class="services_modal-title">
+                                            Ideation
+                                        </div>
+                                        <div class="services_modal-subtitle">
+                                            Started to realize our idea by
+                                            constructing it into a real design.
+                                            We translate both of client’s idea
+                                            and ours into a tangible things that
+                                            clients can see
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="services_modal-item">
+                                    <div
+                                        class="services_modal-number illustration">
+                                        4
+                                    </div>
+                                    <div class="services_modal-text">
+                                        <div class="services_modal-title">
+                                            Daily update
+                                        </div>
+                                        <div class="services_modal-subtitle">
+                                            To work efficiently, we always
+                                            update our progress every day. It
+                                            helps us to stay on a good work
+                                            rhythm and updated our work to
+                                            clients
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services_modal" id="services_modal_animation">
+                        <div class="services_modal-top">
+                            <div class="services_modal-info">
+                                <div>
+                                    <img
+                                        src="./icons/services_icon-5.svg"
+                                        alt="icon"
+                                        class="services_icon" />
+                                </div>
+                                <div>
+                                    <h3 class="services_title">Animation</h3>
+                                    <div class="services_descr">
+                                        Animating ideas with captivating motion
+                                        and storytelling to engage viewers like
+                                        never before.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="services_modal-close">
+                                <img src="./icons/close_btn.svg" alt="close" />
+                            </div>
+                        </div>
+                        <div class="services_modal-divider"></div>
+                        <div class="services_modal-bottom">
+                            <div class="services_modal-wrap">
+                                <div class="services_modal-item">
+                                    <div
+                                        class="services_modal-number animation">
+                                        1
+                                    </div>
+                                    <div class="services_modal-text">
+                                        <div class="services_modal-title">
+                                            Overview client brief
+                                        </div>
+                                        <div class="services_modal-subtitle">
+                                            Understanding our clients’ needs,
+                                            problems and their main goals to
+                                            establish a proper and suitable
+                                            design as the problem solver
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="services_modal-item">
+                                    <div
+                                        class="services_modal-number animation">
+                                        2
+                                    </div>
+                                    <div class="services_modal-text">
+                                        <div class="services_modal-title">
+                                            Research and moodboard
+                                        </div>
+                                        <div class="services_modal-subtitle">
+                                            We brainstorm at this stage. Various
+                                            ideas, competitors and inspirations
+                                            are collected and then selected as
+                                            ideas to be used continuously
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="services_modal-wrap">
+                                <div class="services_modal-item">
+                                    <div
+                                        class="services_modal-number animation">
+                                        3
+                                    </div>
+                                    <div class="services_modal-text">
+                                        <div class="services_modal-title">
+                                            Ideation
+                                        </div>
+                                        <div class="services_modal-subtitle">
+                                            Started to realize our idea by
+                                            constructing it into a real design.
+                                            We translate both of client’s idea
+                                            and ours into a tangible things that
+                                            clients can see
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="services_modal-item">
+                                    <div
+                                        class="services_modal-number animation">
+                                        4
+                                    </div>
+                                    <div class="services_modal-text">
+                                        <div class="services_modal-title">
+                                            Daily update
+                                        </div>
+                                        <div class="services_modal-subtitle">
+                                            To work efficiently, we always
+                                            update our progress every day. It
+                                            helps us to stay on a good work
+                                            rhythm and updated our work to
+                                            clients
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services_modal" id="services_modal_supporting">
+                        <div class="services_modal-top">
+                            <div class="services_modal-info">
+                                <div>
+                                    <img
+                                        src="./icons/services_icon-6.svg"
+                                        alt="icon"
+                                        class="services_icon" />
+                                </div>
+                                <div>
+                                    <h3 class="services_title">Supporting</h3>
+                                    <div class="services_descr">
+                                        We're here to ensure your product
+                                        continues to thrive, offering assistance
+                                        and updates to guarantee its success.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="services_modal-close">
+                                <img src="./icons/close_btn.svg" alt="close" />
+                            </div>
+                        </div>
+                        <div class="services_modal-divider"></div>
+                        <div class="services_modal-bottom">
+                            <div class="services_modal-wrap">
+                                <div class="services_modal-item">
+                                    <div
+                                        class="services_modal-number supporting">
+                                        1
+                                    </div>
+                                    <div class="services_modal-text">
+                                        <div class="services_modal-title">
+                                            Overview client brief
+                                        </div>
+                                        <div class="services_modal-subtitle">
+                                            Understanding our clients’ needs,
+                                            problems and their main goals to
+                                            establish a proper and suitable
+                                            design as the problem solver
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="services_modal-item">
+                                    <div
+                                        class="services_modal-number supporting">
+                                        2
+                                    </div>
+                                    <div class="services_modal-text">
+                                        <div class="services_modal-title">
+                                            Research and moodboard
+                                        </div>
+                                        <div class="services_modal-subtitle">
+                                            We brainstorm at this stage. Various
+                                            ideas, competitors and inspirations
+                                            are collected and then selected as
+                                            ideas to be used continuously
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="services_modal-wrap">
+                                <div class="services_modal-item">
+                                    <div
+                                        class="services_modal-number supporting">
+                                        3
+                                    </div>
+                                    <div class="services_modal-text">
+                                        <div class="services_modal-title">
+                                            Ideation
+                                        </div>
+                                        <div class="services_modal-subtitle">
+                                            Started to realize our idea by
+                                            constructing it into a real design.
+                                            We translate both of client’s idea
+                                            and ours into a tangible things that
+                                            clients can see
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="services_modal-item">
+                                    <div
+                                        class="services_modal-number supporting">
+                                        4
+                                    </div>
+                                    <div class="services_modal-text">
+                                        <div class="services_modal-title">
+                                            Daily update
+                                        </div>
+                                        <div class="services_modal-subtitle">
+                                            To work efficiently, we always
+                                            update our progress every day. It
+                                            helps us to stay on a good work
+                                            rhythm and updated our work to
+                                            clients
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="information">
+                <div>
+                    <img src="./icons/icon_section-4.svg" alt="icon" />
+                </div>
+                <div class="information_text" id="information_text">
+                    At the
+                    <span class="information_span" id="information_span"
+                        >core of our process</span
+                    >
+                    are the client's needs, desires, challenges, preferences,
+                    and feedback. We gauge our success by your satisfaction
+                    throughout the project lifecycle.
+                </div>
+                <div class="information_icon">
+                    <img src="./icons/icon_section-4.svg" alt="icon" />
+                </div>
+                <div id="work"></div>
+                <div class="information_label" id="information_label">
+                    Puzzle desire team
+                </div>
+            </section>
+        </div>
+        <section class="work-process" id="work-mobile">
+            <div class="container">
+                <div class="subtitle" id="work_process_subtitle">
+                    Our work process
+                </div>
+                <h2 class="title" id="work_process_title">
+                    We tailor our approach to meet each client's unique needs,
+                    ensuring satisfaction through personalized solutions.
+                </h2>
+                <div class="work-process_wrap">
+                    <div class="work-process_item discovery">
+                        <h3
+                            class="work-process_title"
+                            id="work_process_title_discovery">
+                            🔎 Discovery phase
+                        </h3>
+                        <div class="work-process_hashtags">
+                            <div
+                                class="work-process_hashtag"
+                                id="work_process_hashtag_initiation">
+                                initiation
+                            </div>
+                            <div
+                                class="work-process_hashtag"
+                                id="work_process_hashtag_elaboration">
+                                elaboration
+                            </div>
+                            <div
+                                class="work-process_hashtag"
+                                id="work_process_hashtag_research">
+                                research
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-process_item design">
+                        <h3
+                            class="work-process_title"
+                            id="work_process_title_design">
+                            🦄 Visual design
+                        </h3>
+                        <div class="work-process_hashtags">
+                            <div
+                                class="work-process_hashtag"
+                                id="work_process_hashtag_wireframing">
+                                wireframing
+                            </div>
+                            <div
+                                class="work-process_hashtag"
+                                id="work_process_hashtag_design">
+                                design
+                            </div>
+                            <div
+                                class="work-process_hashtag"
+                                id="work_process_hashtag_prototyping">
+                                prototyping
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-process_item development">
+                        <h3
+                            class="work-process_title"
+                            id="work_process_title_development">
+                            🛠 Software development
+                        </h3>
+                        <div class="work-process_hashtags">
+                            <div
+                                class="work-process_hashtag"
+                                id="work_process_hashtag_frontend_dev">
+                                front-end dev
+                            </div>
+                            <div
+                                class="work-process_hashtag"
+                                id="work_process_hashtag_backend_dev">
+                                back-end dev
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-process_item testing">
+                        <h3
+                            class="work-process_title"
+                            id="work_process_title_testing">
+                            ❇️ QA Testing
+                        </h3>
+                        <div class="work-process_hashtags">
+                            <div
+                                class="work-process_hashtag"
+                                id="work_process_hashtag_bugs_testing">
+                                bugs testing
+                            </div>
+                            <div
+                                class="work-process_hashtag"
+                                id="work_process_hashtag_regression_testing">
+                                regression testing
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-process_item delivery">
+                        <h3
+                            class="work-process_title"
+                            id="work_process_title_delivery">
+                            🤝 Delivery project to client
+                        </h3>
+                        <div class="work-process_hashtags">
+                            <div
+                                class="work-process_hashtag"
+                                id="work_process_hashtag_access_transfer">
+                                access transfer
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="benefits">
+            <div class="benefits-wrapper">
+                <div class="benefits_scroll">
+                    <div class="benefits_item">
+                        <div
+                            class="benefits_title"
+                            id="benefits_title_tailored_solutions">
+                            Tailored Solutions
+                        </div>
+                        <div
+                            class="benefits_descr"
+                            id="benefits_descr_tailored_solutions">
+                            We ensure your unique needs are met with
+                            personalized strategies, meticulously crafted to
+                            address your specific requirements and objectives.
+                            By tailoring our approach to suit your individual
+                            preferences, we guarantee not only satisfaction but
+                            also enduring success at every stage of your
+                            project's evolution.
+                        </div>
+                    </div>
+                    <div class="benefits_item">
+                        <div
+                            class="benefits_title"
+                            id="benefits_title_expertise_across_disciplines">
+                            Expertise Across Disciplines
+                        </div>
+                        <div
+                            class="benefits_descr"
+                            id="benefits_descr_expertise_across_disciplines">
+                            With a diverse team of skilled professionals,
+                            including designers, developers, and strategists,
+                            Innovatech Studios offers comprehensive expertise
+                            across all aspects of creative development. From
+                            concept to execution, we have the knowledge and
+                            skills to bring your vision to life.
+                        </div>
+                    </div>
+                    <div class="benefits_item">
+                        <div
+                            class="benefits_title"
+                            id="benefits_title_client_centric_approach">
+                            Client-Centric Approach
+                        </div>
+                        <div
+                            class="benefits_descr"
+                            id="benefits_descr_client_centric_approach">
+                            At the heart of our process is a commitment to
+                            putting our clients first. We prioritize open
+                            communication, actively listening to your feedback
+                            and preferences throughout the project lifecycle to
+                            ensure your complete satisfaction.
+                        </div>
+                    </div>
+                    <div class="benefits_item">
+                        <div
+                            class="benefits_title"
+                            id="benefits_title_innovation_driven_results">
+                            Innovation-driven Results
+                        </div>
+                        <div
+                            class="benefits_descr"
+                            id="benefits_descr_innovation_driven_results">
+                            As our name suggests, innovation is at the core of
+                            everything we do. At Innovatech Studios, we
+                            constantly push the boundaries of creativity and
+                            technology to deliver cutting-edge solutions that
+                            drive tangible success for our clients.
+                        </div>
+                    </div>
+                </div>
+                <section class="benefits_title-wrapper">
+                    <div class="subtitle" id="benefits_subtitle">
+                        Our benefits
+                    </div>
+                    <h2 class="title" id="benefits_title">
+                        Our client-centric approach ensures your vision thrives.
+                    </h2>
+                </section>
+                <img
+                    class="benefits_circle"
+                    src="./icons/puzzle.svg"
+                    alt="puzzle" />
+            </div>
+        </section>
+        <div class="container">
+            <section class="plans" id="price">
+                <div class="subtitle" id="plans_subtitle">Our Plans</div>
+                <h2 class="title" id="plans_title">
+                    Let’s start collaboration!
+                </h2>
+                <div class="plans_wrap">
+                    <div class="plans_item">
+                        <div class="plans_title" id="plans_title_puzzle_start">
+                            Puzzle-Start
+                        </div>
+                        <div
+                            class="plans_subtitle"
+                            id="plans_subtitle_puzzle_start">
+                            A quick way to get a fully functional website to
+                            kickstart your business.
+                        </div>
+                        <div class="plans_price" id="plans_price_puzzle_start">
+                            1000€
+                            <span class="plans_vat" id="plans_vat_puzzle_start"
+                                >+ VAT</span
+                            >
+                        </div>
+                        <a
+                            href="#"
+                            class="plans_btn"
+                            id="plans_btn_puzzle_start"
+                            >Get Started</a
+                        >
+                        <div class="plans_divider"></div>
+                        <div
+                            class="plans_points"
+                            id="plans_points_puzzle_start">
+                            <div
+                                class="plans_point"
+                                id="plans_point_1_puzzle_start">
+                                <img
+                                    class="plans_icon"
+                                    src="./icons/checkmark.svg"
+                                    alt="checkmark" />
+                                <div
+                                    class="plans_text"
+                                    id="plans_text_1_puzzle_start">
+                                    Full-fledged one-page landing (a page that
+                                    scrolls from top to bottom, equivalent to 2
+                                    screens)
+                                </div>
+                            </div>
+                            <div
+                                class="plans_point"
+                                id="plans_point_2_puzzle_start">
+                                <img
+                                    class="plans_icon"
+                                    src="./icons/checkmark.svg"
+                                    alt="checkmark" />
+                                <div
+                                    class="plans_text"
+                                    id="plans_text_2_puzzle_start">
+                                    Maximum number of layers (depth) - 2
+                                </div>
+                            </div>
+                            <div
+                                class="plans_point"
+                                id="plans_point_3_puzzle_start">
+                                <img
+                                    class="plans_icon"
+                                    src="./icons/checkmark.svg"
+                                    alt="checkmark" />
+                                <div
+                                    class="plans_text"
+                                    id="plans_text_3_puzzle_start">
+                                    Original design (choose from three options)
+                                </div>
+                            </div>
+                            <div
+                                class="plans_point"
+                                id="plans_point_4_puzzle_start">
+                                <img
+                                    class="plans_icon"
+                                    src="./icons/checkmark.svg"
+                                    alt="checkmark" />
+                                <div
+                                    class="plans_text"
+                                    id="plans_text_4_puzzle_start">
+                                    Standard content and texts in two languages
+                                    (of your choice)
+                                </div>
+                            </div>
+                            <div
+                                class="plans_point"
+                                id="plans_point_5_puzzle_start">
+                                <img
+                                    class="plans_icon"
+                                    src="./icons/checkmark.svg"
+                                    alt="checkmark" />
+                                <div
+                                    class="plans_text"
+                                    id="plans_text_5_puzzle_start">
+                                    Placement of a ready-made logo (provided by
+                                    the client)
+                                </div>
+                            </div>
+                            <div
+                                class="plans_point"
+                                id="plans_point_6_puzzle_start">
+                                <img
+                                    class="plans_icon"
+                                    src="./icons/checkmark.svg"
+                                    alt="checkmark" />
+                                <div
+                                    class="plans_text"
+                                    id="plans_text_6_puzzle_start">
+                                    Launching the site on a domain (domain
+                                    provided by the client)
+                                </div>
+                            </div>
+                            <div
+                                class="plans_point"
+                                id="plans_point_7_puzzle_start">
+                                <img
+                                    class="plans_icon"
+                                    src="./icons/checkmark.svg"
+                                    alt="checkmark" />
+                                <div
+                                    class="plans_text"
+                                    id="plans_text_7_puzzle_start">
+                                    Making changes to the approved Technical
+                                    Assignment (TA) up to 10 changes
+                                </div>
+                            </div>
+                            <div
+                                class="plans_point"
+                                id="plans_point_8_puzzle_start">
+                                <img
+                                    class="plans_icon"
+                                    src="./icons/checkmark.svg"
+                                    alt="checkmark" />
+                                <div
+                                    class="plans_text"
+                                    id="plans_text_8_puzzle_start">
+                                    Making up to 10 changes within a month after
+                                    the site launch
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="plans_item">
+                        <img
+                            class="plans_puzzle"
+                            src="./icons/blue_puzzle.svg"
+                            alt="puzzle" />
+                        <div class="plans_item-plus">
+                            <div class="plans_plus">
+                                <div
+                                    class="plans_title"
+                                    id="plans_title_puzzle_plus">
+                                    Puzzle-Plus
+                                </div>
+                                <div class="plans_popular">
+                                    <span
+                                        class="plans_popular-text"
+                                        id="plans_popular_text_puzzle_plus"
+                                        >Popular</span
+                                    >
+                                </div>
+                            </div>
+                            <div
+                                class="plans_subtitle"
+                                id="plans_subtitle_puzzle_plus">
+                                Additional advantages and functionality for your
+                                website - a significant plus for your business.
+                            </div>
+                            <div
+                                class="plans_price"
+                                id="plans_price_puzzle_plus">
+                                3000€
+                                <span
+                                    class="plans_vat"
+                                    id="plans_vat_puzzle_plus"
+                                    >+ VAT</span
+                                >
+                            </div>
+                            <a
+                                href="#"
+                                class="plans_btn plans_btn-plus"
+                                id="plans_btn_puzzle_plus"
+                                >Get Started</a
+                            >
+                            <div class="plans_divider"></div>
+                            <div
+                                class="plans_points"
+                                id="plans_points_puzzle_plus">
+                                <div
+                                    class="plans_point"
+                                    id="plans_text_1_puzzle_plus">
+                                    <img
+                                        class="plans_icon"
+                                        src="./icons/checkmark_blue.svg"
+                                        alt="checkmark" />
+                                    <div
+                                        class="plans_text"
+                                        id="plans_point_1_puzzle_plus">
+                                        Full-fledged one-page landing (a page
+                                        that scrolls from top to bottom,
+                                        equivalent to up to 4 screens)
+                                    </div>
+                                </div>
+                                <div
+                                    class="plans_point"
+                                    id="plans_text_2_puzzle_plus">
+                                    <img
+                                        class="plans_icon"
+                                        src="./icons/checkmark_blue.svg"
+                                        alt="checkmark" />
+                                    <div
+                                        class="plans_text"
+                                        id="plans_point_2_puzzle_plus">
+                                        Maximum number of layers (depth) - 4
+                                    </div>
+                                </div>
+                                <div
+                                    class="plans_point"
+                                    id="plans_text_3_puzzle_plus">
+                                    <img
+                                        class="plans_icon"
+                                        src="./icons/checkmark_blue.svg"
+                                        alt="checkmark" />
+                                    <div
+                                        class="plans_text"
+                                        id="plans_point_3_puzzle_plus">
+                                        Original design (we develop your ideas
+                                        to stand out from competitors)
+                                    </div>
+                                </div>
+                                <div
+                                    class="plans_point"
+                                    id="plans_text_4_puzzle_plus">
+                                    <img
+                                        class="plans_icon"
+                                        src="./icons/checkmark_blue.svg"
+                                        alt="checkmark" />
+                                    <div
+                                        class="plans_text"
+                                        id="plans_point_4_puzzle_plus">
+                                        Animated elements (moving pictures and
+                                        images)
+                                    </div>
+                                </div>
+                                <div
+                                    class="plans_point"
+                                    id="plans_text_5_puzzle_plus">
+                                    <img
+                                        class="plans_icon"
+                                        src="./icons/checkmark_blue.svg"
+                                        alt="checkmark" />
+                                    <div
+                                        class="plans_text"
+                                        id="plans_point_5_puzzle_plus">
+                                        Standard content and texts in up to 5
+                                        languages (of your choice)
+                                    </div>
+                                </div>
+                                <div
+                                    class="plans_point"
+                                    id="plans_text_6_puzzle_plus">
+                                    <img
+                                        class="plans_icon"
+                                        src="./icons/checkmark_blue.svg"
+                                        alt="checkmark" />
+                                    <div
+                                        class="plans_text"
+                                        id="plans_point_6_puzzle_plus">
+                                        Development of an original logo (we
+                                        develop your ideas and finalize from 5
+                                        options)
+                                    </div>
+                                </div>
+                                <div
+                                    class="plans_point"
+                                    id="plans_text_7_puzzle_plus">
+                                    <img
+                                        class="plans_icon"
+                                        src="./icons/checkmark_blue.svg"
+                                        alt="checkmark" />
+                                    <div
+                                        class="plans_text"
+                                        id="plans_point_7_puzzle_plus">
+                                        Domain selection and purchase service
+                                    </div>
+                                </div>
+                                <div
+                                    class="plans_point"
+                                    id="plans_text_8_puzzle_plus">
+                                    <img
+                                        class="plans_icon"
+                                        src="./icons/checkmark_blue.svg"
+                                        alt="checkmark" />
+                                    <div
+                                        class="plans_text"
+                                        id="plans_point_8_puzzle_plus">
+                                        Launching the site on a domain
+                                    </div>
+                                </div>
+                                <div
+                                    class="plans_point"
+                                    id="plans_text_9_puzzle_plus">
+                                    <img
+                                        class="plans_icon"
+                                        src="./icons/checkmark_blue.svg"
+                                        alt="checkmark" />
+                                    <div
+                                        class="plans_text"
+                                        id="plans_point_9_puzzle_plus">
+                                        Making changes to the approved Technical
+                                        Assignment (TA) up to 25 changes
+                                    </div>
+                                </div>
+                                <div
+                                    class="plans_point"
+                                    id="plans_text_10_puzzle_plus">
+                                    <img
+                                        class="plans_icon"
+                                        src="./icons/checkmark_blue.svg"
+                                        alt="checkmark" />
+                                    <div
+                                        class="plans_text"
+                                        id="plans_point_10_puzzle_plus">
+                                        Making up to 25 changes within a month
+                                        after the site launch
+                                    </div>
+                                </div>
+                                <div
+                                    class="plans_point"
+                                    id="plans_text_11_puzzle_plus">
+                                    <img
+                                        class="plans_icon"
+                                        src="./icons/checkmark_blue.svg"
+                                        alt="checkmark" />
+                                    <div
+                                        class="plans_text"
+                                        id="plans_point_11_puzzle_plus">
+                                        Support for uninterrupted site
+                                        operation, making corrections (up to 5
+                                        per month) after launch for 2 months
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="plans_item">
+                        <div class="plans_title" id="plans_title_puzzle_pro">
+                            Puzzle-Pro
+                        </div>
+                        <div
+                            class="plans_subtitle"
+                            id="plans_subtitle_puzzle_pro">
+                            Advanced custom solutions and website functionality
+                            - the path to business growth.
+                        </div>
+                        <div class="plans_price" id="plans_price_puzzle_pro">
+                            5000€
+                            <span class="plans_vat" id="plans_vat_puzzle_pro"
+                                >+ VAT</span
+                            >
+                        </div>
+                        <a href="#" class="plans_btn" id="plans_btn_puzzle_pro"
+                            >Get Started</a
+                        >
+                        <div class="plans_divider"></div>
+                        <div class="plans_points" id="plans_points_puzzle_pro">
+                            <div
+                                class="plans_point"
+                                id="plans_point_1_puzzle_pro">
+                                <img
+                                    class="plans_icon"
+                                    src="./icons/checkmark.svg"
+                                    alt="checkmark" />
+                                <div
+                                    class="plans_text"
+                                    id="plans_text_1_puzzle_pro">
+                                    Full-fledged website with your approved
+                                    structure (landing or classic)
+                                </div>
+                            </div>
+                            <div
+                                class="plans_point"
+                                id="plans_point_2_puzzle_pro">
+                                <img
+                                    class="plans_icon"
+                                    src="./icons/checkmark.svg"
+                                    alt="checkmark" />
+                                <div
+                                    class="plans_text"
+                                    id="plans_text_2_puzzle_pro">
+                                    Development of a basic style (brand book)
+                                </div>
+                            </div>
+                            <div
+                                class="plans_point"
+                                id="plans_point_3_puzzle_pro">
+                                <img
+                                    class="plans_icon"
+                                    src="./icons/checkmark.svg"
+                                    alt="checkmark" />
+                                <div
+                                    class="plans_text"
+                                    id="plans_text_3_puzzle_pro">
+                                    Original design in the style of your brand
+                                    book
+                                </div>
+                            </div>
+                            <div
+                                class="plans_point"
+                                id="plans_point_4_puzzle_pro">
+                                <img
+                                    class="plans_icon"
+                                    src="./icons/checkmark.svg"
+                                    alt="checkmark" />
+                                <div
+                                    class="plans_text"
+                                    id="plans_text_4_puzzle_pro">
+                                    Original animated elements (moving pictures
+                                    and images created according to your ideas)
+                                </div>
+                            </div>
+                            <div
+                                class="plans_point"
+                                id="plans_point_5_puzzle_pro">
+                                <img
+                                    class="plans_icon"
+                                    src="./icons/checkmark.svg"
+                                    alt="checkmark" />
+                                <div
+                                    class="plans_text"
+                                    id="plans_text_5_puzzle_pro">
+                                    Standard content and texts in up to 5
+                                    languages (of your choice)
+                                </div>
+                            </div>
+                            <div
+                                class="plans_point"
+                                id="plans_point_6_puzzle_pro">
+                                <img
+                                    class="plans_icon"
+                                    src="./icons/checkmark.svg"
+                                    alt="checkmark" />
+                                <div
+                                    class="plans_text"
+                                    id="plans_text_6_puzzle_pro">
+                                    Creation and integration of a chatbot with
+                                    your website
+                                </div>
+                            </div>
+                            <div
+                                class="plans_point"
+                                id="plans_point_7_puzzle_pro">
+                                <img
+                                    class="plans_icon"
+                                    src="./icons/checkmark.svg"
+                                    alt="checkmark" />
+                                <div
+                                    class="plans_text"
+                                    id="plans_text_7_puzzle_pro">
+                                    Domain selection and purchase service
+                                </div>
+                            </div>
+                            <div
+                                class="plans_point"
+                                id="plans_point_8_puzzle_pro">
+                                <img
+                                    class="plans_icon"
+                                    src="./icons/checkmark.svg"
+                                    alt="checkmark" />
+                                <div
+                                    class="plans_text"
+                                    id="plans_text_8_puzzle_pro">
+                                    Launching the site on a domain
+                                </div>
+                            </div>
+                            <div
+                                class="plans_point"
+                                id="plans_point_9_puzzle_pro">
+                                <img
+                                    class="plans_icon"
+                                    src="./icons/checkmark.svg"
+                                    alt="checkmark" />
+                                <div
+                                    class="plans_text"
+                                    id="plans_text_9_puzzle_pro">
+                                    Making changes to the approved Technical
+                                    Assignment (TA) up to 25 changes
+                                </div>
+                            </div>
+                            <div
+                                class="plans_point"
+                                id="plans_point_10_puzzle_pro">
+                                <img
+                                    class="plans_icon"
+                                    src="./icons/checkmark.svg"
+                                    alt="checkmark" />
+                                <div
+                                    class="plans_text"
+                                    id="plans_text_10_puzzle_pro">
+                                    Making up to 25 changes within a month after
+                                    the site launch
+                                </div>
+                            </div>
+                            <div
+                                class="plans_point"
+                                id="plans_point_11_puzzle_pro">
+                                <img
+                                    class="plans_icon"
+                                    src="./icons/checkmark.svg"
+                                    alt="checkmark" />
+                                <div
+                                    class="plans_text"
+                                    id="plans_text_11_puzzle_pro">
+                                    Support for uninterrupted site operation,
+                                    making corrections (up to 5 per month) after
+                                    launch for 6 months
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="plans_additional" id="plans_additional">
+                    <span class="plans_star">*</span>Additional Paid Options:
+                </div>
+                <div class="plans_info" id="plans_info">
+                    Support for uninterrupted site operation (hosting,
+                    corrections up to 5) -
+                    <span class="plans_info-bold" id="plans_info_bold"
+                        >150€</span
+                    >
+                    + VAT (per month after the free period)
+                </div>
+            </section>
+        </div>
+        <section class="benefits-mobile swiper">
+            <div class="subtitle" id="benefits-mobile_subtitle">
+                Our benefits
+            </div>
+            <h2 class="title" id="benefits-mobile_title">
+                Our client-centric approach ensures your vision thrives.
+            </h2>
+            <div class="benefits-mobile-wrapper swiper-wrapper">
+                <div class="benefits-mobile_item swiper-slide">
+                    <div
+                        class="benefits-mobile_title"
+                        id="benefits_title_tailored_solutions-mobile">
+                        Tailored Solutions
+                    </div>
+                    <div
+                        class="benefits-mobile_descr"
+                        id="benefits_descr_tailored_solutions-mobile">
+                        We ensure your unique needs are met with personalized
+                        strategies, meticulously crafted to address your
+                        specific requirements and objectives. By tailoring our
+                        approach to suit your individual preferences, we
+                        guarantee not only satisfaction but also enduring
+                        success at every stage of your project's evolution.
+                    </div>
+                </div>
+                <div class="benefits-mobile_item swiper-slide">
+                    <div
+                        class="benefits-mobile_title"
+                        id="benefits_title_expertise_across_disciplines-mobile">
+                        Expertise Across Disciplines
+                    </div>
+                    <div
+                        class="benefits-mobile_descr"
+                        id="benefits_descr_expertise_across_disciplines-mobile">
+                        With a diverse team of skilled professionals, including
+                        designers, developers, and strategists, Innovatech
+                        Studios offers comprehensive expertise across all
+                        aspects of creative development. From concept to
+                        execution, we have the knowledge and skills to bring
+                        your vision to life.
+                    </div>
+                </div>
+                <div class="benefits-mobile_item swiper-slide">
+                    <div
+                        class="benefits-mobile_title"
+                        id="benefits_title_client_centric_approach-mobile">
+                        Client-Centric Approach
+                    </div>
+                    <div
+                        class="benefits-mobile_descr"
+                        id="benefits_descr_client_centric_approach-mobile">
+                        At the heart of our process is a commitment to putting
+                        our clients first. We prioritize open communication,
+                        actively listening to your feedback and preferences
+                        throughout the project lifecycle to ensure your complete
+                        satisfaction.
+                    </div>
+                </div>
+                <div class="benefits-mobile_item swiper-slide">
+                    <div
+                        class="benefits-mobile_title"
+                        id="benefits_title_innovation_driven_results-mobile">
+                        Innovation-driven Results
+                    </div>
+                    <div
+                        class="benefits-mobile_descr"
+                        id="benefits_descr_innovation_driven_results-mobile">
+                        As our name suggests, innovation is at the core of
+                        everything we do. At Innovatech Studios, we constantly
+                        push the boundaries of creativity and technology to
+                        deliver cutting-edge solutions that drive tangible
+                        success for our clients.
+                    </div>
+                </div>
+            </div>
+            <div></div>
+            <div class="benefits-mobile-dots" id="benefits-mobile_dots"></div>
+            <img
+                class="benefits-mobile_circle"
+                src="./icons/puzzle.svg"
+                alt="puzzle" />
+        </section>
+        <div class="container" id="messangers">
+            <section id="messangers-mobile" class="messengers">
+                <div class="subtitle" id="messengers_subtitle">Let’s talk!</div>
+                <h2 class="title" id="messengers_title">
+                    Ready to discuss your project with us?
+                </h2>
+                <div class="messengers_text" id="messengers_text">
+                    Choose convenient messenger for you
+                </div>
+                <div class="messengers_wrap" id="messengers_wrap">
+                    <a
+                        href="#"
+                        target="blank"
+                        class="messengers_item whatsapp"
+                        id="messengers_item_whatsapp">
+                        <div class="messengers_whatsapp-shadow"></div>
+                        <div class="messengers_icon">
+                            <img src="./icons/whatsapp.svg" alt="whatsapp" />
+                        </div>
+                        <div
+                            class="messengers_label"
+                            id="messengers_label_whatsapp">
+                            WhatsApp
+                        </div>
+                    </a>
+                    <img
+                        class="messengers_divider"
+                        src="./icons/messengers_divider.svg"
+                        alt="divider" />
+                    <a
+                        href="https://t.me/puzzledesire"
+                        target="blank"
+                        class="messengers_item telegram"
+                        id="messengers_item_telegram">
+                        <div class="messengers_telegram-shadow"></div>
+                        <div class="messengers_icon">
+                            <img src="./icons/telegram.svg" alt="telegram" />
+                        </div>
+                        <div
+                            class="messengers_label"
+                            id="messengers_label_telegram">
+                            Telegram
+                        </div>
+                    </a>
+                    <img
+                        class="messengers_divider"
+                        src="./icons/messengers_divider.svg"
+                        alt="divider" />
+                    <a
+                        href="#"
+                        target="blank"
+                        class="messengers_item viber"
+                        id="messengers_item_viber">
+                        <div class="messengers_viber-shadow"></div>
+                        <div class="messengers_icon">
+                            <img src="./icons/viber.svg" alt="viber" />
+                        </div>
+                        <div id="contacts"></div>
+                        <div
+                            class="messengers_label"
+                            id="messengers_label_viber">
+                            Viber
+                        </div>
+                    </a>
+                </div>
+            </section>
+        </div>
+        <section class="contacts" id="contacts-mobile">
+            <div class="container">
+                <div class="contacts_left">
+                    <div class="contacts_text" id="contacts_text">Contacts</div>
+                    <div class="contacts_content" id="contacts_content">
+                        Get In Touch
+                        <img
+                            class="contacts_vector"
+                            src="./icons/contacts_vector.svg"
+                            alt="vector"
+                            id="contacts_content_img" />
+                    </div>
+                    <div class="form__wrapper">
+                        <form
+                            id="contactForm"
+                            class="contact-form"
+                            action="https://hooks.zapier.com/hooks/catch/19819704/26o1mfm/"
+                            method="POST">
+                            <div class="form-group">
+                                <label id="label-name" for="name">Name</label>
+                                <input
+                                    required
+                                    type="text"
+                                    id="name"
+                                    name="name"
+                                    placeholder="John Carter" />
+                                <span
+                                    id="nameError"
+                                    class="error-message"></span>
+                            </div>
+                            <div class="form-group">
+                                <label id="label-phone" for="phone"
+                                    >Phone</label
+                                >
+                                <input
+                                    required
+                                    type="tel"
+                                    id="phone"
+                                    name="phone"
+                                    placeholder="(123) 456 - 789" />
+                                <span
+                                    id="phoneError"
+                                    class="error-message"></span>
+                            </div>
+                            <div class="form-group">
+                                <label id="label-interest" for="interest"
+                                    >I am interested in...</label
+                                >
+
+                                <select required id="interest" name="interest">
+                                    <option
+                                        id="option-select"
+                                        value=""
+                                        disabled
+                                        selected>
+                                        Select an option
+                                    </option>
+                                    <option
+                                        id="option-consultation"
+                                        value="consultation">
+                                        Consultation
+                                    </option>
+                                    <option
+                                        id="option-development"
+                                        value="website-development">
+                                        Website development
+                                    </option>
+                                    <option
+                                        id="option-design"
+                                        value="logo-design">
+                                        Logo design
+                                    </option>
+                                    <option
+                                        id="option-promotion"
+                                        value="site-promotion">
+                                        Modernization of my site and promotion
+                                    </option>
+                                    <option id="option-other" value="other">
+                                        Other (write down your requests)
+                                    </option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label id="label-message" for="message"
+                                    >Leave us a message</label
+                                >
+                                <textarea
+                                    required
+                                    id="message"
+                                    name="message"></textarea>
+                            </div>
+                            <button id="contactForm-btn">Send Message</button>
+                        </form>
+                        <div class="form-success">
+                            <img
+                                src="https://cdn.prod.website-files.com/6630292f13d863327744df39/6657661e6496e44a2d130067_line-rounded-check-circle-white-brix-templates.svg" />
+                            <h3 id="form-success-title">Thank you</h3>
+                            <p id="form-success-subtitle">
+                                Thank you for your application, our managers
+                                will contact you soon.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contacts_right">
+                    <div class="contacts_phone-number">
+                        <div class="contacts_label" id="contacts_label_call">
+                            <img
+                                src="./icons/phone.svg"
+                                alt="phone"
+                                class="phone_icon" />
+                            <div class="contacts_text" id="contacts_text_call">
+                                Call us
+                            </div>
+                        </div>
+                        <div
+                            class="contacts_contact"
+                            id="contacts_contact_phone">
+                            +374 5678 7890
+                        </div>
+                    </div>
+                    <div class="contacts_email">
+                        <div class="contacts_label" id="contacts_label_email">
+                            <img
+                                src="./icons/mail.svg"
+                                alt="email"
+                                class="email_icon" />
+                            <div class="contacts_text" id="contacts_text_email">
+                                Email
+                            </div>
+                        </div>
+                        <a
+                            href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=puzzledes@desire"
+                            target="blank"
+                            class="contacts_contact"
+                            id="contacts_contact_email">
+                            puzzledes@desire
+                        </a>
+                    </div>
+                    <div class="contacts_divider-wrap">
+                        <div class="contacts_divider-horizontal"></div>
+                    </div>
+                    <div>
+                        <div class="contacts_text" id="contacts_text_message">
+                            or send message here
+                        </div>
+                        <div class="contacts_wrap">
+                            <a
+                                href="#"
+                                target="blank"
+                                class="contacts_item whatsapp"
+                                id="contacts_item_whatsapp">
+                                <div class="contacts_icon">
+                                    <img
+                                        class="whatsapp_icon"
+                                        src="./icons/whatsapp_contact.svg"
+                                        alt="whatsapp" />
+                                </div>
+                                <div
+                                    class="contacts_messenger"
+                                    id="contacts_messenger_whatsapp">
+                                    WhatsApp
+                                </div>
+                            </a>
+                            <img
+                                class="contacts_divider"
+                                src="./icons/contacts_divider.svg"
+                                alt="divider" />
+                            <a
+                                href="https://t.me/puzzledesire"
+                                target="blank"
+                                class="contacts_item telegram"
+                                id="contacts_item_telegram">
+                                <div class="contacts_icon telegram_icon">
+                                    <svg
+                                        width="32"
+                                        height="27"
+                                        viewBox="0 0 32 27"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M2.71521 11.5578C10.9839 7.95525 16.4976 5.58025 19.2564 4.43277C27.1333 1.15648 28.7701 0.587353 29.8369 0.56856C30.0716 0.564426 30.5962 0.622576 30.936 0.898327C31.223 1.13117 31.3019 1.4457 31.3397 1.66646C31.3775 1.88721 31.4245 2.3901 31.3871 2.78305C30.9603 7.26804 29.1133 18.1519 28.1736 23.1752C27.776 25.3007 26.9932 26.0134 26.2352 26.0832C24.5881 26.2347 23.3373 24.9946 21.742 23.9489C19.2456 22.3124 17.8353 21.2938 15.4121 19.6969C12.6117 17.8515 14.4271 16.8372 16.023 15.1796C16.4407 14.7458 23.6981 8.14471 23.8385 7.54588C23.8561 7.47099 23.8724 7.19182 23.7065 7.04441C23.5407 6.897 23.2959 6.94741 23.1193 6.9875C22.8689 7.04433 18.8809 9.68026 11.1552 14.8953C10.0232 15.6726 8.99793 16.0513 8.07928 16.0315C7.06655 16.0096 5.11845 15.4589 3.67024 14.9881C1.89395 14.4107 0.482186 14.1054 0.605119 13.1248C0.669149 12.6141 1.37251 12.0917 2.71521 11.5578Z"
+                                            fill="white" />
+                                    </svg>
+                                </div>
+                                <div
+                                    class="contacts_messenger"
+                                    id="contacts_messenger_telegram">
+                                    Telegram
+                                </div>
+                            </a>
+                            <img
+                                class="contacts_divider"
+                                src="./icons/contacts_divider.svg"
+                                alt="divider" />
+                            <a
+                                href="#"
+                                target="blank"
+                                class="contacts_item viber"
+                                id="contacts_item_viber">
+                                <div class="contacts_icon">
+                                    <img
+                                        class="viber_icon"
+                                        src="./icons/contacts_viber.svg"
+                                        alt="viber" />
+                                </div>
+                                <div
+                                    class="contacts_messenger"
+                                    id="contacts_messenger_viber">
+                                    Viber
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer_top">
+                    <div class="footer_nav">
+                        <img
+                            class="footer_logo"
+                            src="./icons/logo_footer.svg"
+                            alt="logo" />
+                        <div class="footer_menu">
+                            <a
+                                href="#about"
+                                class="footer_menu-link"
+                                id="footer_menu_link_about"
+                                >about us</a
+                            >
+                            <a
+                                href="#services"
+                                class="footer_menu-link"
+                                id="footer_menu_link_services"
+                                >services</a
+                            >
+                            <a
+                                href="#work"
+                                class="footer_menu-link"
+                                id="footer_menu_link_work"
+                                >our process</a
+                            >
+                            <a
+                                href="#contacts"
+                                class="footer_menu-link"
+                                id="footer_menu_link_contacts"
+                                >contacts</a
+                            >
+                        </div>
+                    </div>
+                    <div class="footer_social-media">
+                        <div class="footer_text" id="footer_text_follow">
+                            Follow on social media
+                        </div>
+                        <div class="footer_icons">
+                            <a href="#" target="blank"
+                                ><img
+                                    src="./icons/facebook_footer.svg"
+                                    alt="facebook"
+                                    class="footer_icon"
+                            /></a>
+                            <a href="#" target="blank">
+                                <img
+                                    src="./icons/twitter.svg"
+                                    alt="twitter"
+                                    class="footer_icon" />
+                            </a>
+                            <a href="#" target="blank">
+                                <img
+                                    src="./icons/insta.svg"
+                                    alt="instagram"
+                                    class="footer_icon" />
+                            </a>
+                            <a href="#" target="blank">
+                                <img
+                                    src="./icons/youtube.svg"
+                                    alt="youtube"
+                                    class="footer_icon" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_divider"></div>
+                <div class="footer_bottom">
+                    <div class="footer_text" id="footer_text_copyright">
+                        © Puzzledesire, 2024. All right reserved.
+                    </div>
+                    <div class="footer_documents">
+                        <a
+                            href="#"
+                            class="footer_menu-document"
+                            id="footer_menu_document_cookies"
+                            >Cookies Settings</a
+                        >
+                        <a
+                            href="#"
+                            class="footer_menu-document"
+                            id="footer_menu_document_privacy"
+                            >Privacy Policy</a
+                        >
+                        <a
+                            href="#"
+                            class="footer_menu-document"
+                            id="footer_menu_document_terms"
+                            >Terms of Service</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <button id="back-to-top" class="back-to-top">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                <path
+                    d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2 160 448c0 17.7 14.3 32 32 32s32-14.3 32-32l0-306.7L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z" />
+            </svg>
+        </button>
+
+        <script src="./lang.js"></script>
+        <script src="./script.js"></script>
+        <script src="./validation.js"></script>
+
+        <script type="module" src="./swiper.js"></script>
+        <script type="module" src="./3d-puzzle.js"></script>
+    </body>
+</html>

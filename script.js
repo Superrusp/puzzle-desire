@@ -134,7 +134,6 @@ const viberHover = document.querySelector('#viber');
 
 const phoneIcon = document.querySelector('.phone_icon');
 const emailIcon = document.querySelector('.email_icon');
-const phoneHover = document.querySelector('.contacts_phone-number');
 const emailHover = document.querySelector('.contacts_email');
 
 // whatsappHover.addEventListener('mouseenter', () => {

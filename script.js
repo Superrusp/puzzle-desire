@@ -197,9 +197,9 @@ contactUsBtn.addEventListener('click', () => {
 
     setTimeout(() => {
         if (window.matchMedia('(max-width: 1120px)').matches) {
-            window.location.href = '#messangers-mobile';
+            window.location.href = '#contacts-mobile';
         } else {
-            window.location.href = '#messangers';
+            window.location.href = '#contacts';
         }
 
         document

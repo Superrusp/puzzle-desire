@@ -53,6 +53,11 @@ document.getElementById("contactForm")
         const jsonData = JSON.stringify(Object.fromEntries(formData.entries()));
 
         if (validateForm()) {
+
+            document.querySelector('.form-success').style.display = 'block';
+            resetForm();
+            this.style.display = 'none';
+
             await fetch('https://script.google.com/macros/s/AKfycbyCB3vgF30SKiTmOcSN7aTSweuhb514UaLiuH2hZwo1dw_YVvmg1sielNLjxH_IYxlQ/exec', {
                 mode: 'no-cors',
                 redirect: "follow",
@@ -61,20 +66,6 @@ document.getElementById("contactForm")
                 },
                 method: 'POST',
                 body: jsonData
-            }).then((response) => response.json())
-                .then((data) => {
-                    resetForm();
-                    this.style.display = 'none';
-                    document.querySelector('.form-success').style.display =
-                        'block';
-                })
-                .catch((error) => {
-                    // console.error('Error:', error);
-                    // alert('Error:', error);
-                    resetForm();
-                    this.style.display = 'none';
-                    document.querySelector('.form-success').style.display =
-                        'block';
-                });
+            })
         }
     });

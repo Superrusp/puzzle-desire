@@ -1174,15 +1174,21 @@ a {
   flex-direction: column;
   padding-top: 186px;
 }
+.contacts_phone-number {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+  cursor: pointer;
+}
 .contacts_email {
   display: flex;
   flex-direction: column;
   cursor: pointer;
 }
-.contacts_email:hover .contacts_text {
+.contacts_email:hover .contacts_text, .contacts_phone-number:hover .contacts_text {
   color: var(--white);
 }
-.contacts_email:hover .contacts_contact {
+.contacts_email:hover .contacts_contact, .contacts_phone-number:hover .contacts_contact {
   color: rgb(12, 132, 242);
   text-decoration: underline;
 }
@@ -1660,7 +1666,7 @@ a {
     justify-content: center;
     padding-top: 60px;
   }
-  .contacts_email {
+  .contacts_phone-number, .contacts_email {
     align-items: center;
   }
   .contacts_text {

@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     };
-    const options = {threhold: [0.5]};
+    const options = { threhold: [0.5] };
 
     let observer = new IntersectionObserver(onEntry, options);
     for (const el of AllBenefits) {
@@ -134,6 +134,7 @@ const viberHover = document.querySelector('#viber');
 
 const phoneIcon = document.querySelector('.phone_icon');
 const emailIcon = document.querySelector('.email_icon');
+const phoneHover = document.querySelector('.contacts_phone-number');
 const emailHover = document.querySelector('.contacts_email');
 
 // whatsappHover.addEventListener('mouseenter', () => {
@@ -197,9 +198,9 @@ contactUsBtn.addEventListener('click', () => {
 
     setTimeout(() => {
         if (window.matchMedia('(max-width: 1120px)').matches) {
-            window.location.href = '#contacts-mobile';
+            window.location.href = '#messangers-mobile';
         } else {
-            window.location.href = '#contacts';
+            window.location.href = '#messangers';
         }
 
         document
@@ -243,29 +244,4 @@ document.getElementById('back-to-top').addEventListener('click', function () {
         top: 0,
         behavior: 'smooth',
     });
-});
-
-
-// Initialize the intl-tel-input
-const phoneInputField = document.querySelector("#phone");
-const phoneInput = window.intlTelInput(phoneInputField, {
-    initialCountry: "auto",  // Detect the country automatically
-    geoIpLookup: function (callback) {
-        fetch('https://ipinfo.io/json')
-            .then(response => response.json())
-            .then(data => callback(data.country))
-            .catch(() => callback("us")); // Default to US if country can't be detected
-    },
-    utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js"  // Enable formatting and validation
-});
-
-// Example validation check on form submit
-const form = document.querySelector("#contactForm");
-form.addEventListener("submit", function (event) {
-    if (!phoneInput.isValidNumber()) {
-        event.preventDefault();
-        document.querySelector("#phoneError").innerHTML = "Invalid phone number.";
-    } else {
-        document.querySelector("#phoneError").innerHTML = "";
-    }
 });

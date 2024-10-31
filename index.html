@@ -25,16 +25,6 @@
         <link rel="stylesheet" href="./css/style.min.css" />
         <link rel="stylesheet" href="./css/lang.css" />
         <title id="title"></title>
-        <!-- Google Tag Manager -->
-        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-P3CNMGK6');</script>
-        <!-- End Google Tag Manager -->
-        <!-- Library for the dynamic phone mask.-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
     </head>
     <body>
         <nav class="nav">
@@ -42,26 +32,29 @@
                 <div class="nav_subwrapper">
                     <img class="nav_logo" src="./icons/logo.svg" alt="logo" />
                     <nav class="nav_menu">
+                        <a href="#about" class="nav_about-us" id="nav_about-us"
+                            >about us</a
+                        >
                         <a
                             href="#services"
                             class="nav_services"
                             id="nav_services"
-                            >Services</a
+                            >services</a
                         >
                         <a
                             href="#work"
                             class="nav_our-process"
                             id="nav_our-process"
-                            >Our process</a
+                            >our process</a
                         >
                         <a href="#price" class="nav_our-process" id="nav_price"
-                            >Price</a
+                            >price</a
                         >
                         <a
                             href="#contacts"
                             class="nav_contacts"
                             id="nav_contacts"
-                            >Contacts</a
+                            >contacts</a
                         >
                     </nav>
                     <div class="nav-wrapper">
@@ -93,7 +86,7 @@
                             <span class="hamburger-span"></span>
                         </div>
                         <a
-                            href="#contacts"
+                            href="#messangers"
                             class="nav-scrolled-btn"
                             id="nav-scrolled-btn"
                             >Contact us</a
@@ -103,11 +96,20 @@
                 <ul class="nav_list">
                     <li class="nav_item">
                         <a
+                            href="#about-mobile"
+                            class="nav_link"
+                            id="nav_link_about-mobile"
+                            onclick="toggleMenu()"
+                            >about us</a
+                        >
+                    </li>
+                    <li class="nav_item">
+                        <a
                             href="#services-mobile"
                             class="nav_link"
                             id="nav_link_services-mobile"
                             onclick="toggleMenu()"
-                            >Services</a
+                            >services</a
                         >
                     </li>
                     <li class="nav_item">
@@ -116,7 +118,7 @@
                             class="nav_link"
                             id="nav_link_work-mobile"
                             onclick="toggleMenu()"
-                            >Our process</a
+                            >our process</a
                         >
                     </li>
                     <li class="nav_item">
@@ -125,7 +127,7 @@
                             class="nav_link"
                             id="nav_link_price-mobile"
                             onclick="toggleMenu()"
-                            >Price</a
+                            >price</a
                         >
                     </li>
                     <li class="nav_item">
@@ -134,12 +136,12 @@
                             class="nav_link"
                             id="nav_link_contacts-mobile"
                             onclick="toggleMenu()"
-                            >Contacts</a
+                            >contacts</a
                         >
                     </li>
                 </ul>
                 <a
-                    href="#contacts-mobile"
+                    href="#messangers-mobile"
                     class="nav_btn"
                     id="nav_btn_messangers-mobile"
                     onclick="toggleMenu()"
@@ -1213,7 +1215,7 @@
                             >
                         </div>
                         <a
-                            href="#contacts_text"
+                            href="#"
                             class="plans_btn"
                             id="plans_btn_puzzle_start"
                             >Get Started</a
@@ -1372,7 +1374,7 @@
                                 >
                             </div>
                             <a
-                                href="#contacts_text"
+                                href="#"
                                 class="plans_btn plans_btn-plus"
                                 id="plans_btn_puzzle_plus"
                                 >Get Started</a
@@ -1554,7 +1556,7 @@
                                 >+ VAT</span
                             >
                         </div>
-                        <a href="#contacts_text" class="plans_btn" id="plans_btn_puzzle_pro"
+                        <a href="#" class="plans_btn" id="plans_btn_puzzle_pro"
                             >Get Started</a
                         >
                         <div class="plans_divider"></div>
@@ -1820,7 +1822,7 @@
                 </div>
                 <div class="messengers_wrap" id="messengers_wrap">
                     <a
-                        href="https://wa.me/34642280182"
+                        href="#"
                         target="blank"
                         class="messengers_item whatsapp"
                         id="messengers_item_whatsapp">
@@ -1853,28 +1855,28 @@
                             Telegram
                         </div>
                     </a>
-<!--                    <img-->
-<!--                        class="messengers_divider"-->
-<!--                        src="./icons/messengers_divider.svg"-->
-<!--                        alt="divider" />-->
-<!--                    <a-->
-<!--                        href="viber://chat?number=%2B34642280182"-->
-<!--                        target="blank"-->
-<!--                        class="messengers_item viber"-->
-<!--                        id="messengers_item_viber">-->
-<!--                        <div class="messengers_viber-shadow"></div>-->
-<!--                        <div class="messengers_icon">-->
-<!--                            <img src="./icons/viber.svg" alt="viber" />-->
-<!--                        </div>-->
-<!--                        <div-->
-<!--                            class="messengers_label"-->
-<!--                            id="messengers_label_viber">-->
-<!--                            Viber-->
-<!--                        </div>-->
-<!--                    </a>-->
+                    <!-- <img
+                        class="messengers_divider"
+                        src="./icons/messengers_divider.svg"
+                        alt="divider" /> -->
+                    <!-- <a
+                        href="#"
+                        target="blank"
+                        class="messengers_item viber"
+                        id="messengers_item_viber">
+                        <div class="messengers_viber-shadow"></div>
+                        <div class="messengers_icon">
+                            <img src="./icons/viber.svg" alt="viber" />
+                        </div>
+                        <div id="contacts"></div>
+                        <div
+                            class="messengers_label"
+                            id="messengers_label_viber">
+                            Viber
+                        </div>
+                    </a> -->
                 </div>
             </section>
-            <div id="contacts"></div>
         </div>
         <section class="contacts" id="contacts-mobile">
             <div class="container">
@@ -1892,6 +1894,7 @@
                         <form
                             id="contactForm"
                             class="contact-form"
+                            action="https://hooks.zapier.com/hooks/catch/19819704/26o1mfm/"
                             method="POST">
                             <div class="form-group">
                                 <label id="label-name" for="name">Name</label>
@@ -1900,20 +1903,24 @@
                                     type="text"
                                     id="name"
                                     name="name"
-                                    placeholder="Alejandro González" />
+                                    placeholder="John Carter" />
                                 <span
                                     id="nameError"
                                     class="error-message"></span>
                             </div>
                             <div class="form-group">
-                                <label id="label-phone" for="phone">Phone</label>
+                                <label id="label-phone" for="phone"
+                                    >Phone</label
+                                >
                                 <input
-                                        required
-                                        type="tel"
-                                        id="phone"
-                                        name="phone"
-                                        placeholder="505 444 505"/>
-                                <span id="phoneError" class="error-message"></span>
+                                    required
+                                    type="tel"
+                                    id="phone"
+                                    name="phone"
+                                    placeholder="(123) 456 - 789" />
+                                <span
+                                    id="phoneError"
+                                    class="error-message"></span>
                             </div>
                             <div class="form-group">
                                 <label id="label-interest" for="interest"
@@ -1976,6 +1983,22 @@
                     </div>
                 </div>
                 <div class="contacts_right">
+                    <div class="contacts_phone-number">
+                        <div class="contacts_label" id="contacts_label_call">
+                            <img
+                                src="./icons/phone.svg"
+                                alt="phone"
+                                class="phone_icon" />
+                            <div class="contacts_text" id="contacts_text_call">
+                                Call us
+                            </div>
+                        </div>
+                        <div
+                            class="contacts_contact"
+                            id="contacts_contact_phone">
+                            +374 5678 7890
+                        </div>
+                    </div>
                     <div class="contacts_email">
                         <div class="contacts_label" id="contacts_label_email">
                             <img
@@ -1987,11 +2010,11 @@
                             </div>
                         </div>
                         <a
-                            href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=puzzledesirees@gmail.com"
+                            href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=puzzledes@desire"
                             target="blank"
                             class="contacts_contact"
                             id="contacts_contact_email">
-                            puzzledesirees@gmail.com
+                            puzzledes@desire
                         </a>
                     </div>
                     <div class="contacts_divider-wrap">
@@ -2003,7 +2026,7 @@
                         </div>
                         <div class="contacts_wrap">
                             <a
-                                href="https://wa.me/34642280182"
+                                href="#"
                                 target="blank"
                                 class="contacts_item whatsapp"
                                 id="contacts_item_whatsapp">
@@ -2048,27 +2071,27 @@
                                     Telegram
                                 </div>
                             </a>
-<!--                            <img-->
-<!--                                class="contacts_divider"-->
-<!--                                src="./icons/contacts_divider.svg"-->
-<!--                                alt="divider" />-->
-<!--                            <a-->
-<!--                                href="viber://chat?number=%2B34642280182"-->
-<!--                                target="blank"-->
-<!--                                class="contacts_item viber"-->
-<!--                                id="contacts_item_viber">-->
-<!--                                <div class="contacts_icon">-->
-<!--                                    <img-->
-<!--                                        class="viber_icon"-->
-<!--                                        src="./icons/contacts_viber.svg"-->
-<!--                                        alt="viber" />-->
-<!--                                </div>-->
-<!--                                <div-->
-<!--                                    class="contacts_messenger"-->
-<!--                                    id="contacts_messenger_viber">-->
-<!--                                    Viber-->
-<!--                                </div>-->
-<!--                            </a>-->
+                            <!-- <img
+                                class="contacts_divider"
+                                src="./icons/contacts_divider.svg"
+                                alt="divider" />
+                            <a
+                                href="#"
+                                target="blank"
+                                class="contacts_item viber"
+                                id="contacts_item_viber">
+                                <div class="contacts_icon">
+                                    <img
+                                        class="viber_icon"
+                                        src="./icons/contacts_viber.svg"
+                                        alt="viber" />
+                                </div>
+                                <div
+                                    class="contacts_messenger"
+                                    id="contacts_messenger_viber">
+                                    Viber
+                                </div>
+                            </a> -->
                         </div>
                     </div>
                 </div>
@@ -2084,56 +2107,62 @@
                             alt="logo" />
                         <div class="footer_menu">
                             <a
+                                href="#about"
+                                class="footer_menu-link"
+                                id="footer_menu_link_about"
+                                >about us</a
+                            >
+                            <a
                                 href="#services"
                                 class="footer_menu-link"
                                 id="footer_menu_link_services"
-                                >Services</a
+                                >services</a
                             >
                             <a
                                 href="#work"
                                 class="footer_menu-link"
                                 id="footer_menu_link_work"
-                                >Our process</a
+                                >our process</a
                             >
                             <a
                                 href="#contacts"
                                 class="footer_menu-link"
                                 id="footer_menu_link_contacts"
-                                >Contacts</a
+                                >contacts</a
                             >
                         </div>
                     </div>
-<!--                    <div class="footer_social-media">-->
-<!--                        <div class="footer_text" id="footer_text_follow">-->
-<!--                            Follow on social media-->
-<!--                        </div>-->
-<!--                        <div class="footer_icons">-->
-<!--                            <a href="#" target="blank"-->
-<!--                                ><img-->
-<!--                                    src="./icons/facebook_footer.svg"-->
-<!--                                    alt="facebook"-->
-<!--                                    class="footer_icon"-->
-<!--                            /></a>-->
-<!--                            <a href="#" target="blank">-->
-<!--                                <img-->
-<!--                                    src="./icons/twitter.svg"-->
-<!--                                    alt="twitter"-->
-<!--                                    class="footer_icon" />-->
-<!--                            </a>-->
-<!--                            <a href="#" target="blank">-->
-<!--                                <img-->
-<!--                                    src="./icons/insta.svg"-->
-<!--                                    alt="instagram"-->
-<!--                                    class="footer_icon" />-->
-<!--                            </a>-->
-<!--                            <a href="#" target="blank">-->
-<!--                                <img-->
-<!--                                    src="./icons/youtube.svg"-->
-<!--                                    alt="youtube"-->
-<!--                                    class="footer_icon" />-->
-<!--                            </a>-->
-<!--                        </div>-->
-<!--                    </div>-->
+                    <div class="footer_social-media">
+                        <div class="footer_text" id="footer_text_follow">
+                            Follow on social media
+                        </div>
+                        <div class="footer_icons">
+                            <a href="#" target="blank"
+                                ><img
+                                    src="./icons/facebook_footer.svg"
+                                    alt="facebook"
+                                    class="footer_icon"
+                            /></a>
+                            <a href="#" target="blank">
+                                <img
+                                    src="./icons/twitter.svg"
+                                    alt="twitter"
+                                    class="footer_icon" />
+                            </a>
+                            <a href="#" target="blank">
+                                <img
+                                    src="./icons/insta.svg"
+                                    alt="instagram"
+                                    class="footer_icon" />
+                            </a>
+                            <a href="#" target="blank">
+                                <img
+                                    src="./icons/youtube.svg"
+                                    alt="youtube"
+                                    class="footer_icon" />
+                            </a>
+                        </div>
+                    </div>
                 </div>
                 <div class="footer_divider"></div>
                 <div class="footer_bottom">
@@ -2177,24 +2206,5 @@
 
         <script type="module" src="./swiper.js"></script>
         <script type="module" src="./3d-puzzle.js"></script>
-
-        <!-- Hotjar Tracking Code for https://www.puzzledesire.com -->
-        <script>
-            (function(h,o,t,j,a,r){
-                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-                h._hjSettings={hjid:5177250,hjsv:6};
-                a=o.getElementsByTagName('head')[0];
-                r=o.createElement('script');r.async=1;
-                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-                a.appendChild(r);
-            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-        </script>
-        <!-- Google Tag Manager (noscript) -->
-        <noscript>
-            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P3CNMGK6"
-                    height="0" width="0" style="display:none;visibility:hidden">
-            </iframe>
-        </noscript>
-        <!-- End Google Tag Manager (noscript) -->
     </body>
 </html>

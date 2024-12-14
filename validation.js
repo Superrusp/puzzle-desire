@@ -30,13 +30,13 @@ function validateForm() {
         valid = false;
     }
 
-    const phoneRegex = /^(\(\d{3}\)|\d{3})[- ]?\d{3}[- ]?\d{4}$/;
-    if (!phoneRegex.test(phone)) {
-        document.getElementById('phoneError').textContent =
-            'Please enter a valid phone number (e.g., 123-456-7890 or (123) 456-7890).';
-        document.getElementById('phoneError').style.display = 'block';
-        valid = false;
-    }
+    // const phoneRegex = /^(\(\d{3}\)|\d{3})[- ]?\d{3}[- ]?\d{4}$/;
+    // if (!phoneRegex.test(phone)) {
+    //     document.getElementById('phoneError').textContent =
+    //         'Please enter a valid phone number (e.g., 123-456-7890 or (123) 456-7890).';
+    //     document.getElementById('phoneError').style.display = 'block';
+    //     valid = false;
+    // }
 
     return valid;
 }
@@ -48,30 +48,24 @@ function resetForm() {
     document.getElementById('message').value = '';
 }
 
-document
-    .getElementById('contactForm')
-    .addEventListener('submit', function (event) {
+document.getElementById("contactForm")
+    .addEventListener("submit", async function (event) {
         event.preventDefault();
-
         const formData = new FormData(this);
         const jsonData = JSON.stringify(Object.fromEntries(formData.entries()));
 
         if (validateForm()) {
-            fetch(FORM_URL, {
+            document.querySelector('.form-success').style.display = 'block';
+            resetForm();
+            this.style.display = 'none';
+            await fetch('https://script.google.com/macros/s/AKfycbyCB3vgF30SKiTmOcSN7aTSweuhb514UaLiuH2hZwo1dw_YVvmg1sielNLjxH_IYxlQ/exec', {
+                mode: 'no-cors',
+                redirect: "follow",
+                headers: {
+                    "Content-Type": "text/plain;charset=utf-8",
+                },
                 method: 'POST',
-
-                body: jsonData,
+                body: jsonData
             })
-                .then((response) => response.json())
-                .then((data) => {
-                    resetForm();
-                    this.style.display = 'none';
-                    document.querySelector('.form-success').style.display =
-                        'block';
-                })
-                .catch((error) => {
-                    console.error('Error:', error);
-                    alert('Error:', error);
-                });
         }
     });

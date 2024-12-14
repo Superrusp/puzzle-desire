@@ -23,7 +23,7 @@ const onChnage = () => {
     }
 };
 
-const swiper = new Swiper('.swiper', {
+const swiper = new Swiper('.benefits-mobile', {
     pagination: {
         el: '.benefits-mobile-dots',
     },

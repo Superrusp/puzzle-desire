@@ -260,6 +260,36 @@ const lang = {
         'form-success-title': 'Thank you',
         'form-success-subtitle':
             'Thank you for your application, our managers will contact you soon',
+        our_portfolio: 'Our Portfolio',
+        portfolio_desc:
+            'Explore our projects and see how we bring ideas to life through creative and innovative web solutions.',
+        traffic_desc:
+            'A cutting-edge platform designed to empower traffic arbitrage professionals with real-time analytics, streamlined campaign management, and performance optimization tools.',
+        auto_desc:
+            'A user-friendly platform crafted for aspiring drivers, Dosaf Drive simplifies the journey to obtaining a license. With interactive course booking and personalized lesson schedules, the website ensures a seamless and engaging experience for students at every step.',
+        power_desc:
+            'A powerful PWA platform for traffic arbitrage, offering high-performance apps, real-time tracking, and seamless ad network integration to maximize conversions.',
+        crypto_desc:
+            'A dedicated CRM platform designed for customer relationship management in the cryptocurrency space, providing exchange integration and marketing automation to optimize customer engagement.',
+        exchange_desc:
+            'Crypto-exchanger, with various currencies/cryptocurrencies. Creation of applications, their execution in automatic mode.',
+        admin_desc:
+            'A lightweight and intuitive admin panel designed for Opel’s official dealer website. It enables effortless management of banners, promotions, and site content with just a few clicks. Refined the logo and updated images to better align with the brand’s identity.',
+        frog_desc:
+            'A secure and scalable e-commerce platform for selling proxies and VPNs, complete with an intuitive admin panel. Includes user-friendly product management, automated order processing, and seamless cryptocurrency payment integration.',
+        team_desc:
+            'A high-converting landing page designed to showcase the expertise and services of an arbitrage team. Sleek visuals, clear call-to-action elements, and optimized lead generation forms to attract and engage potential clients.',
+        school_desk:
+            'A modern, engaging landing page for Nova School, designed to attract students with clear navigation and dynamic visuals.',
+        view_figma1: 'View Figma',
+        view_figma2: 'View Figma',
+        view_figma3: 'View Figma',
+        view_figma4: 'View Figma',
+        view_figma5: 'View Figma',
+        view_figma6: 'View Figma',
+        view_figma7: 'View Figma',
+        view_figma8: 'View Figma',
+        view_figma9: 'View Figma',
     },
     ru: {
         'nav_btn_messangers-mobile': 'Cвязаться с нами',
@@ -527,6 +557,36 @@ const lang = {
         'form-success-title': 'Спасибо',
         'form-success-subtitle':
             'Спасибо за заявку, наши менеджеры свяжутся с вами в ближайшее время',
+        our_portfolio: 'Наше портфолио',
+        portfolio_desc:
+            'Изучите наши проекты и узнайте, как мы воплощаем идеи в жизнь с помощью креативных и инновационных веб-решений.',
+        traffic_desc:
+            'Передовая платформа, предназначенная для предоставления профессионалам в области арбитража трафика аналитики в реальном времени, оптимизированного управления кампаниями и инструментов оптимизации производительности.',
+        auto_desc:
+            'Удобная платформа Dosaf Drive, созданная для начинающих водителей, упрощает путь к получению прав. Благодаря интерактивному бронированию курсов и персонализированному расписанию уроков веб-сайт обеспечивает удобство и интерес для студентов на каждом этапе обучения.',
+        power_desc:
+            'Мощная платформа PWA для арбитража трафика, предлагающая высокопроизводительные приложения, отслеживание в реальном времени и бесшовную интеграцию с рекламной сетью для максимизации конверсий.',
+        crypto_desc:
+            'Специальная CRM-платформа, предназначенная для управления взаимоотношениями с клиентами в сфере криптовалют, обеспечивающая интеграцию бирж и автоматизацию маркетинга для оптимизации взаимодействия с клиентами.',
+        exchange_desc:
+            'Криптообменник, с различными валюты/криптовалюты. Создание приложений, их выполнение в автоматическом режиме.',
+        admin_desc:
+            'Легкая и интуитивно понятная админ-панель, предназначенная для официального дилерского сайта Opel. Он позволяет легко управлять баннерами, рекламными акциями и содержимым сайта всего за несколько кликов. Усовершенствован логотип и обновлены изображения, чтобы лучше соответствовать идентичности бренда.',
+        frog_desc:
+            'Безопасная и масштабируемая платформа электронной коммерции для продажи прокси и VPN с интуитивно понятной панелью администратора. Включает удобное управление продуктами, автоматическую обработку заказов и интеграцию платежей в криптовалюте.',
+        team_desc:
+            'Целевая страница с высокой конверсией, предназначенная для демонстрации опыта и услуг арбитражной команды. Изящные визуальные эффекты, четкие элементы призыва к действию и оптимизированные формы привлечения потенциальных клиентов для привлечения и привлечения потенциальных клиентов.',
+        school_desk:
+            'Современная, привлекательная целевая страница для Nova School, призванная привлечь учащихся понятной навигацией и динамичными визуальными эффектами.',
+        view_figma1: 'Посмотреть Figma',
+        view_figma2: 'Посмотреть Figma',
+        view_figma3: 'Посмотреть Figma',
+        view_figma4: 'Посмотреть Figma',
+        view_figma5: 'Посмотреть Figma',
+        view_figma6: 'Посмотреть Figma',
+        view_figma7: 'Посмотреть Figma',
+        view_figma8: 'Посмотреть Figma',
+        view_figma9: 'Посмотреть Figma',
     },
     es: {
         'nav_btn_messangers-mobile': 'Contacta con nosotros',
@@ -793,6 +853,36 @@ const lang = {
         'form-success-title': 'Gracias',
         'form-success-subtitle':
             'Gracias por su solicitud, nuestros gerentes se comunicarán con usted pronto',
+        our_portfolio: 'Nuestro Portafolio',
+        portfolio_desc:
+            'Explore nuestros proyectos y vea cómo damos vida a las ideas a través de soluciones web creativas e innovadoras.',
+        traffic_desc:
+            'Una plataforma de vanguardia diseñada para brindar a los profesionales del arbitraje de tráfico análisis en tiempo real, gestión de campañas optimizada y herramientas de optimización del rendimiento.',
+        auto_desc:
+            'Dosaf Drive, una plataforma fácil de usar diseñada para aspirantes a conductores, simplifica el proceso para obtener una licencia. Con reserva de cursos interactiva y horarios de lecciones personalizados, el sitio web garantiza una experiencia fluida y atractiva para los estudiantes en cada paso.',
+        power_desc:
+            'Una poderosa plataforma PWA para arbitraje de tráfico, que ofrece aplicaciones de alto rendimiento, seguimiento en tiempo real e integración perfecta de la red publicitaria para maximizar las conversiones.',
+        crypto_desc:
+            'Una plataforma CRM dedicada diseñada para la gestión de relaciones con los clientes en el espacio de las criptomonedas, que proporciona integración de intercambios y automatización de marketing para optimizar la participación del cliente.',
+        exchange_desc:
+            'Intercambiador de criptomonedas, con varios monedas/criptomonedas. Creación de aplicaciones, su ejecución en modo automático.',
+        admin_desc:
+            'Un panel de administración ligero e intuitivo diseñado para el sitio web oficial del concesionario Opel. Permite la gestión sencilla de banners, promociones y contenido del sitio con sólo unos pocos clics. Se perfeccionó el logotipo y se actualizaron las imágenes para alinearse mejor con la identidad de la marca.',
+        frog_desc:
+            'Una plataforma de comercio electrónico segura y escalable para vender servidores proxy y VPN, completa con un panel de administración intuitivo. Incluye gestión de productos fácil de usar, procesamiento de pedidos automatizado e integración perfecta de pagos con criptomonedas.',
+        team_desc:
+            'Una página de destino de alta conversión diseñada para mostrar la experiencia y los servicios de un equipo de arbitraje. Imágenes elegantes, elementos claros de llamado a la acción y formularios optimizados de generación de leads para atraer e involucrar a clientes potenciales.',
+        school_desk:
+            'Una página de inicio moderna y atractiva para Nova School, diseñada para atraer a los estudiantes con una navegación clara y elementos visuales dinámicos.',
+        view_figma1: 'Ver Figma',
+        view_figma2: 'Ver Figma',
+        view_figma3: 'Ver Figma',
+        view_figma4: 'Ver Figma',
+        view_figma5: 'Ver Figma',
+        view_figma6: 'Ver Figma',
+        view_figma7: 'Ver Figma',
+        view_figma8: 'Ver Figma',
+        view_figma9: 'Ver Figma',
     },
     uk: {
         'nav_btn_messangers-mobile': "Зв'яжіться з нами",
@@ -1057,6 +1147,36 @@ const lang = {
         'form-success-title': 'Дякую',
         'form-success-subtitle':
             "Дякуємо за заявку, наші менеджери зв'яжуться з Вами найближчим часом",
+        our_portfolio: 'Наше портфоліо',
+        portfolio_desc:
+            'Ознайомтеся з нашими проектами та подивіться, як ми втілюємо ідеї в життя за допомогою творчих та інноваційних веб-рішень.',
+        traffic_desc:
+            'Передова платформа, розроблена для того, щоб надати професіоналам арбітражу трафіку аналітику в реальному часі, спрощене керування кампаніями та інструменти оптимізації ефективності.',
+        auto_desc:
+            'Зручна платформа, створена для початківців водіїв, Dosaf Drive спрощує шлях до отримання прав. Завдяки інтерактивному бронюванню курсів і персоналізованим розкладам уроків веб-сайт забезпечує безперебійну та захоплюючу роботу для студентів на кожному кроці.',
+        power_desc:
+            'Потужна платформа PWA для арбітражу трафіку, що пропонує високопродуктивні програми, відстеження в реальному часі та повну інтеграцію з рекламною мережею для максимізації конверсій.',
+        crypto_desc:
+            'Спеціальна CRM-платформа, розроблена для управління взаємовідносинами з клієнтами в сфері криптовалют, забезпечує інтеграцію бірж і автоматизацію маркетингу для оптимізації залучення клієнтів.',
+        exchange_desc:
+            'Криптообмінник, з різн валюти/криптовалюти. Створення додатків, їх виконання в автоматичному режимі.',
+        admin_desc:
+            'Легка та інтуїтивно зрозуміла панель адміністратора, розроблена для веб-сайту офіційного дилера Opel. Це дозволяє легко керувати банерами, рекламними акціями та вмістом сайту лише кількома клацаннями. Удосконалили логотип і оновили зображення, щоб краще відповідати ідентичності бренду.',
+        frog_desc:
+            'Безпечна та масштабована платформа електронної комерції для продажу проксі-серверів і VPN із інтуїтивно зрозумілою панеллю адміністратора. Включає зручне керування продуктами, автоматизовану обробку замовлень і безперебійну інтеграцію платежів у криптовалюті.',
+        team_desc:
+            'Цільова сторінка з високою кількістю конверсій, створена для демонстрації досвіду та послуг арбітражної команди. Елегантні візуальні елементи, чіткі елементи заклику до дії та оптимізовані форми для залучення потенційних клієнтів для залучення та залучення потенційних клієнтів.',
+        school_desk:
+            'Сучасна, захоплююча цільова сторінка для Nova School, призначена для залучення учнів завдяки чіткій навігації та динамічним візуальним елементам.',
+        view_figma1: 'Переглянути Figma',
+        view_figma2: 'Переглянути Figma',
+        view_figma3: 'Переглянути Figma',
+        view_figma4: 'Переглянути Figma',
+        view_figma5: 'Переглянути Figma',
+        view_figma6: 'Переглянути Figma',
+        view_figma7: 'Переглянути Figma',
+        view_figma8: 'Переглянути Figma',
+        view_figma9: 'Переглянути Figma',
     },
 };
 

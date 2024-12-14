@@ -200,7 +200,7 @@ contactUsBtn.addEventListener('click', () => {
         if (window.matchMedia('(max-width: 1120px)').matches) {
             window.location.href = '#contacts-mobile';
         } else {
-            window.location.href = '#contacts';
+            window.location.href = '#contacts-mobile';
         }
 
         document

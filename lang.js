@@ -299,7 +299,6 @@ const lang = {
         'nav_link_price-mobile': 'Цена',
         'nav_link_contacts-mobile': 'Контакты',
         contact_us: 'Cвязаться с нами',
-        'nav-scrolled-btn': 'Написать нам',
         'nav_about-us': 'О нас',
         nav_services: 'Услуги',
         'nav_our-process': 'Наш процесс',

@@ -1054,7 +1054,7 @@ a {
     &_wrap {
         margin: 48px 0 32px 0;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 20px;
     }
     &_item {
@@ -1062,9 +1062,6 @@ a {
         background-color: var(--white);
         padding: 32px;
         position: relative;
-        &:nth-child(2) {
-            padding: 0;
-        }
         &:last-child {
             z-index: 19;
         }
@@ -1097,9 +1094,11 @@ a {
     }
     &_puzzle {
         position: absolute;
-        top: -146px;
-        left: 114px;
+        top: -70px;
+        right: -140px;
         z-index: 18;
+        pointer-events: none;
+        max-width: 320px;
     }
     &_plus {
         display: flex;
@@ -1110,6 +1109,15 @@ a {
         font-size: 24px;
         font-weight: 700;
         line-height: 33.6px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        &-wrap {
+            display: flex;
+            gap: 4px;
+            align-items: center;
+        }
     }
     &_popular {
         height: 37px;
@@ -1145,16 +1153,21 @@ a {
         font-size: 16px;
         font-weight: 400;
         line-height: 24px;
+
     }
     &_subtitle {
         margin: 4px 0 32px 0;
         color: var(--light-black);
         min-height: 72px;
     }
-    &_price {
+    &_price,
+    &_price_mobile {
         font-size: 40px;
         font-weight: 700;
         line-height: 54px;
+    }
+    &_price_mobile {
+        display: none;
     }
     &_vat {
         font-size: 16px;
@@ -1641,6 +1654,17 @@ a {
         padding: 18px 22px;
         transition: 0.3s;
         outline-color: #0871d2;
+    }
+
+    input[type='tel'] {
+        padding-left: 60px !important;
+    }
+
+    .iti {
+        width: 100%;
+        &__flag-container {
+            left: 10px !important; 
+        }
     }
 
     input:hover,

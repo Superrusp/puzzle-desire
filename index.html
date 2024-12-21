@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+        <!-- displays site properly based on user's device -->
         <link
             rel="icon"
             type="image/svg"
@@ -27,9 +27,7 @@
             href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
         <link rel="stylesheet" href="./css/style.min.css" />
         <link rel="stylesheet" href="./css/lang.css" />
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
         <title id="title"></title>
     </head>
@@ -39,9 +37,6 @@
                 <div class="nav_subwrapper">
                     <img class="nav_logo" src="./icons/logo.svg" alt="logo" />
                     <nav class="nav_menu">
-                        <a href="#about" class="nav_about-us" id="nav_about-us"
-                            >about us</a
-                        >
                         <a
                             href="#services"
                             class="nav_services"
@@ -101,15 +96,6 @@
                     </div>
                 </div>
                 <ul class="nav_list">
-                    <li class="nav_item">
-                        <a
-                            href="#about-mobile"
-                            class="nav_link"
-                            id="nav_link_about-mobile"
-                            onclick="toggleMenu()"
-                            >about us</a
-                        >
-                    </li>
                     <li class="nav_item">
                         <a
                             href="#services-mobile"
@@ -1267,9 +1253,9 @@
                             <div class="portfolio__content">
                                 <div>
                                     <h1
-                                        style="color: #030314"
-                                        class="portfolio__title nowrap_text">
-                                        Arbitrage Team Landing Page
+                                        style="color: #030314;"
+                                        class="portfolio__title">
+                                        Affiliate Marketing Team Landing Page
                                     </h1>
                                     <ul class="stack">
                                         <li
@@ -1805,18 +1791,185 @@
                 </h2>
                 <div class="plans_wrap">
                     <div class="plans_item">
-                        <div class="plans_title" id="plans_title_puzzle_start">
-                            Puzzle-Start
+                        <div class="plans_title" id="plans_title_puzzle_ua">
+                            <div class="plans_title-wrap">
+                                
+                                Puzzle-UA
+                                <div class="plans_popular">
+                                    <img style="margin-right: 8px;" src="./icons/UA.png" alt="ua flag">
+                                    <span
+                                        class="plans_popular-text"
+                                        id="plans_limited_text_puzzle_ua"
+                                        >Limited</span
+                                    >
+                                </div>
+                            </div>
+                            <div class="plans_price" id="plans_price_puzzle_ua">
+                                500€
+                                <span class="plans_vat" id="plans_vat_puzzle_ua"
+                                    >+ VAT</span
+                                >
+                            </div>
                         </div>
+                        <div
+                            class="plans_subtitle"
+                            id="plans_subtitle_puzzle_ua">
+                            A fully functional website to support the business of Ukrainian entrepreneurs abroad. For those who have opened or plan to open their small business abroad.
+                        </div>
+                        <div
+                            class="plans_subtitle"
+                            id="plans_subtitle_puzzle_ua2">
+                            Optional installments with a first payment of 200€ + VAT and 50€ + VAT per month for half a year
+                        </div>
+                        
+                        <div class="plans_price_mobile" id="plans_price_puzzle_ua_mobile">
+                            500€
+                            <span class="plans_vat" id="plans_vat_puzzle_ua_mobile"
+                                >+ VAT</span
+                            >
+                        </div>
+
+                        <a
+                            href="#"
+                            class="plans_btn"
+                            id="plans_btn_puzzle_ua"
+                            >Get Started</a
+                        >
+                        <div class="plans_divider"></div>
+                        <div
+                            class="plans_points"
+                            id="plans_points_puzzle_ua">
+                            <div
+                                class="plans_point"
+                                id="plans_point_1_puzzle_ua">
+                                <img
+                                    class="plans_icon"
+                                    src="./icons/checkmark.svg"
+                                    alt="checkmark" />
+                                <div
+                                    class="plans_text"
+                                    id="plans_text_1_puzzle_ua">
+                                    Full-fledged one-page landing (a page that scrolls from top to bottom, equivalent to 2 screens)
+                                </div>
+                            </div>
+                            <div
+                                class="plans_point"
+                                id="plans_point_2_puzzle_ua">
+                                <img
+                                    class="plans_icon"
+                                    src="./icons/checkmark.svg"
+                                    alt="checkmark" />
+                                <div
+                                    class="plans_text"
+                                    id="plans_text_2_puzzle_ua">
+                                    Maximum number of layers (depth) - 2
+                                </div>
+                            </div>
+                            <div
+                                class="plans_point"
+                                id="plans_point_3_puzzle_ua>
+                                <img
+                                    class="plans_icon"
+                                    src="./icons/checkmark.svg"
+                                    alt="checkmark" />
+                                <div
+                                    class="plans_text"
+                                    id="plans_text_3_puzzle_ua">
+                                    Original design (choose from three options)
+                                </div>
+                            </div>
+                            <div
+                                class="plans_point"
+                                id="plans_point_4_puzzle_ua">
+                                <img
+                                    class="plans_icon"
+                                    src="./icons/checkmark.svg"
+                                    alt="checkmark" />
+                                <div
+                                    class="plans_text"
+                                    id="plans_text_4_puzzle_ua">
+                                    Standard content and texts in two languages
+                                    (of your choice)
+                                </div>
+                            </div>
+                            <div
+                                class="plans_point"
+                                id="plans_point_5_puzzle_ua">
+                                <img
+                                    class="plans_icon"
+                                    src="./icons/checkmark.svg"
+                                    alt="checkmark" />
+                                <div
+                                    class="plans_text"
+                                    id="plans_text_5_puzzle_ua">
+                                    Placement of a ready-made logo (provided by
+                                    the client)
+                                </div>
+                            </div>
+                            <div
+                                class="plans_point"
+                                id="plans_point_6_puzzle_ua">
+                                <img
+                                    class="plans_icon"
+                                    src="./icons/checkmark.svg"
+                                    alt="checkmark" />
+                                <div
+                                    class="plans_text"
+                                    id="plans_text_6_puzzle_ua">
+                                    Launching the site on a domain (domain
+                                    provided by the client)
+                                </div>
+                            </div>
+                            <div
+                                class="plans_point"
+                                id="plans_point_7_puzzle_ua">
+                                <img
+                                    class="plans_icon"
+                                    src="./icons/checkmark.svg"
+                                    alt="checkmark" />
+                                <div
+                                    class="plans_text"
+                                    id="plans_text_7_puzzle_ua">
+                                    Making changes to the approved Technical
+                                    Assignment (TA) up to 10 changes
+                                </div>
+                            </div>
+                            <div
+                                class="plans_point"
+                                id="plans_point_8_puzzle_ua">
+                                <img
+                                    class="plans_icon"
+                                    src="./icons/checkmark.svg"
+                                    alt="checkmark" />
+                                <div
+                                    class="plans_text"
+                                    id="plans_text_8_puzzle_ua">
+                                    Making up to 10 changes within a month after
+                                    the site launch
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="plans_item">
+                        <div class="plans_title" id="plans_title_puzzle_start-">   
+                            Puzzle-Start
+                            <div class="plans_price" id="plans_price_puzzle_start">
+                                1000€
+                                <span class="plans_vat" id="plans_vat_puzzle_start"
+                                    >+ VAT</span
+                                >
+                            </div>
+                        </div>
+                        
                         <div
                             class="plans_subtitle"
                             id="plans_subtitle_puzzle_start">
                             A quick way to get a fully functional website to
                             kickstart your business.
                         </div>
-                        <div class="plans_price" id="plans_price_puzzle_start">
+                        <div class="plans_price_mobile" id="plans_price_puzzle_start_mobile">
                             1000€
-                            <span class="plans_vat" id="plans_vat_puzzle_start"
+                            <span class="plans_vat" id="plans_vat_puzzle_start_mobile"
                                 >+ VAT</span
                             >
                         </div>
@@ -1943,24 +2096,35 @@
                             </div>
                         </div>
                     </div>
-                    <div class="plans_item">
+                    <div style="padding: 0;" class="plans_item">
                         <img
                             class="plans_puzzle"
                             src="./icons/blue_puzzle.svg"
                             alt="puzzle" />
                         <div class="plans_item-plus">
                             <div class="plans_plus">
-                                <div
-                                    class="plans_title"
-                                    id="plans_title_puzzle_plus">
-                                    Puzzle-Plus
-                                </div>
-                                <div class="plans_popular">
-                                    <span
-                                        class="plans_popular-text"
-                                        id="plans_popular_text_puzzle_plus"
-                                        >Popular</span
-                                    >
+                                <div class="plans_title" id="plans_title_puzzle_plus-">
+                                    <div class="plans_title-wrap">
+                                        
+                                        Puzzle-Plus
+                                        <div class="plans_popular">
+                                            <span
+                                                class="plans_popular-text"
+                                                id="plans_popular_text_puzzle_plus"
+                                                >Popular</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="plans_price"
+                                        id="plans_price_puzzle_plus">
+                                        3000€
+                                        <span
+                                            class="plans_vat"
+                                            id="plans_vat_puzzle_plus"
+                                            >+ VAT</span
+                                        >
+                                    </div>
                                 </div>
                             </div>
                             <div
@@ -1970,12 +2134,12 @@
                                 website - a significant plus for your business.
                             </div>
                             <div
-                                class="plans_price"
-                                id="plans_price_puzzle_plus">
+                                class="plans_price_mobile"
+                                id="plans_price_puzzle_plus_mobile">
                                 3000€
                                 <span
                                     class="plans_vat"
-                                    id="plans_vat_puzzle_plus"
+                                    id="plans_vat_puzzle_plus_mobile"
                                     >+ VAT</span
                                 >
                             </div>
@@ -2147,8 +2311,14 @@
                         </div>
                     </div>
                     <div class="plans_item">
-                        <div class="plans_title" id="plans_title_puzzle_pro">
+                        <div class="plans_title" id="plans_title_puzzle_pro-">
                             Puzzle-Pro
+                            <div class="plans_price" id="plans_price_puzzle_pro">
+                                5000€
+                                <span class="plans_vat" id="plans_vat_puzzle_pro"
+                                    >+ VAT</span
+                                >
+                            </div>
                         </div>
                         <div
                             class="plans_subtitle"
@@ -2156,9 +2326,9 @@
                             Advanced custom solutions and website functionality
                             - the path to business growth.
                         </div>
-                        <div class="plans_price" id="plans_price_puzzle_pro">
+                        <div class="plans_price_mobile" id="plans_price_puzzle_pro_mobile">
                             5000€
-                            <span class="plans_vat" id="plans_vat_puzzle_pro"
+                            <span class="plans_vat" id="plans_vat_puzzle_pro_mobile"
                                 >+ VAT</span
                             >
                         </div>
@@ -2519,14 +2689,12 @@
                                     >Phone</label
                                 >
                                 <input
-                                    required
-                                    type="tel"
-                                    id="phone"
-                                    name="phone"
-                                    placeholder="505 444 505" />
-                                <span
-                                    id="phoneError"
-                                    class="error-message"></span>
+                                        required
+                                        type="tel"
+                                        id="phone"
+                                        name="phone"
+                                        placeholder="505 444 505"/>
+                                <span id="phoneError" class="error-message"></span>
                             </div>
                             <div class="form-group">
                                 <label id="label-interest" for="interest"
@@ -2589,22 +2757,7 @@
                     </div>
                 </div>
                 <div class="contacts_right">
-                    <div class="contacts_phone-number">
-                        <div class="contacts_label" id="contacts_label_call">
-                            <img
-                                src="./icons/phone.svg"
-                                alt="phone"
-                                class="phone_icon" />
-                            <div class="contacts_text" id="contacts_text_call">
-                                Call us
-                            </div>
-                        </div>
-                        <div
-                            class="contacts_contact"
-                            id="contacts_contact_phone">
-                            +374 5678 7890
-                        </div>
-                    </div>
+                   
                     <div class="contacts_email">
                         <div class="contacts_label" id="contacts_label_email">
                             <img
@@ -2713,12 +2866,6 @@
                             alt="logo" />
                         <div class="footer_menu">
                             <a
-                                href="#about"
-                                class="footer_menu-link"
-                                id="footer_menu_link_about"
-                                >about us</a
-                            >
-                            <a
                                 href="#services"
                                 class="footer_menu-link"
                                 id="footer_menu_link_services"
@@ -2729,6 +2876,9 @@
                                 class="footer_menu-link"
                                 id="footer_menu_link_work"
                                 >our process</a
+                            >
+                            <a href="#price" class="footer_menu-link" id="footer_menu_link_price"
+                                >price</a
                             >
                             <a
                                 href="#contacts-mobile"

@@ -7,39 +7,39 @@
     }
 }
 
-@media (min-width: 1477px) {
-    .plans {
-        &_puzzle {
-            top: -151px;
-            left: 128px;
-        }
-    }
-}
+// @media (min-width: 1477px) {
+//     .plans {
+//         &_puzzle {
+//             top: -151px;
+//             left: 128px;
+//         }
+//     }
+// }
 
-@media (min-width: 1518px) {
-    .plans {
-        &_puzzle {
-            left: 150px;
-        }
-    }
-}
+// @media (min-width: 1518px) {
+//     .plans {
+//         &_puzzle {
+//             left: 150px;
+//         }
+//     }
+// }
 
-@media (min-width: 1560px) {
-    .plans {
-        &_puzzle {
-            left: 167px;
-        }
-    }
-}
+// @media (min-width: 1560px) {
+//     .plans {
+//         &_puzzle {
+//             left: 167px;
+//         }
+//     }
+// }
 
-@media (min-width: 1687px) {
-    .plans {
-        &_puzzle {
-            top: -171px;
-            left: 192px;
-        }
-    }
-}
+// @media (min-width: 1687px) {
+//     .plans {
+//         &_puzzle {
+//             top: -171px;
+//             left: 192px;
+//         }
+//     }
+// }
 
 @media (min-width: 769px) and (max-width: 1439px) {
     .title {
@@ -117,14 +117,6 @@
     }
 }
 
-@media (min-width: 1025px) and (max-width: 1239px) {
-    .plans {
-        &_puzzle {
-            top: -173px;
-            left: 24px;
-        }
-    }
-}
 
 @media (min-width: 993px) and (max-width: 1024px) {
     .plans {
@@ -134,10 +126,6 @@
         &_popular {
             padding: 8px;
             margin-left: 0;
-        }
-        &_puzzle {
-            top: -180px;
-            left: 9px;
         }
     }
 }
@@ -275,6 +263,16 @@
     }
 
     .plans {
+        &_popular-text {
+            font-size: 13px;
+        }        
+        &_popular {
+            padding: 6px 12px;
+            img {
+                max-width: 20px;
+                height: auto;
+            }
+        }
         &_wrap {
             grid-template-columns: repeat(2, 1fr);
         }
@@ -414,6 +412,12 @@
         }
         &_subtitle {
             min-height: auto;
+        }
+        &_price_mobile {
+            display: block;
+        }
+        &_price {
+            display: none;
         }
     }
     .messengers {
@@ -699,6 +703,10 @@
             gap: 16px;
             align-items: center;
         }
+        &_menu {
+            justify-content: center;
+            gap: 16px;
+        }
     }
 }
 
@@ -837,6 +845,12 @@
 }
 
 @media (max-width: 1200px) {
+    .plans {
+        &_title {
+            flex-direction: column;
+            align-items: start;
+        }
+    }
     .portfolio {
         &-wraper {
             position: relative;
@@ -1132,6 +1146,13 @@
         }
         .work_bottom_5 {
             bottom: 200px;
+        }
+    }
+    .plans {
+        &_title-wrap {
+            flex-direction: column;
+            align-items: start;
+            margin-bottom: 10px;
         }
     }
 }

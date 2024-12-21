@@ -862,7 +862,7 @@ a {
 .plans_wrap {
   margin: 48px 0 32px 0;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
 .plans_item {
@@ -870,9 +870,6 @@ a {
   background-color: var(--white);
   padding: 32px;
   position: relative;
-}
-.plans_item:nth-child(2) {
-  padding: 0;
 }
 .plans_item:last-child {
   z-index: 19;
@@ -900,9 +897,11 @@ a {
 }
 .plans_puzzle {
   position: absolute;
-  top: -146px;
-  left: 114px;
+  top: -70px;
+  right: -140px;
   z-index: 18;
+  pointer-events: none;
+  max-width: 320px;
 }
 .plans_plus {
   display: flex;
@@ -913,6 +912,15 @@ a {
   font-size: 24px;
   font-weight: 700;
   line-height: 33.6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.plans_title-wrap {
+  display: flex;
+  gap: 4px;
+  align-items: center;
 }
 .plans_popular {
   height: 37px;
@@ -944,10 +952,13 @@ a {
   color: var(--light-black);
   min-height: 72px;
 }
-.plans_price {
+.plans_price, .plans_price_mobile {
   font-size: 40px;
   font-weight: 700;
   line-height: 54px;
+}
+.plans_price_mobile {
+  display: none;
 }
 .plans_vat {
   font-size: 16px;
@@ -1185,10 +1196,10 @@ a {
   flex-direction: column;
   cursor: pointer;
 }
-.contacts_email:hover .contacts_text {
+.contacts_email:hover .contacts_text, .contacts_phone-number:hover .contacts_text {
   color: var(--white);
 }
-.contacts_email:hover .contacts_contact {
+.contacts_email:hover .contacts_contact, .contacts_phone-number:hover .contacts_contact {
   color: rgb(12, 132, 242);
   text-decoration: underline;
 }
@@ -1375,6 +1386,15 @@ a {
   padding: 18px 22px;
   transition: 0.3s;
   outline-color: #0871d2;
+}
+.form__wrapper input[type=tel] {
+  padding-left: 60px !important;
+}
+.form__wrapper .iti {
+  width: 100%;
+}
+.form__wrapper .iti__flag-container {
+  left: 10px !important;
 }
 .form__wrapper input:hover,
 .form__wrapper input:hover,
@@ -1672,28 +1692,6 @@ a {
   text-align: center;
 }
 
-@media (min-width: 1477px) {
-  .plans_puzzle {
-    top: -151px;
-    left: 128px;
-  }
-}
-@media (min-width: 1518px) {
-  .plans_puzzle {
-    left: 150px;
-  }
-}
-@media (min-width: 1560px) {
-  .plans_puzzle {
-    left: 167px;
-  }
-}
-@media (min-width: 1687px) {
-  .plans_puzzle {
-    top: -171px;
-    left: 192px;
-  }
-}
 @media (min-width: 769px) and (max-width: 1439px) {
   .title {
     font-size: 32px;
@@ -1752,12 +1750,6 @@ a {
     line-height: 33.6px;
   }
 }
-@media (min-width: 1025px) and (max-width: 1239px) {
-  .plans_puzzle {
-    top: -173px;
-    left: 24px;
-  }
-}
 @media (min-width: 993px) and (max-width: 1024px) {
   .plans_title {
     font-size: 22px;
@@ -1765,10 +1757,6 @@ a {
   .plans_popular {
     padding: 8px;
     margin-left: 0;
-  }
-  .plans_puzzle {
-    top: -180px;
-    left: 9px;
   }
 }
 @media (max-width: 1120px) and (max-width: 1120px) {
@@ -1868,6 +1856,16 @@ a {
   }
   .about-us_descr {
     margin-top: -30%;
+  }
+  .plans_popular-text {
+    font-size: 13px;
+  }
+  .plans_popular {
+    padding: 6px 12px;
+  }
+  .plans_popular img {
+    max-width: 20px;
+    height: auto;
   }
   .plans_wrap {
     grid-template-columns: repeat(2, 1fr);
@@ -1983,6 +1981,12 @@ a {
   }
   .plans_subtitle {
     min-height: auto;
+  }
+  .plans_price_mobile {
+    display: block;
+  }
+  .plans_price {
+    display: none;
   }
   .messengers {
     height: 364px;
@@ -2231,6 +2235,10 @@ a {
     gap: 16px;
     align-items: center;
   }
+  .footer_menu {
+    justify-content: center;
+    gap: 16px;
+  }
 }
 @media (max-width: 500px) {
   .main-btn span {
@@ -2348,6 +2356,10 @@ a {
   }
 }
 @media (max-width: 1200px) {
+  .plans_title {
+    flex-direction: column;
+    align-items: start;
+  }
   .portfolio-wraper {
     position: relative;
     width: 100%;
@@ -2635,5 +2647,10 @@ a {
   }
   .portfolio .work_bottom_5 {
     bottom: 200px;
+  }
+  .plans_title-wrap {
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 10px;
   }
 }/*# sourceMappingURL=style.css.map */

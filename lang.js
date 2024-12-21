@@ -1,13 +1,11 @@
 const lang = {
     en: {
         'nav_btn_messangers-mobile': 'Contact us',
-        'nav_link_about-mobile': 'About us',
         'nav_link_services-mobile': 'Services',
         'nav_link_work-mobile': 'Our process',
         'nav_link_price-mobile': 'Price',
         'nav_link_contacts-mobile': 'Contacts',
         contact_us: 'Contact us',
-        'nav_about-us': 'About us',
         nav_services: 'Services',
         'nav_our-process': 'Our process',
         nav_price: 'Price',
@@ -66,10 +64,34 @@ const lang = {
         work_process_hashtag_access_transfer: 'access transfer',
         plans_subtitle: 'Our Plans',
         plans_title: 'Let’s start collaboration!',
+        plans_subtitle_puzzle_ua:
+            'A fully functional website to support the business of Ukrainian entrepreneurs abroad. For those who have opened or plan to open their small business abroad.',
+        plans_subtitle_puzzle_ua2:
+            'Optional installments with a first payment of <span class="plans_info-bold">200€ + VAT</span> and <span class="plans_info-bold">50€ + VAT</span> per month for half a year',
+        plans_price_puzzle_ua: "500€ <span class='plans_vat'>+ VAT</span>",
+        plans_price_puzzle_ua_mobile: "500€ <span class='plans_vat'>+ VAT</span>",
+        plans_btn_puzzle_ua: 'Get Started',
+        plans_text_1_puzzle_ua:
+            'Full-fledged one-page landing (a page that scrolls from top to bottom, equivalent to 2 screens)',
+        plans_text_2_puzzle_ua: 'Maximum number of layers (depth) - 2',
+        plans_text_3_puzzle_ua:
+            'Original design (choose from three options)',
+        plans_text_4_puzzle_ua:
+            'Standard content and texts in two languages (of your choice)',
+        plans_text_5_puzzle_ua:
+            'Placement of a ready-made logo (provided by the client)',
+        plans_text_6_puzzle_ua:
+            'Launching the site on a domain (domain provided by the client)',
+        plans_text_7_puzzle_ua:
+            'Making changes to the approved Technical Assignment (TA) up to 10 changes',
+        plans_text_8_puzzle_ua:
+            'Making up to 10 changes within a month after the site launch',
+        plans_limited_text_puzzle_ua: 'Limited',
         plans_title_puzzle_start: 'Puzzle-Start',
         plans_subtitle_puzzle_start:
             'A quick way to get a fully functional website to kickstart your business.',
         plans_price_puzzle_start: "1000€ <span class='plans_vat'>+ VAT</span>",
+        plans_price_puzzle_start_mobile: "1000€ <span class='plans_vat'>+ VAT</span>",
         plans_btn_puzzle_start: 'Get Started',
         plans_text_1_puzzle_start:
             'Full-fledged one-page landing (a page that scrolls from top to bottom, equivalent to 2 screens)',
@@ -91,6 +113,7 @@ const lang = {
         plans_subtitle_puzzle_plus:
             'Additional advantages and functionality for your website - a significant plus for your business.',
         plans_price_puzzle_plus: "3000€ <span class='plans_vat'>+ VAT</span>",
+        plans_price_puzzle_plus_mobile: "3000€ <span class='plans_vat'>+ VAT</span>",
         plans_btn_puzzle_plus: 'Get Started',
         plans_point_1_puzzle_plus:
             'Full-fledged one-page landing (a page that scrolls from top to bottom, equivalent to up to 4 screens)',
@@ -115,6 +138,7 @@ const lang = {
         plans_subtitle_puzzle_pro:
             'Advanced custom solutions and website functionality - the path to business growth.',
         plans_price_puzzle_pro: "5000€ <span class='plans_vat'>+ VAT</span>",
+        plans_price_puzzle_pro_mobile: "5000€ <span class='plans_vat'>+ VAT</span>",
         plans_btn_puzzle_pro: 'Get Started',
         plans_text_1_puzzle_pro:
             'Full-fledged website with your approved structure (landing or classic)',
@@ -180,7 +204,7 @@ const lang = {
         messengers_item_viber: 'Viber',
         messengers_wrap: `
             <div class="messengers_wrap">
-                <a class="messengers_item whatsapp" id="messengers_item_whatsapp">
+                <a class="messengers_item whatsapp" id="messengers_item_whatsapp" href="https://wa.me/34642280182" target="blank">
                     <div class="messengers_whatsapp-shadow"></div>
                     <div class="messengers_icon">
                         <img src="./icons/whatsapp.svg" alt="whatsapp" />
@@ -190,7 +214,7 @@ const lang = {
                     </div>
                 </a>
                 <img class="messengers_divider" src="./icons/messengers_divider.svg" alt="divider" />
-                <a class="messengers_item telegram" id="messengers_item_telegram">
+                <a class="messengers_item telegram" id="messengers_item_telegram" href="https://t.me/puzzledesire" target="blank">
                     <div class="messengers_telegram-shadow"></div>
                     <div class="messengers_icon">
                         <img src="./icons/telegram.svg" alt="telegram" />
@@ -209,10 +233,10 @@ const lang = {
         contacts_messenger_whatsapp: 'WhatsApp',
         contacts_messenger_telegram: 'Telegram',
         contacts_messenger_viber: 'Viber',
-        footer_menu_link_about: 'About us',
         footer_menu_link_services: 'Services',
         footer_menu_link_work: 'Our process',
         footer_menu_link_contacts: 'Contacts',
+        footer_menu_link_price: 'Price',
         footer_text_follow: 'Follow on social media',
         footer_text_copyright: '© Puzzledesire, 2024. All right reserved.',
         footer_menu_document_cookies: 'Cookies Settings',
@@ -293,13 +317,11 @@ const lang = {
     },
     ru: {
         'nav_btn_messangers-mobile': 'Cвязаться с нами',
-        'nav_link_about-mobile': 'О нас',
         'nav_link_services-mobile': 'Услуги',
         'nav_link_work-mobile': 'Наш процесс',
         'nav_link_price-mobile': 'Цена',
         'nav_link_contacts-mobile': 'Контакты',
         contact_us: 'Cвязаться с нами',
-        'nav_about-us': 'О нас',
         nav_services: 'Услуги',
         'nav_our-process': 'Наш процесс',
         nav_price: 'Цена',
@@ -358,10 +380,35 @@ const lang = {
         work_process_hashtag_access_transfer: 'передача доступа',
         plans_subtitle: 'Наши планы',
         plans_title: 'Начнем сотрудничество!',
+        plans_subtitle_puzzle_ua:
+            'Полнофункциональный сайт для поддержки бизнеса украинских предпринимателей за рубежом. Для тех, кто открыл или планирует открыть свой малый бизнес за рубежом.',
+        plans_subtitle_puzzle_ua2:
+            'Рассрочка по желанию с первым взносом <span class="plans_info-bold">200€ + НДС</span> и <span class="plans_info-bold">50 € + НДС</span> в месяц в течение полугода',
+        plans_price_puzzle_ua: "500€ <span class='plans_vat'>+ НДС</span>",
+        plans_price_puzzle_ua_mobile: "500€ <span class='plans_vat'>+ НДС</span>",
+        plans_btn_puzzle_ua: 'Начать',
+        plans_text_1_puzzle_ua:
+            'Полноценный одностраничный лендинг (страница, прокручивающаяся сверху вниз, эквивалентная 2 экранам)',
+        plans_text_2_puzzle_ua:
+            'Максимальное количество уровней (глубина) - 2',
+        plans_text_3_puzzle_ua:
+            'Оригинальный дизайн (выберите из трех вариантов)',
+        plans_text_4_puzzle_ua:
+            'Стандартное содержание и тексты на двух языках (на ваш выбор)',
+        plans_text_5_puzzle_ua:
+            'Размещение готового логотипа (предоставленного клиентом)',
+        plans_text_6_puzzle_ua:
+            'Запуск сайта на домене (домен предоставлен клиентом)',
+        plans_text_7_puzzle_ua:
+            'Внесение изменений в утвержденное техническое задание (до 10 изменений)',
+        plans_text_8_puzzle_ua:
+            'Внесение до 10 изменений в течение месяца после запуска сайта',
+        plans_limited_text_puzzle_ua: 'Ограниченный',
         plans_title_puzzle_start: 'Puzzle-Start',
         plans_subtitle_puzzle_start:
             'Быстрый способ получить полностью функциональный веб-сайт для старта вашего бизнеса.',
         plans_price_puzzle_start: "1000€ <span class='plans_vat'>+ НДС</span>",
+        plans_price_puzzle_start_mobile: "1000€ <span class='plans_vat'>+ НДС</span>",
         plans_btn_puzzle_start: 'Начать',
         plans_text_1_puzzle_start:
             'Полноценный одностраничный лендинг (страница, прокручивающаяся сверху вниз, эквивалентная 2 экранам)',
@@ -384,6 +431,7 @@ const lang = {
         plans_subtitle_puzzle_plus:
             'Дополнительные преимущества и функциональность для вашего веб-сайта - значительное улучшение для вашего бизнеса.',
         plans_price_puzzle_plus: "3000€ <span class='plans_vat'>+ НДС</span>",
+        plans_price_puzzle_plus_mobile: "3000€ <span class='plans_vat'>+ НДС</span>",
         plans_btn_puzzle_plus: 'Начать',
         plans_point_1_puzzle_plus:
             'Полноценный одностраничный лендинг (страница, прокручивающаяся сверху вниз, эквивалентная до 4 экранов)',
@@ -409,6 +457,7 @@ const lang = {
         plans_subtitle_puzzle_pro:
             'Продвинутые индивидуальные решения и функциональность веб-сайта - путь к росту бизнеса.',
         plans_price_puzzle_pro: "5000€ <span class='plans_vat'>+ НДС</span>",
+        plans_price_puzzle_pro_mobile: "5000€ <span class='plans_vat'>+ НДС</span>",
         plans_btn_puzzle_pro: 'Начать',
         plans_text_1_puzzle_pro:
             'Полноценный веб-сайт с вашей утвержденной структурой (лендинг или классический)',
@@ -484,7 +533,7 @@ const lang = {
         contacts_messenger_viber: 'Viber',
         messengers_wrap: `
             <div class="messengers_wrap">
-                <a class="messengers_item whatsapp" id="messengers_item_whatsapp">
+                <a class="messengers_item whatsapp" id="messengers_item_whatsapp" href="https://wa.me/34642280182" target="blank">
                     <div class="messengers_whatsapp-shadow"></div>
                     <div class="messengers_icon">
                         <img src="./icons/whatsapp.svg" alt="whatsapp" />
@@ -494,7 +543,7 @@ const lang = {
                     </div>
                 </a>
                 <img class="messengers_divider" src="./icons/messengers_divider.svg" alt="divider" />
-                <a class="messengers_item telegram" id="messengers_item_telegram">
+                <a class="messengers_item telegram" id="messengers_item_telegram" href="https://t.me/puzzledesire" target="blank">
                     <div class="messengers_telegram-shadow"></div>
                     <div class="messengers_icon">
                         <img src="./icons/telegram.svg" alt="telegram" />
@@ -505,10 +554,10 @@ const lang = {
                 </a>
             </div>
         `,
-        footer_menu_link_about: 'О нас',
         footer_menu_link_services: 'Услуги',
         footer_menu_link_work: 'Наш процесс',
         footer_menu_link_contacts: 'Контакты',
+        footer_menu_link_price: "Цена",
         footer_text_follow: 'Следите за нами в социальных сетях',
         footer_text_copyright: '© Puzzledesire, 2024. Все права защищены.',
         footer_menu_document_cookies: 'Настройки файлов cookie',
@@ -589,14 +638,12 @@ const lang = {
     },
     es: {
         'nav_btn_messangers-mobile': 'Contacta con nosotros',
-        'nav_link_about-mobile': 'Sobre nosotros',
         'nav_link_services-mobile': 'Servicios',
         'nav_link_work-mobile': 'Nuestro proceso',
         'nav_link_price-mobile': 'Precio',
         'nav_link_contacts-mobile': 'Contactos',
         contact_us: 'Contacta con nosotros',
         'nav-scrolled-btn': 'Escríbanos',
-        'nav_about-us': 'Sobre nosotros',
         nav_services: 'Servicios',
         'nav_our-process': 'Nuestro proceso',
         nav_price: 'Precio',
@@ -655,10 +702,34 @@ const lang = {
         work_process_hashtag_access_transfer: 'transferencia de acceso',
         plans_subtitle: 'Nuestros planes',
         plans_title: '¡Comencemos la colaboración!',
+        plans_subtitle_puzzle_ua:
+            'Un sitio web totalmente funcional para apoyar los negocios de los empresarios ucranianos en el extranjero. Para los que han abierto o planean abrir su pequeña empresa en el extranjero.',
+        plans_subtitle_puzzle_ua2:
+            'Fraccionamiento opcional con un primer pago de <span class="plans_info-bold">200 euros + IVA</span> y <span class="plans_info-bold">50 euros + IVA</span> al mes durante medio año',
+        plans_price_puzzle_ua: "500€ <span class='plans_vat'>+ IVA</span>",
+        plans_price_puzzle_ua_mobile: "500€ <span class='plans_vat'>+ IVA</span>",
+        plans_btn_puzzle_ua: 'Empezar',
+        plans_text_1_puzzle_ua:
+            'Landing page completa (una página que se desplaza de arriba a abajo, equivalente a 2 pantallas)',
+        plans_text_2_puzzle_ua: 'Número máximo de capas (profundidad) - 2',
+        plans_text_3_puzzle_ua:
+            'Diseño original (elige entre tres opciones)',
+        plans_text_4_puzzle_ua:
+            'Contenido y textos estándar en dos idiomas (a tu elección)',
+        plans_text_5_puzzle_ua:
+            'Colocación de un logotipo ya hecho (proporcionado por el cliente)',
+        plans_text_6_puzzle_ua:
+            'Lanzamiento del sitio en un dominio (dominio proporcionado por el cliente)',
+        plans_text_7_puzzle_ua:
+            'Realización de cambios en el encargo técnico aprobado (TA) hasta 10 cambios',
+        plans_text_8_puzzle_ua:
+            'Realización de hasta 10 cambios dentro de un mes después del lanzamiento del sitio',
+        plans_limited_text_puzzle_ua: 'Limitado',
         plans_title_puzzle_start: 'Puzzle-Start',
         plans_subtitle_puzzle_start:
             'Una forma rápida de obtener un sitio web totalmente funcional para iniciar tu negocio.',
         plans_price_puzzle_start: "1000€ <span class='plans_vat'>+ IVA</span>",
+        plans_price_puzzle_start_mobile: "1000€ <span class='plans_vat'>+ IVA</span>",
         plans_btn_puzzle_start: 'Empezar',
         plans_text_1_puzzle_start:
             'Landing page completa (una página que se desplaza de arriba a abajo, equivalente a 2 pantallas)',
@@ -680,6 +751,7 @@ const lang = {
         plans_subtitle_puzzle_plus:
             'Ventajas adicionales y funcionalidad para tu sitio web - un plus significativo para tu negocio.',
         plans_price_puzzle_plus: "3000€ <span class='plans_vat'>+ IVA</span>",
+        plans_price_puzzle_plus_mobile: "3000€ <span class='plans_vat'>+ IVA</span>",
         plans_btn_puzzle_plus: 'Empezar',
         plans_point_1_puzzle_plus:
             'Landing page completa (una página que se desplaza de arriba a abajo, equivalente a hasta 4 pantallas)',
@@ -704,6 +776,7 @@ const lang = {
         plans_subtitle_puzzle_pro:
             'Soluciones personalizadas avanzadas y funcionalidad del sitio web - el camino hacia el crecimiento empresarial.',
         plans_price_puzzle_pro: "5000€ <span class='plans_vat'>+ IVA</span>",
+        plans_price_puzzle_pro_mobile: "5000€ <span class='plans_vat'>+ IVA</span>",
         plans_btn_puzzle_pro: 'Empezar',
         plans_text_1_puzzle_pro:
             'Sitio web completo con tu estructura aprobada (landing o clásico)',
@@ -771,7 +844,7 @@ const lang = {
         messengers_item_viber: 'Viber',
         messengers_wrap: `
             <div class="messengers_wrap">
-                <a class="messengers_item whatsapp" id="messengers_item_whatsapp">
+                <a class="messengers_item whatsapp" id="messengers_item_whatsapp" href="https://wa.me/34642280182" target="blank">
                     <div class="messengers_whatsapp-shadow"></div>
                     <div class="messengers_icon">
                         <img src="./icons/whatsapp.svg" alt="whatsapp" />
@@ -781,7 +854,7 @@ const lang = {
                     </div>
                 </a>
                 <img class="messengers_divider" src="./icons/messengers_divider.svg" alt="divider" />
-                <a class="messengers_item telegram" id="messengers_item_telegram">
+                <a class="messengers_item telegram" id="messengers_item_telegram" href="https://t.me/puzzledesire" target="blank">
                     <div class="messengers_telegram-shadow"></div>
                     <div class="messengers_icon">
                         <img src="./icons/telegram.svg" alt="telegram" />
@@ -800,10 +873,10 @@ const lang = {
         contacts_messenger_whatsapp: 'WhatsApp',
         contacts_messenger_telegram: 'Telegram',
         contacts_messenger_viber: 'Viber',
-        footer_menu_link_about: 'Sobre nosotros',
         footer_menu_link_services: 'Servicios',
         footer_menu_link_work: 'Nuestro proceso',
         footer_menu_link_contacts: 'Contactos',
+        footer_menu_link_price: "Precio",
         footer_text_follow: 'Síguenos en las redes sociales',
         footer_text_copyright:
             '© Puzzledesire, 2024. Todos los derechos reservados.',
@@ -885,14 +958,12 @@ const lang = {
     },
     uk: {
         'nav_btn_messangers-mobile': "Зв'яжіться з нами",
-        'nav_link_about-mobile': 'Про нас',
         'nav_link_services-mobile': 'Послуги',
         'nav_link_work-mobile': 'Наш процес',
         'nav_link_price-mobile': 'Ціна',
         'nav_link_contacts-mobile': 'Контакти',
         contact_us: "Зв'яжіться з нами",
         'nav-scrolled-btn': 'Написати нам',
-        'nav_about-us': 'Про нас',
         nav_services: 'Послуги',
         'nav_our-process': 'Наш процес',
         nav_price: 'Ціна',
@@ -951,10 +1022,34 @@ const lang = {
         work_process_hashtag_access_transfer: 'передача доступу',
         plans_subtitle: 'Наші плани',
         plans_title: 'Почнемо співпрацю!',
+        plans_subtitle_puzzle_ua:
+            'Повнофункціональний сайт для підтримки бізнесу українських підприємців, для тих, хто відкрив або планує відкрити свій малий бізнес за кордоном.',
+        plans_subtitle_puzzle_ua2:
+            'Можлива розстрочка з першим внеском <span class="plans_info-bold">200 євро + ПДВ</span> та <span class="plans_info-bold">50 євро + ПДВ</span> щомісяця протягом півроку',
+        plans_price_puzzle_ua: "500€ <span class='plans_vat'>+ ПДВ</span>",
+        plans_price_puzzle_ua_mobile: "500€ <span class='plans_vat'>+ ПДВ</span>",
+        plans_btn_puzzle_ua: 'Почати',
+        plans_text_1_puzzle_ua:
+            'Повноцінний односторінковий лендинг (сторінка, що прокручується згорі донизу, еквівалентна 2 екранам)',
+        plans_text_2_puzzle_ua: 'Максимальна кількість рівнів (глибина) - 2',
+        plans_text_3_puzzle_ua:
+            'Оригінальний дизайн (виберіть з трьох варіантів)',
+        plans_text_4_puzzle_ua:
+            'Стандартний контент і тексти двома мовами (на ваш вибір)',
+        plans_text_5_puzzle_ua:
+            'Розміщення готового логотипу (наданого клієнтом)',
+        plans_text_6_puzzle_ua:
+            'Запуск сайту на домені (домен надається клієнтом)',
+        plans_text_7_puzzle_ua:
+            'Внесення змін до затвердженого технічного завдання (до 10 змін)',
+        plans_text_8_puzzle_ua:
+            'Внесення до 10 змін протягом місяця після запуску сайту',
+        plans_limited_text_puzzle_ua: 'обмежена пропозиція',
         plans_title_puzzle_start: 'Puzzle-Start',
         plans_subtitle_puzzle_start:
             'Швидкий спосіб отримати повнофункціональний веб-сайт для старту вашого бізнесу.',
         plans_price_puzzle_start: "1000€ <span class='plans_vat'>+ ПДВ</span>",
+        plans_price_puzzle_start_mobile: "1000€ <span class='plans_vat'>+ ПДВ</span>",
         plans_btn_puzzle_start: 'Почати',
         plans_text_1_puzzle_start:
             'Повноцінний односторінковий лендинг (сторінка, що прокручується згорі донизу, еквівалентна 2 екранам)',
@@ -976,6 +1071,7 @@ const lang = {
         plans_subtitle_puzzle_plus:
             'Додаткові переваги та функціональність для вашого веб-сайту - значне покращення для вашого бізнесу.',
         plans_price_puzzle_plus: "3000€ <span class='plans_vat'>+ ПДВ</span>",
+        plans_price_puzzle_plus_mobile: "3000€ <span class='plans_vat'>+ ПДВ</span>",
         plans_btn_puzzle_plus: 'Почати',
         plans_point_1_puzzle_plus:
             'Повноцінний односторінковий лендинг (сторінка, що прокручується згорі донизу, еквівалентна до 4 екранів)',
@@ -999,6 +1095,7 @@ const lang = {
         plans_subtitle_puzzle_pro:
             'Розширені індивідуальні рішення та функціональність веб-сайту - шлях до зростання бізнесу.',
         plans_price_puzzle_pro: "5000€ <span class='plans_vat'>+ ПДВ</span>",
+        plans_price_puzzle_pro_mobile: "5000€ <span class='plans_vat'>+ ПДВ</span>",
         plans_btn_puzzle_pro: 'Почати',
         plans_text_1_puzzle_pro:
             'Повноцінний веб-сайт зі затвердженою структурою (лендинг або класичний)',
@@ -1074,7 +1171,7 @@ const lang = {
         contacts_messenger_viber: 'Viber',
         messengers_wrap: `
             <div class="messengers_wrap">
-                <a class="messengers_item whatsapp" id="messengers_item_whatsapp">
+                <a class="messengers_item whatsapp" id="messengers_item_whatsapp" href="https://wa.me/34642280182" target="blank">
                     <div class="messengers_whatsapp-shadow"></div>
                     <div class="messengers_icon">
                         <img src="./icons/whatsapp.svg" alt="whatsapp" />
@@ -1084,7 +1181,7 @@ const lang = {
                     </div>
                 </a>
                 <img class="messengers_divider" src="./icons/messengers_divider.svg" alt="divider" />
-                <a class="messengers_item telegram" id="messengers_item_telegram">
+                <a class="messengers_item telegram" id="messengers_item_telegram" href="https://t.me/puzzledesire" target="blank">
                     <div class="messengers_telegram-shadow"></div>
                     <div class="messengers_icon">
                         <img src="./icons/telegram.svg" alt="telegram" />
@@ -1095,10 +1192,10 @@ const lang = {
                 </a>
             </div>
         `,
-        footer_menu_link_about: 'Про нас',
         footer_menu_link_services: 'Послуги',
         footer_menu_link_work: 'Наш процес',
         footer_menu_link_contacts: 'Контакти',
+        footer_menu_link_price: "Ціна",
         footer_text_follow: 'Слідкуйте за нами в соціальних мережах',
         footer_text_copyright: '© Puzzledesire, 2024. Усі права захищені.',
         footer_menu_document_cookies: 'Налаштування файлів cookie',
@@ -1228,5 +1325,5 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
-    updateTextContent('ru');
+    updateTextContent('uk');
 });

@@ -1,8 +1,34 @@
 const FORM_URL = 'https://hooks.zapier.com/hooks/catch/19819704/26o1mfm/';
 
+// Initialize the intl-tel-input
+const phoneInputField = document.querySelector('#phone');
+const phoneInput = window.intlTelInput(phoneInputField, {
+    initialCountry: 'auto', // Detect the country automatically
+    geoIpLookup: function (callback) {
+        fetch('https://ipinfo.io/json')
+            .then((response) => response.json())
+            .then((data) => callback(data.country))
+            .catch(() => callback('us')); // Default to US if country can't be detected
+    },
+
+    utilsScript:
+        'https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js', // Enable formatting and validation
+});
+phoneInputField.addEventListener('countrychange', () => {
+    const phoneNumber = phoneInput.getSelectedCountryData().dialCode;
+    phoneInputField.value = `+${phoneNumber}`;
+    phoneInputField.setAttribute('placeholder', `+${phoneNumber}`);
+});
+
+phoneInputField.addEventListener('input', () => {
+    const dialCode = `+${phoneInput.getSelectedCountryData().dialCode}`;
+    if (!phoneInputField.value.startsWith(dialCode)) {
+        phoneInputField.value = `${dialCode}`;
+    }
+});
+
 function validateForm() {
     const name = document.getElementById('name').value;
-    const phone = document.getElementById('phone').value;
     let valid = true;
 
     document.getElementById('nameError').style.display = 'none';
@@ -30,13 +56,12 @@ function validateForm() {
         valid = false;
     }
 
-    // const phoneRegex = /^(\(\d{3}\)|\d{3})[- ]?\d{3}[- ]?\d{4}$/;
-    // if (!phoneRegex.test(phone)) {
-    //     document.getElementById('phoneError').textContent =
-    //         'Please enter a valid phone number (e.g., 123-456-7890 or (123) 456-7890).';
-    //     document.getElementById('phoneError').style.display = 'block';
-    //     valid = false;
-    // }
+    if (!phoneInput.isValidNumber()) {
+        document.getElementById('phoneError').textContent =
+            'Invalid phone number.';
+        document.getElementById('phoneError').style.display = 'block';
+        valid = false;
+    }
 
     return valid;
 }
@@ -48,8 +73,9 @@ function resetForm() {
     document.getElementById('message').value = '';
 }
 
-document.getElementById("contactForm")
-    .addEventListener("submit", async function (event) {
+document
+    .getElementById('contactForm')
+    .addEventListener('submit', async function (event) {
         event.preventDefault();
         const formData = new FormData(this);
         const jsonData = JSON.stringify(Object.fromEntries(formData.entries()));
@@ -58,14 +84,17 @@ document.getElementById("contactForm")
             document.querySelector('.form-success').style.display = 'block';
             resetForm();
             this.style.display = 'none';
-            await fetch('https://script.google.com/macros/s/AKfycbyCB3vgF30SKiTmOcSN7aTSweuhb514UaLiuH2hZwo1dw_YVvmg1sielNLjxH_IYxlQ/exec', {
-                mode: 'no-cors',
-                redirect: "follow",
-                headers: {
-                    "Content-Type": "text/plain;charset=utf-8",
-                },
-                method: 'POST',
-                body: jsonData
-            })
+            await fetch(
+                'https://script.google.com/macros/s/AKfycbyCB3vgF30SKiTmOcSN7aTSweuhb514UaLiuH2hZwo1dw_YVvmg1sielNLjxH_IYxlQ/exec',
+                {
+                    mode: 'no-cors',
+                    redirect: 'follow',
+                    headers: {
+                        'Content-Type': 'text/plain;charset=utf-8',
+                    },
+                    method: 'POST',
+                    body: jsonData,
+                }
+            );
         }
     });

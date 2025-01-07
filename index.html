@@ -25,6 +25,9 @@
         <link
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+            <link
+            href="https://fonts.cdnfonts.com/css/liberation-sans"
+            rel="stylesheet" />
         <link rel="stylesheet" href="./css/style.min.css" />
         <link rel="stylesheet" href="./css/lang.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
@@ -35,7 +38,7 @@
         <nav class="nav">
             <div class="container">
                 <div class="nav_subwrapper">
-                    <img class="nav_logo" src="./icons/logo.svg" alt="logo" />
+                    <img class="nav_logo" onclick="moveTo('/')" src="./icons/logo.svg" alt="logo" />
                     <nav class="nav_menu">
                         <a
                             href="#services"
@@ -75,12 +78,12 @@
                                 <div class="nav_language_pick" data-lang="es">
                                     Spanish
                                 </div>
-                                <div class="nav_language_pick" data-lang="uk">
+                                <div class="nav_language_pick" data-lang="ua">
                                     Ukrainian
                                 </div>
-                                <div class="nav_language_pick" data-lang="ru">
+                                <!-- <div class="nav_language_pick" data-lang="ru">
                                     Russian
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="hamburger">
@@ -1830,7 +1833,7 @@
                         </div>
 
                         <a
-                            href="#"
+                            href="#contacts-mobile"
                             class="plans_btn"
                             id="plans_btn_puzzle_ua"
                             >Get Started</a
@@ -1974,7 +1977,7 @@
                             >
                         </div>
                         <a
-                            href="#"
+                            href="#contacts-mobile"
                             class="plans_btn"
                             id="plans_btn_puzzle_start"
                             >Get Started</a
@@ -2144,7 +2147,7 @@
                                 >
                             </div>
                             <a
-                                href="#"
+                                href="#contacts-mobile"
                                 class="plans_btn plans_btn-plus"
                                 id="plans_btn_puzzle_plus"
                                 >Get Started</a
@@ -2332,7 +2335,7 @@
                                 >+ VAT</span
                             >
                         </div>
-                        <a href="#" class="plans_btn" id="plans_btn_puzzle_pro"
+                        <a href="#contacts-mobile" class="plans_btn" id="plans_btn_puzzle_pro"
                             >Get Started</a
                         >
                         <div class="plans_divider"></div>
@@ -2862,6 +2865,7 @@
                     <div class="footer_nav">
                         <img
                             class="footer_logo"
+                            onclick="moveTo('/')"
                             src="./icons/logo_footer.svg"
                             alt="logo" />
                         <div class="footer_menu">
@@ -2888,7 +2892,7 @@
                             >
                         </div>
                     </div>
-                    <div class="footer_social-media">
+                    <!-- <div class="footer_social-media">
                         <div class="footer_text" id="footer_text_follow">
                             Follow on social media
                         </div>
@@ -2918,28 +2922,23 @@
                                     class="footer_icon" />
                             </a>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="footer_divider"></div>
                 <div class="footer_bottom">
                     <div class="footer_text" id="footer_text_copyright">
-                        © Puzzledesire, 2024. All right reserved.
+                        &copy; Puzzledesire, 2024-2025. All right reserved.
                     </div>
                     <div class="footer_documents">
+                        
                         <a
-                            href="#"
-                            class="footer_menu-document"
-                            id="footer_menu_document_cookies"
-                            >Cookies Settings</a
-                        >
-                        <a
-                            href="#"
+                            href="/privacy"
                             class="footer_menu-document"
                             id="footer_menu_document_privacy"
                             >Privacy Policy</a
                         >
                         <a
-                            href="#"
+                            href="/terms-of-service"
                             class="footer_menu-document"
                             id="footer_menu_document_terms"
                             >Terms of Service</a
@@ -2956,8 +2955,26 @@
             </svg>
         </button>
 
+        <div id="cookieNotice" style="display: none;">
+            <div class="cookie">
+                <div class="cookie_wrapper">
+                        <p>We use cookies to provide you with the most up-to-date information.
+                            By continuing to use the site, you agree to the use of cookies<a href="/privacy">Privacy Policy</a></p>
+                            
+                        <div class="cookie-flex">
+                            <button class="cookie-decline" onclick="rejectCookieConsent();">Decline</button>       
+                            <button class="cookie-accept" onclick="acceptCookieConsent();">Accept</button>       
+                        </div>
+                            
+                </div>
+            </div>
+        </div>
+
+        <script src="./cookie.js"></script>
         <script src="./lang.js"></script>
+        <script src="./switch-lang.js"></script>
         <script src="./script.js"></script>
+        <script src="./scroll.js"></script>
         <script src="./validation.js"></script>
 
         <script type="module" src="./swiper.js"></script>

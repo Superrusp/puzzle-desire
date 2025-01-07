@@ -69,13 +69,13 @@ const lang = {
         plans_subtitle_puzzle_ua2:
             'Optional installments with a first payment of <span class="plans_info-bold">200€ + VAT</span> and <span class="plans_info-bold">50€ + VAT</span> per month for half a year',
         plans_price_puzzle_ua: "500€ <span class='plans_vat'>+ VAT</span>",
-        plans_price_puzzle_ua_mobile: "500€ <span class='plans_vat'>+ VAT</span>",
+        plans_price_puzzle_ua_mobile:
+            "500€ <span class='plans_vat'>+ VAT</span>",
         plans_btn_puzzle_ua: 'Get Started',
         plans_text_1_puzzle_ua:
             'Full-fledged one-page landing (a page that scrolls from top to bottom, equivalent to 2 screens)',
         plans_text_2_puzzle_ua: 'Maximum number of layers (depth) - 2',
-        plans_text_3_puzzle_ua:
-            'Original design (choose from three options)',
+        plans_text_3_puzzle_ua: 'Original design (choose from three options)',
         plans_text_4_puzzle_ua:
             'Standard content and texts in two languages (of your choice)',
         plans_text_5_puzzle_ua:
@@ -86,12 +86,13 @@ const lang = {
             'Making changes to the approved Technical Assignment (TA) up to 10 changes',
         plans_text_8_puzzle_ua:
             'Making up to 10 changes within a month after the site launch',
-        plans_limited_text_puzzle_ua: 'Limited',
+        plans_limited_text_puzzle_ua: 'Limited edition',
         plans_title_puzzle_start: 'Puzzle-Start',
         plans_subtitle_puzzle_start:
             'A quick way to get a fully functional website to kickstart your business.',
         plans_price_puzzle_start: "1000€ <span class='plans_vat'>+ VAT</span>",
-        plans_price_puzzle_start_mobile: "1000€ <span class='plans_vat'>+ VAT</span>",
+        plans_price_puzzle_start_mobile:
+            "1000€ <span class='plans_vat'>+ VAT</span>",
         plans_btn_puzzle_start: 'Get Started',
         plans_text_1_puzzle_start:
             'Full-fledged one-page landing (a page that scrolls from top to bottom, equivalent to 2 screens)',
@@ -113,7 +114,8 @@ const lang = {
         plans_subtitle_puzzle_plus:
             'Additional advantages and functionality for your website - a significant plus for your business.',
         plans_price_puzzle_plus: "3000€ <span class='plans_vat'>+ VAT</span>",
-        plans_price_puzzle_plus_mobile: "3000€ <span class='plans_vat'>+ VAT</span>",
+        plans_price_puzzle_plus_mobile:
+            "3000€ <span class='plans_vat'>+ VAT</span>",
         plans_btn_puzzle_plus: 'Get Started',
         plans_point_1_puzzle_plus:
             'Full-fledged one-page landing (a page that scrolls from top to bottom, equivalent to up to 4 screens)',
@@ -138,7 +140,8 @@ const lang = {
         plans_subtitle_puzzle_pro:
             'Advanced custom solutions and website functionality - the path to business growth.',
         plans_price_puzzle_pro: "5000€ <span class='plans_vat'>+ VAT</span>",
-        plans_price_puzzle_pro_mobile: "5000€ <span class='plans_vat'>+ VAT</span>",
+        plans_price_puzzle_pro_mobile:
+            "5000€ <span class='plans_vat'>+ VAT</span>",
         plans_btn_puzzle_pro: 'Get Started',
         plans_text_1_puzzle_pro:
             'Full-fledged website with your approved structure (landing or classic)',
@@ -238,7 +241,8 @@ const lang = {
         footer_menu_link_contacts: 'Contacts',
         footer_menu_link_price: 'Price',
         footer_text_follow: 'Follow on social media',
-        footer_text_copyright: '© Puzzledesire, 2024. All right reserved.',
+        footer_text_copyright:
+            '&copy; Puzzledesire, 2024-2025. All right reserved.',
         footer_menu_document_cookies: 'Cookies Settings',
         footer_menu_document_privacy: 'Privacy Policy',
         footer_menu_document_terms: 'Terms of Service',
@@ -305,15 +309,242 @@ const lang = {
             'A high-converting landing page designed to showcase the expertise and services of an arbitrage team. Sleek visuals, clear call-to-action elements, and optimized lead generation forms to attract and engage potential clients.',
         school_desk:
             'A modern, engaging landing page for Nova School, designed to attract students with clear navigation and dynamic visuals.',
-        view_figma1: 'View Figma',
-        view_figma2: 'View Figma',
-        view_figma3: 'View Figma',
-        view_figma4: 'View Figma',
-        view_figma5: 'View Figma',
-        view_figma6: 'View Figma',
-        view_figma7: 'View Figma',
-        view_figma8: 'View Figma',
-        view_figma9: 'View Figma',
+        privacy_date: 'Effective Date: 12/30/2024',
+        privacy_title: 'Welcome to PuzzleDesire!',
+        privacy_subtitle: `Your privacy is important to us. This Privacy Policy explains how we collect, use, and protect your personal data when you use our website, <span>www.puzzledesire.com</span>, in compliance with the General Data Protection Regulation (GDPR).`,
+        'privacy-who-we-are-title': '1. Who We Are',
+        'privacy-who-we-are-subtitle': `PuzzleDesire operates the website <span>www.puzzledesire.com</span> and is committed to protecting your personal data. 
+                                    If you have any questions or concerns about this policy, you can contact us at <span>puzzledesirees@gmail.com</span>.`,
+        'privacy-data-collection-title': '2. Personal Data We Collect',
+        'privacy-data-collection-subtitle':
+            'We collect the following categories of personal data:',
+        'privacy-data-contact':
+            '<span>Contact Information:</span> Your name, email address, phone number, and shipping address.',
+        'privacy-data-account':
+            '<span>Account Data:</span> Username, password, and other registration details.',
+        'privacy-data-transaction':
+            '<span>Transaction Data:</span> Payment information, order history, and billing details.',
+        'privacy-data-technical':
+            '<span>Technical Data:</span> IP address, browser type, and device information (via cookies and analytics tools).',
+        'privacy-data-communication':
+            '<span>Communication Data:</span> Messages or feedback you send to us via forms or email.',
+        'privacy-sensitive-data':
+            'We do not collect sensitive personal data unless explicitly required and consented to.',
+        'privacy-why-collect-title': '3. Why We Collect Your Data',
+        'privacy-why-collect-subtitle':
+            'We collect the following categories of personal data:',
+        'privacy-purpose-orders': 'To process and fulfill your orders.',
+        'privacy-purpose-support':
+            'To provide customer support and respond to your inquiries.',
+        'privacy-purpose-updates':
+            'To send updates about our products, promotions, or policies (only with your explicit consent).',
+        'privacy-purpose-analytics':
+            'To improve our website and services through analytics.',
+        'privacy-purpose-legal':
+            'To comply with legal obligations and resolve disputes.',
+        'privacy-sensitive-data-reason':
+            'We do not collect sensitive personal data unless explicitly required and consented to.',
+        'privacy-legal-basis-title': '4. Legal Basis for Processing',
+        'privacy-legal-basis-subtitle':
+            'We process your data under the following legal bases:',
+        'privacy-legal-basis-contract':
+            '<span>Performance of a Contract:</span> To fulfill orders and provide services.',
+        'privacy-legal-basis-consent':
+            '<span>Consent:</span> For marketing communications and analytics (when applicable).',
+        'privacy-legal-basis-legitimate':
+            '<span>Legitimate Interests:</span> To enhance our website and services.',
+        'privacy-legal-basis-legal':
+            '<span>Legal Compliance:</span> To meet regulatory requirements.',
+        'privacy-data-sharing-title': '5. Data Sharing and Transfers',
+        'privacy-data-sharing-subtitle':
+            'Your personal data may be shared with:',
+        'privacy-data-sharing-service':
+            '<span>Service Providers:</span> Payment processors, delivery services, and IT support.',
+        'privacy-data-sharing-legal':
+            '<span>Legal Authorities:</span> If required to comply with laws or regulations.',
+        'privacy-data-sharing-partners':
+            '<span>Business Partners:</span> Only with your explicit consent for marketing or collaboration purposes.',
+        'privacy-data-sharing-note':
+            'We do not sell your personal data to third parties. If data is transferred outside the EU/EEA, we ensure compliance with GDPR through appropriate safeguards, such as Standard Contractual Clauses.',
+        'privacy-data-retention-title': '6. Retention of Your Data',
+        'privacy-data-retention-subtitle':
+            'We store your personal data only as long as necessary for the purposes stated in this policy or as required by law. For example:',
+        'privacy-data-retention-transaction':
+            '<span>Transactional data</span> is retained for 7 years for tax purposes.',
+        'privacy-data-retention-marketing':
+            '<span>Marketing data</span> is retained until you withdraw consent.',
+        'privacy-data-retention-expiry':
+            'Once the retention period expires, your data is securely deleted or anonymized.',
+        'privacy-gdpr-rights-title': '7. Your Rights Under GDPR',
+        'privacy-gdpr-rights-subtitle': 'You have the following rights:',
+        'privacy-rights-access':
+            '<span>Access:</span> Request a copy of your personal data.',
+        'privacy-rights-rectification':
+            '<span>Rectification:</span> Correct inaccurate or incomplete data.',
+        'privacy-rights-erasure':
+            '<span>Erasure:</span> Request deletion of your data (‘right to be forgotten’).',
+        'privacy-rights-restriction':
+            '<span>Restriction:</span> Limit the processing of your data.',
+        'privacy-rights-portability':
+            '<span>Portability:</span> Receive your data in a portable format.',
+        'privacy-rights-objection':
+            '<span>Objection:</span> Object to data processing based on legitimate interests or direct marketing.',
+        'privacy-rights-withdraw':
+            '<span>Withdraw Consent:</span> Revoke your consent at any time for specific processing activities.',
+        'privacy-gdpr-rights-note':
+            'To exercise these rights, please contact us at <span>puzzledesirees@gmail.com.</span>',
+        'privacy-gdpr-rights-response':
+            'We will respond within one month of receiving your request.',
+        'privacy-cookies-title': '8. Cookies and Tracking',
+        'privacy-cookies-subtitle': 'Our website uses cookies to:',
+        'privacy-cookies-li-1': 'Enhance your browsing experience.',
+        'privacy-cookies-li-2':
+            'Collect technical data for website performance analysis.',
+        'privacy-cookies-li-3':
+            'Enable specific website functionalities (e.g., remembering your login).',
+        'privacy-cookies-note':
+            'For more information, please see our Cookie Policy. You can manage cookie preferences through your browser settings.',
+
+        'privacy-security-title': '9. Security of Your Data',
+        'privacy-security-subtitle':
+            'We implement robust technical and organizational measures to protect your personal data from unauthorized access, loss, or misuse. Despite our efforts, no online system is completely secure, and we encourage you to take precautions, such as using strong passwords.',
+
+        'privacy-updates-title': '10. Updates to This Privacy Policy',
+        'privacy-updates-subtitle':
+            'We may update this Privacy Policy from time to time to reflect changes in our practices or legal requirements. The latest version will always be available at <span>www.puzzledesire.com/privacy-policy.</span>',
+
+        'privacy-contact-title': 'Contact Us',
+        'privacy-contact-subtitle':
+            'If you have questions, concerns, or complaints about this Privacy Policy or how your data is handled, please contact us at: <span>puzzledesirees@gmail.com</span>',
+
+        'privacy-footer-text-1':
+            'We are committed to resolving your concerns and ensuring the protection of your data.',
+        'privacy-footer-text-2':
+            'By using our website, you acknowledge that you have read and understood this Privacy Policy.',
+        'privacy-footer-text-3': 'Thank you for trusting PuzzleDesire!',
+        terms_date: 'Effective Date: 12/30/2024',
+        terms_title: 'PUBLIC SERVICE AGREEMENT (OFFER)',
+        terms_subtitle: `This Public Service Agreement (hereinafter referred to as the "Agreement") constitutes a legally binding offer
+made by PuzzleDesire, located at <span>www.puzzledesire.com</span> (hereinafter referred to as the "Service Provider"), to provide web design and development services to users
+(hereinafter referred to as the "Customer"). By accepting this Agreement, the Customer agrees to the terms outlined below.`,
+        definitions_title: '1. Definitions',
+        definition_service_provider:
+            '1.1. Service Provider: The company offering services through the website <span>www.puzzledesire.com.</span>',
+        definition_customer:
+            '1.2. Customer: Any individual or entity that accepts the terms of this Agreement by placing an order for services.',
+        definition_services:
+            '1.3. Services: Web design, development, and related digital solutions provided by the Service Provider.',
+        definition_agreement:
+            '1.4. Agreement: This public offer, including any annexes, updates, or amendments.',
+        definition_acceptance:
+            '1.5. Acceptance: Full and unconditional consent to the terms of this Agreement through the placement of an order or payment for services.',
+        subject_title: '2. Subject of the Agreement',
+        subject_services:
+            '2.1. The Service Provider agrees to provide web design and development services, as detailed on <span>www.puzzledesire.com</span>, and the Customer agrees to pay for these services.',
+        subject_details:
+            '2.2. The specific scope of services, deadlines, and costs will be outlined in a separate invoice or project proposal sent to the Customer upon order confirmation.',
+        acceptance_title: '3. Acceptance of the Offer',
+        acceptance_actions:
+            '3.1. The Customer accepts this Agreement by performing one of the following actions:',
+        acceptance_order: 'Placing an order on the website.',
+        acceptance_payment: 'Making full or partial payment for the services.',
+        acceptance_email:
+            'Sending written confirmation of acceptance via email.',
+        acceptance_acknowledgment:
+            '3.2. By accepting this Agreement, the Customer acknowledges that they have read, understood, and agree to the terms herein.',
+        services_title: '4. Services Provided',
+        services_offered:
+            '4.1. The Service Provider offers the following services:',
+        services_web_design: 'Custom web design and development.',
+        services_ui_ux: 'UI/UX design.',
+        services_maintenance: 'Website maintenance and updates.',
+        services_branding: 'Digital branding and consulting.',
+        services_details:
+            '4.2. The exact deliverables, timelines, and revisions will be agreed upon in the project proposal and contract annex.',
+        rights_obligations_title: '5. Rights and Obligations',
+        rights_provider_title: "5.1. Service Provider's Rights:",
+        rights_provider_refuse:
+            'Refuse service in cases of inappropriate conduct or failure to provide necessary materials by the Customer.',
+        rights_provider_suspend:
+            'Suspend or terminate services if the Customer violates this Agreement.',
+        rights_provider_publish:
+            'Publish anonymized case studies or portfolio items showcasing the completed work unless explicitly prohibited by the Customer.',
+        obligations_provider_title: "5.2. Service Provider's Obligations:",
+        obligations_provider_deliver:
+            'Deliver services in accordance with the agreed scope, quality, and timeline.',
+        obligations_provider_confidentiality:
+            "Ensure the confidentiality of the Customer's data and information.",
+        obligations_provider_updates:
+            'Provide regular updates on project progress.',
+        rights_customer_title: "5.3. Customer's Rights:",
+        rights_customer_updates:
+            'Request updates on the status of the project.',
+        rights_customer_receive:
+            'Receive services in accordance with the agreed terms and specifications.',
+        obligations_customer_title: "5.4. Customer's Obligations:",
+        obligations_customer_provide:
+            'Provide all necessary materials, information, and feedback required to complete the project.',
+        obligations_customer_payment:
+            'Make timely payments as agreed in the project proposal or invoice.',
+        obligations_customer_respect:
+            'Respect the intellectual property rights of the Service Provider.',
+        payment_terms_title: '6. Payment Terms',
+        payment_cost:
+            '6.1. The cost of services will be outlined in the project proposal or invoice.',
+        payment_currency:
+            '6.2. Payment must be made in Euros (EUR) via the payment methods specified on the website or invoice.',
+        payment_deposit:
+            '6.3. The Service Provider may request an upfront deposit of 50% before commencing work.',
+        payment_delay:
+            '6.4. Delayed payments may result in a suspension of services until the balance is cleared.',
+        revisions_modifications_title: '7. Revisions and Modifications',
+        revisions_free:
+            '7.1. The Service Provider will provide [the quantity is determined according to the terms of the selected service package] revisions free of charge within the agreed project scope.',
+        revisions_additional:
+            '7.2. Additional revisions or changes beyond the agreed scope will be charged at an hourly rate of 25 EUR/hour. + TAX IVA 21%',
+        confidentiality_title: '8. Confidentiality',
+        confidentiality_agreement:
+            '8.1. Both parties agree to maintain the confidentiality of any proprietary or sensitive information shared during the project.',
+        confidentiality_portfolio:
+            '8.2. The Service Provider reserves the right to include anonymized project details in its portfolio unless explicitly prohibited by the Customer.',
+        intellectual_property_title: '9. Intellectual Property',
+        intellectual_property_ownership:
+            '9.1. Upon full payment, the Customer will own the final deliverables, including design files and source code.',
+        intellectual_property_reuse:
+            '9.2. The Service Provider retains the right to reuse generic templates, frameworks, or libraries used in the project.',
+        termination_title: '10. Termination',
+        termination_notice:
+            "10.1. Either party may terminate the Agreement with 14 days' written notice.",
+        termination_payment:
+            '10.2. In the event of termination, the Customer is responsible for payment of all work completed up to the termination date.',
+        liability_title: '11. Liability',
+        liability_limitation: '11.1. The Service Provider is not liable for:',
+        liability_customer_delay:
+            "Delays caused by the Customer's failure to provide required materials or approvals.",
+        liability_third_party:
+            'Issues arising from third-party integrations or hosting providers.',
+        liability_project_amount:
+            "11.2. The Service Provider's liability is limited to the amount paid by the Customer for the specific project.",
+        dispute_resolution_title: '12. Dispute Resolution',
+        dispute_negotiation:
+            '12.1. Any disputes arising under this Agreement will be resolved amicably through negotiation.',
+        dispute_court:
+            '12.2. If a resolution cannot be reached, disputes will be settled in the courts of Spain, in accordance with applicable EU law.',
+        final_provisions_title: '13. Final Provisions',
+        final_provisions_validity:
+            '13.1. This Agreement is a public offer and remains valid until amended or revoked by the Service Provider.',
+        final_provisions_update:
+            '13.2. The Service Provider reserves the right to update this Agreement at any time. The latest version will be published on <span>www.puzzledesire.com.</span>',
+        contact_info_title: 'Contact Information',
+        contact_info_inquiries:
+            'For inquiries or questions related to this Agreement, please contact:',
+        contact_info_email: 'Email: <span>puzzledesirees@gmail.com</span>',
+        acceptance_acknowledgement:
+            'By accepting this Agreement, you acknowledge that you have read, understood, and agree to be bound by its terms.',
+        thank_you_message:
+            'Thank you for choosing PuzzleDesire for your web design and development needs!!',
+        return_home_button: 'Return to Homepage',
+        accept_terms_button: 'Accept the terms and conditions',
     },
     ru: {
         'nav_btn_messangers-mobile': 'Cвязаться с нами',
@@ -385,12 +616,12 @@ const lang = {
         plans_subtitle_puzzle_ua2:
             'Рассрочка по желанию с первым взносом <span class="plans_info-bold">200€ + НДС</span> и <span class="plans_info-bold">50 € + НДС</span> в месяц в течение полугода',
         plans_price_puzzle_ua: "500€ <span class='plans_vat'>+ НДС</span>",
-        plans_price_puzzle_ua_mobile: "500€ <span class='plans_vat'>+ НДС</span>",
+        plans_price_puzzle_ua_mobile:
+            "500€ <span class='plans_vat'>+ НДС</span>",
         plans_btn_puzzle_ua: 'Начать',
         plans_text_1_puzzle_ua:
             'Полноценный одностраничный лендинг (страница, прокручивающаяся сверху вниз, эквивалентная 2 экранам)',
-        plans_text_2_puzzle_ua:
-            'Максимальное количество уровней (глубина) - 2',
+        plans_text_2_puzzle_ua: 'Максимальное количество уровней (глубина) - 2',
         plans_text_3_puzzle_ua:
             'Оригинальный дизайн (выберите из трех вариантов)',
         plans_text_4_puzzle_ua:
@@ -408,7 +639,8 @@ const lang = {
         plans_subtitle_puzzle_start:
             'Быстрый способ получить полностью функциональный веб-сайт для старта вашего бизнеса.',
         plans_price_puzzle_start: "1000€ <span class='plans_vat'>+ НДС</span>",
-        plans_price_puzzle_start_mobile: "1000€ <span class='plans_vat'>+ НДС</span>",
+        plans_price_puzzle_start_mobile:
+            "1000€ <span class='plans_vat'>+ НДС</span>",
         plans_btn_puzzle_start: 'Начать',
         plans_text_1_puzzle_start:
             'Полноценный одностраничный лендинг (страница, прокручивающаяся сверху вниз, эквивалентная 2 экранам)',
@@ -431,7 +663,8 @@ const lang = {
         plans_subtitle_puzzle_plus:
             'Дополнительные преимущества и функциональность для вашего веб-сайта - значительное улучшение для вашего бизнеса.',
         plans_price_puzzle_plus: "3000€ <span class='plans_vat'>+ НДС</span>",
-        plans_price_puzzle_plus_mobile: "3000€ <span class='plans_vat'>+ НДС</span>",
+        plans_price_puzzle_plus_mobile:
+            "3000€ <span class='plans_vat'>+ НДС</span>",
         plans_btn_puzzle_plus: 'Начать',
         plans_point_1_puzzle_plus:
             'Полноценный одностраничный лендинг (страница, прокручивающаяся сверху вниз, эквивалентная до 4 экранов)',
@@ -457,7 +690,8 @@ const lang = {
         plans_subtitle_puzzle_pro:
             'Продвинутые индивидуальные решения и функциональность веб-сайта - путь к росту бизнеса.',
         plans_price_puzzle_pro: "5000€ <span class='plans_vat'>+ НДС</span>",
-        plans_price_puzzle_pro_mobile: "5000€ <span class='plans_vat'>+ НДС</span>",
+        plans_price_puzzle_pro_mobile:
+            "5000€ <span class='plans_vat'>+ НДС</span>",
         plans_btn_puzzle_pro: 'Начать',
         plans_text_1_puzzle_pro:
             'Полноценный веб-сайт с вашей утвержденной структурой (лендинг или классический)',
@@ -557,9 +791,10 @@ const lang = {
         footer_menu_link_services: 'Услуги',
         footer_menu_link_work: 'Наш процесс',
         footer_menu_link_contacts: 'Контакты',
-        footer_menu_link_price: "Цена",
+        footer_menu_link_price: 'Цена',
         footer_text_follow: 'Следите за нами в социальных сетях',
-        footer_text_copyright: '© Puzzledesire, 2024. Все права защищены.',
+        footer_text_copyright:
+            '&copy; Puzzledesire, 2024-2025. Все права защищены.',
         footer_menu_document_cookies: 'Настройки файлов cookie',
         footer_menu_document_privacy: 'Политика конфиденциальности',
         footer_menu_document_terms: 'Условия обслуживания',
@@ -707,13 +942,13 @@ const lang = {
         plans_subtitle_puzzle_ua2:
             'Fraccionamiento opcional con un primer pago de <span class="plans_info-bold">200 euros + IVA</span> y <span class="plans_info-bold">50 euros + IVA</span> al mes durante medio año',
         plans_price_puzzle_ua: "500€ <span class='plans_vat'>+ IVA</span>",
-        plans_price_puzzle_ua_mobile: "500€ <span class='plans_vat'>+ IVA</span>",
+        plans_price_puzzle_ua_mobile:
+            "500€ <span class='plans_vat'>+ IVA</span>",
         plans_btn_puzzle_ua: 'Empezar',
         plans_text_1_puzzle_ua:
             'Landing page completa (una página que se desplaza de arriba a abajo, equivalente a 2 pantallas)',
         plans_text_2_puzzle_ua: 'Número máximo de capas (profundidad) - 2',
-        plans_text_3_puzzle_ua:
-            'Diseño original (elige entre tres opciones)',
+        plans_text_3_puzzle_ua: 'Diseño original (elige entre tres opciones)',
         plans_text_4_puzzle_ua:
             'Contenido y textos estándar en dos idiomas (a tu elección)',
         plans_text_5_puzzle_ua:
@@ -724,12 +959,13 @@ const lang = {
             'Realización de cambios en el encargo técnico aprobado (TA) hasta 10 cambios',
         plans_text_8_puzzle_ua:
             'Realización de hasta 10 cambios dentro de un mes después del lanzamiento del sitio',
-        plans_limited_text_puzzle_ua: 'Limitado',
+        plans_limited_text_puzzle_ua: 'Edición limitada',
         plans_title_puzzle_start: 'Puzzle-Start',
         plans_subtitle_puzzle_start:
             'Una forma rápida de obtener un sitio web totalmente funcional para iniciar tu negocio.',
         plans_price_puzzle_start: "1000€ <span class='plans_vat'>+ IVA</span>",
-        plans_price_puzzle_start_mobile: "1000€ <span class='plans_vat'>+ IVA</span>",
+        plans_price_puzzle_start_mobile:
+            "1000€ <span class='plans_vat'>+ IVA</span>",
         plans_btn_puzzle_start: 'Empezar',
         plans_text_1_puzzle_start:
             'Landing page completa (una página que se desplaza de arriba a abajo, equivalente a 2 pantallas)',
@@ -751,7 +987,8 @@ const lang = {
         plans_subtitle_puzzle_plus:
             'Ventajas adicionales y funcionalidad para tu sitio web - un plus significativo para tu negocio.',
         plans_price_puzzle_plus: "3000€ <span class='plans_vat'>+ IVA</span>",
-        plans_price_puzzle_plus_mobile: "3000€ <span class='plans_vat'>+ IVA</span>",
+        plans_price_puzzle_plus_mobile:
+            "3000€ <span class='plans_vat'>+ IVA</span>",
         plans_btn_puzzle_plus: 'Empezar',
         plans_point_1_puzzle_plus:
             'Landing page completa (una página que se desplaza de arriba a abajo, equivalente a hasta 4 pantallas)',
@@ -776,7 +1013,8 @@ const lang = {
         plans_subtitle_puzzle_pro:
             'Soluciones personalizadas avanzadas y funcionalidad del sitio web - el camino hacia el crecimiento empresarial.',
         plans_price_puzzle_pro: "5000€ <span class='plans_vat'>+ IVA</span>",
-        plans_price_puzzle_pro_mobile: "5000€ <span class='plans_vat'>+ IVA</span>",
+        plans_price_puzzle_pro_mobile:
+            "5000€ <span class='plans_vat'>+ IVA</span>",
         plans_btn_puzzle_pro: 'Empezar',
         plans_text_1_puzzle_pro:
             'Sitio web completo con tu estructura aprobada (landing o clásico)',
@@ -876,10 +1114,10 @@ const lang = {
         footer_menu_link_services: 'Servicios',
         footer_menu_link_work: 'Nuestro proceso',
         footer_menu_link_contacts: 'Contactos',
-        footer_menu_link_price: "Precio",
+        footer_menu_link_price: 'Precio',
         footer_text_follow: 'Síguenos en las redes sociales',
         footer_text_copyright:
-            '© Puzzledesire, 2024. Todos los derechos reservados.',
+            '&copy; Puzzledesire, 2024-2025. Todos los derechos reservados.',
         footer_menu_document_cookies: 'Configuración de cookies',
         footer_menu_document_privacy: 'Política de privacidad',
         footer_menu_document_terms: 'Términos de servicio',
@@ -946,17 +1184,250 @@ const lang = {
             'Una página de destino de alta conversión diseñada para mostrar la experiencia y los servicios de un equipo de arbitraje. Imágenes elegantes, elementos claros de llamado a la acción y formularios optimizados de generación de leads para atraer e involucrar a clientes potenciales.',
         school_desk:
             'Una página de inicio moderna y atractiva para Nova School, diseñada para atraer a los estudiantes con una navegación clara y elementos visuales dinámicos.',
-        view_figma1: 'Ver Figma',
-        view_figma2: 'Ver Figma',
-        view_figma3: 'Ver Figma',
-        view_figma4: 'Ver Figma',
-        view_figma5: 'Ver Figma',
-        view_figma6: 'Ver Figma',
-        view_figma7: 'Ver Figma',
-        view_figma8: 'Ver Figma',
-        view_figma9: 'Ver Figma',
+        privacy_date: 'Fecha de entrada en vigor: 30/12/2024',
+        privacy_title: '¡Bienvenido a PuzzleDesire!',
+        privacy_subtitle: `Tu privacidad es importante para nosotros. Esta Política de Privacidad explica cómo recopilamos, usamos y protegemos tus datos personales cuando utilizas nuestro sitio web, <span>www.puzzledesire.com</span>, en cumplimiento con el Reglamento General de Protección de Datos (GDPR).`,
+        'privacy-who-we-are-title': '1. Quiénes somos',
+        'privacy-who-we-are-subtitle': `PuzzleDesire opera el sitio web <span>www.puzzledesire.com</span> y se compromete a proteger tus datos personales. 
+                                    Si tienes alguna pregunta o inquietud sobre esta política, puedes contactarnos en <span>puzzledesirees@gmail.com</span>.`,
+        'privacy-data-collection-title': '2. Datos Personales que Recopilamos',
+        'privacy-data-collection-subtitle':
+            'Recopilamos las siguientes categorías de datos personales:',
+        'privacy-data-contact':
+            '<span>Información de Contacto:</span> Tu nombre, correo electrónico, número de teléfono y dirección de envío.',
+        'privacy-data-account':
+            '<span>Datos de la Cuenta:</span> Nombre de usuario, contraseña y otros detalles de registro.',
+        'privacy-data-transaction':
+            '<span>Datos de Transacciones:</span> Información de pago, historial de pedidos y detalles de facturación.',
+        'privacy-data-technical':
+            '<span>Datos Técnicos:</span> Dirección IP, tipo de navegador e información del dispositivo (a través de cookies y herramientas analíticas).',
+        'privacy-data-communication':
+            '<span>Datos de Comunicación:</span> Mensajes o comentarios que nos envíes a través de formularios o correo electrónico.',
+        'privacy-sensitive-data':
+            'No recopilamos datos personales sensibles a menos que sea estrictamente necesario y con tu consentimiento explícito.',
+        'privacy-why-collect-title': '3. Por qué Recopilamos tus Datos',
+        'privacy-why-collect-subtitle':
+            'Recopilamos las siguientes categorías de datos personales:',
+        'privacy-purpose-orders': 'Para procesar y completar tus pedidos.',
+        'privacy-purpose-support':
+            'Para brindar soporte al cliente y responder a tus consultas.',
+        'privacy-purpose-updates':
+            'Para enviarte actualizaciones sobre nuestros productos, promociones o políticas (solo con tu consentimiento explícito).',
+        'privacy-purpose-analytics':
+            'Para mejorar nuestro sitio web y servicios a través de análisis.',
+        'privacy-purpose-legal':
+            'Para cumplir con obligaciones legales y resolver disputas.',
+        'privacy-sensitive-data-reason':
+            'No recopilamos datos personales sensibles a menos que sea estrictamente necesario y con tu consentimiento explícito.',
+        'privacy-legal-basis-title': '4. Base Legal para el Tratamiento',
+        'privacy-legal-basis-subtitle':
+            'Tratamos sus datos bajo las siguientes bases legales:',
+        'privacy-legal-basis-contract':
+            '<span>Cumplimiento de un contrato:</span> Para cumplir pedidos y prestar servicios.',
+        'privacy-legal-basis-consent':
+            '<span>Consentimiento:</span> Para comunicaciones de marketing y análisis (cuando sea aplicable).',
+        'privacy-legal-basis-legitimate':
+            '<span>Intereses legítimos:</span> Para mejorar nuestro sitio web y servicios.',
+        'privacy-legal-basis-legal':
+            '<span>Cumplimiento legal:</span> Para cumplir con requisitos regulatorios.',
+        'privacy-data-sharing-title':
+            '5. Compartición y Transferencia de Datos',
+        'privacy-data-sharing-subtitle':
+            'Sus datos personales pueden ser compartidos con:',
+        'privacy-data-sharing-service':
+            '<span>Proveedores de servicios:</span> Procesadores de pagos, servicios de entrega e IT.',
+        'privacy-data-sharing-legal':
+            '<span>Autoridades legales:</span> Si es requerido para cumplir con leyes o regulaciones.',
+        'privacy-data-sharing-partners':
+            '<span>Socios comerciales:</span> Solo con su consentimiento explícito para fines de marketing o colaboración.',
+        'privacy-data-sharing-note':
+            'No vendemos sus datos personales a terceros. Si los datos se transfieren fuera de la UE/EEE, garantizamos el cumplimiento con el GDPR a través de salvaguardas apropiadas, como las Cláusulas Contractuales Estándar.',
+        'privacy-data-retention-title': '6. Retención de Sus Datos',
+        'privacy-data-retention-subtitle':
+            'Guardamos sus datos personales solo mientras sea necesario para los fines establecidos en esta política o según lo requiera la ley. Por ejemplo:',
+        'privacy-data-retention-transaction':
+            '<span>Los datos transaccionales</span> se retienen durante 7 años para fines fiscales.',
+        'privacy-data-retention-marketing':
+            '<span>Los datos de marketing</span> se retienen hasta que retire su consentimiento.',
+        'privacy-data-retention-expiry':
+            'Una vez que expire el período de retención, sus datos se eliminarán o anonimizarán de forma segura.',
+        'privacy-gdpr-rights-title': '7. Sus Derechos Bajo el GDPR',
+        'privacy-gdpr-rights-subtitle': 'Tiene los siguientes derechos:',
+        'privacy-rights-access':
+            '<span>Acceso:</span> Solicitar una copia de sus datos personales.',
+        'privacy-rights-rectification':
+            '<span>Rectificación:</span> Corregir datos inexactos o incompletos.',
+        'privacy-rights-erasure':
+            '<span>Eliminación:</span> Solicitar la eliminación de sus datos (‘derecho al olvido’).',
+        'privacy-rights-restriction':
+            '<span>Restricción:</span> Limitar el procesamiento de sus datos.',
+        'privacy-rights-portability':
+            '<span>Portabilidad:</span> Recibir sus datos en un formato portátil.',
+        'privacy-rights-objection':
+            '<span>Objeción:</span> Oponerse al procesamiento de datos basado en intereses legítimos o marketing directo.',
+        'privacy-rights-withdraw':
+            '<span>Retiro del consentimiento:</span> Revocar su consentimiento en cualquier momento para actividades de procesamiento específicas.',
+        'privacy-gdpr-rights-note':
+            'Para ejercer estos derechos, comuníquese con nosotros en puzzledesirees@gmail.com.',
+        'privacy-gdpr-rights-response':
+            'Responderemos dentro de un mes de recibir su solicitud.',
+        'privacy-cookies-title': '8. Cookies y Rastreo',
+        'privacy-cookies-subtitle': 'Nuestro sitio web utiliza cookies para:',
+        'privacy-cookies-li-1': 'Mejorar su experiencia de navegación.',
+        'privacy-cookies-li-2':
+            'Recopilar datos técnicos para análisis del rendimiento del sitio web.',
+        'privacy-cookies-li-3':
+            'Habilitar funcionalidades específicas del sitio web (por ejemplo, recordar su inicio de sesión).',
+        'privacy-cookies-note':
+            'Para obtener más información, consulte nuestra Política de Cookies. Puede gestionar las preferencias de las cookies a través de la configuración de su navegador.',
+
+        'privacy-security-title': '9. Seguridad de Sus Datos',
+        'privacy-security-subtitle':
+            'Implementamos medidas técnicas y organizativas sólidas para proteger sus datos personales contra el acceso no autorizado, la pérdida o el uso indebido. A pesar de nuestros esfuerzos, ningún sistema en línea es completamente seguro, y le animamos a tomar precauciones, como el uso de contraseñas fuertes.',
+
+        'privacy-updates-title':
+            '10. Actualizaciones de Esta Política de Privacidad',
+        'privacy-updates-subtitle':
+            'Podemos actualizar esta Política de Privacidad de vez en cuando para reflejar cambios en nuestras prácticas o requisitos legales. La versión más reciente estará siempre disponible en <span>www.puzzledesire.com/privacy-policy.</span>',
+
+        'privacy-contact-title': 'Contáctenos',
+        'privacy-contact-subtitle':
+            'Si tiene preguntas, inquietudes o quejas sobre esta Política de Privacidad o cómo se manejan sus datos, contáctenos en: <span>puzzledesirees@gmail.com</span>',
+
+        'privacy-footer-text-1':
+            'Estamos comprometidos a resolver sus preocupaciones y garantizar la protección de sus datos.',
+        'privacy-footer-text-2':
+            'Al utilizar nuestro sitio web, confirma que ha leído y entendido esta Política de Privacidad.',
+        'privacy-footer-text-3': '¡Gracias por confiar en PuzzleDesire!',
+        terms_date: 'Fecha de entrada en vigor: 30/12/2024',
+        terms_title: 'ACUERDO DE SERVICIO PÚBLICO',
+        terms_subtitle: `Este Acuerdo de Servicio Público (en adelante, el "Acuerdo") constituye una oferta legalmente vinculante
+realizada por PuzzleDesire, ubicado en <span>www.puzzledesire.com</span> (en adelante, el "Proveedor de servicios"), para proporcionar servicios de diseño y desarrollo web
+a los usuarios (en adelante, el "Cliente"). Al aceptar este Acuerdo, el Cliente acepta los términos descritos a continuación.`,
+        definitions_title: '1. Definiciones',
+        definition_service_provider:
+            '1.1. Proveedor de servicios: La empresa que ofrece servicios a través del sitio web <span>www.puzzledesire.com.</span>',
+        definition_customer:
+            '1.2. Cliente: Cualquier individuo o entidad que acepte los términos de este Acuerdo al realizar un pedido de servicios.',
+        definition_services:
+            '1.3. Servicios: Diseño web, desarrollo y soluciones digitales relacionadas proporcionadas por el Proveedor de servicios.',
+        definition_agreement:
+            '1.4. Acuerdo: Esta oferta pública, incluidos los anexos, actualizaciones o modificaciones.',
+        definition_acceptance:
+            '1.5. Aceptación: Consentimiento pleno e incondicional a los términos de este Acuerdo mediante la realización de un pedido o el pago de los servicios.',
+        subject_title: '2. Objeto del Acuerdo',
+        subject_services:
+            '2.1. El Proveedor de servicios acuerda proporcionar servicios de diseño y desarrollo web, como se detalla en <span>www.puzzledesire.com</span>, y el Cliente acepta pagar por estos servicios.',
+        subject_details:
+            '2.2. El alcance específico de los servicios, los plazos y los costos se detallarán en una factura o propuesta de proyecto separada enviada al Cliente tras la confirmación del pedido.',
+        acceptance_title: '3. Aceptación de la oferta',
+        acceptance_actions:
+            '3.1. El Cliente acepta este Acuerdo realizando una de las siguientes acciones:',
+        acceptance_order: 'Realizar un pedido en el sitio web.',
+        acceptance_payment:
+            'Realizar un pago total o parcial por los servicios.',
+        acceptance_email:
+            'Enviar una confirmación por escrito de la aceptación por correo electrónico.',
+        acceptance_acknowledgment:
+            '3.2. Al aceptar este Acuerdo, el Cliente reconoce que ha leído, entendido y aceptado los términos aquí establecidos.',
+        services_title: '4. Servicios Proporcionados',
+        services_offered:
+            '4.1. El Proveedor de servicios ofrece los siguientes servicios:',
+        services_web_design: 'Diseño y desarrollo web personalizado.',
+        services_ui_ux: 'Diseño UI/UX.',
+        services_maintenance: 'Mantenimiento y actualizaciones del sitio web.',
+        services_branding: 'Branding digital y consultoría.',
+        services_details:
+            '4.2. Los entregables exactos, los plazos y las revisiones se acordarán en la propuesta del proyecto y el anexo del contrato.',
+        rights_obligations_title: '5. Derechos y Obligaciones',
+        rights_provider_title: '5.1. Derechos del Proveedor de Servicios:',
+        rights_provider_refuse:
+            'Negarse a prestar el servicio en casos de conducta inapropiada o falta de materiales necesarios por parte del Cliente.',
+        rights_provider_suspend:
+            'Suspender o finalizar los servicios si el Cliente incumple este Acuerdo.',
+        rights_provider_publish:
+            'Publicar casos de estudio anonimizados o elementos de portafolio que muestren el trabajo realizado, a menos que el Cliente lo prohíba explícitamente.',
+        obligations_provider_title:
+            '5.2. Obligaciones del Proveedor de Servicios:',
+        obligations_provider_deliver:
+            'Entregar los servicios de acuerdo con el alcance, calidad y plazos acordados.',
+        obligations_provider_confidentiality:
+            'Garantizar la confidencialidad de los datos e información del Cliente.',
+        obligations_provider_updates:
+            'Proporcionar actualizaciones regulares sobre el progreso del proyecto.',
+        rights_customer_title: '5.3. Derechos del Cliente:',
+        rights_customer_updates:
+            'Solicitar actualizaciones sobre el estado del proyecto.',
+        rights_customer_receive:
+            'Recibir servicios de acuerdo con los términos y especificaciones acordados.',
+        obligations_customer_title: '5.4. Obligaciones del Cliente:',
+        obligations_customer_provide:
+            'Proporcionar todos los materiales, información y comentarios necesarios para completar el proyecto.',
+        obligations_customer_payment:
+            'Realizar los pagos a tiempo según lo acordado en la propuesta del proyecto o factura.',
+        obligations_customer_respect:
+            'Respetar los derechos de propiedad intelectual del Proveedor de Servicios.',
+        payment_terms_title: '6. Términos de Pago',
+        payment_cost:
+            '6.1. El costo de los servicios se detallará en la propuesta del proyecto o factura.',
+        payment_currency:
+            '6.2. El pago debe realizarse en euros (EUR) a través de los métodos especificados en el sitio web o factura.',
+        payment_deposit:
+            '6.3. El Proveedor de Servicios puede solicitar un anticipo del 50% antes de comenzar el trabajo.',
+        payment_delay:
+            '6.4. Los pagos atrasados pueden resultar en la suspensión de los servicios hasta que se liquide el saldo.',
+        revisions_modifications_title: '7. Revisiones y Modificaciones',
+        revisions_free:
+            '7.1. El Proveedor de Servicios ofrecerá [la cantidad se determina según los términos del paquete de servicios seleccionado] revisiones gratuitas dentro del alcance del proyecto acordado.',
+        revisions_additional:
+            '7.2. Las revisiones o cambios adicionales más allá del alcance acordado se cobrarán a una tarifa por hora de 25 EUR/hora. + IVA 21%',
+        confidentiality_title: '8. Confidencialidad',
+        confidentiality_agreement:
+            '8.1. Ambas partes acuerdan mantener la confidencialidad de cualquier información propietaria o sensible compartida durante el proyecto.',
+        confidentiality_portfolio:
+            '8.2. El Proveedor de Servicios se reserva el derecho de incluir detalles anónimos del proyecto en su portafolio, a menos que el Cliente lo prohíba explícitamente.',
+        intellectual_property_title: '9. Propiedad Intelectual',
+        intellectual_property_ownership:
+            '9.1. Tras el pago completo, el Cliente será propietario de los entregables finales, incluidos los archivos de diseño y el código fuente.',
+        intellectual_property_reuse:
+            '9.2. El Proveedor de Servicios retiene el derecho de reutilizar plantillas genéricas, frameworks o bibliotecas utilizadas en el proyecto.',
+        termination_title: '10. Terminación',
+        termination_notice:
+            '10.1. Cualquiera de las partes puede rescindir el Acuerdo con un aviso por escrito de 14 días.',
+        termination_payment:
+            '10.2. En caso de terminación, el Cliente es responsable del pago de todo el trabajo realizado hasta la fecha de terminación.',
+        liability_title: '11. Responsabilidad',
+        liability_limitation:
+            '11.1. El Proveedor de Servicios no es responsable de:',
+        liability_customer_delay:
+            'Retrasos causados por la falta del Cliente de proporcionar materiales o aprobaciones requeridos.',
+        liability_third_party:
+            'Problemas derivados de integraciones de terceros o proveedores de hosting.',
+        liability_project_amount:
+            '11.2. La responsabilidad del Proveedor de Servicios se limita al monto pagado por el Cliente para el proyecto específico.',
+        dispute_resolution_title: '12. Resolución de Disputas',
+        dispute_negotiation:
+            '12.1. Cualquier disputa que surja bajo este Acuerdo se resolverá amistosamente mediante negociación.',
+        dispute_court:
+            '12.2. Si no se llega a una resolución, las disputas se resolverán en los tribunales de España, de acuerdo con la legislación aplicable de la UE.',
+        final_provisions_title: '13. Disposiciones Finales',
+        final_provisions_validity:
+            '13.1. Este Acuerdo es una oferta pública y permanece válido hasta que sea modificado o revocado por el Proveedor de Servicios.',
+        final_provisions_update:
+            '13.2. El Proveedor de Servicios se reserva el derecho de actualizar este Acuerdo en cualquier momento. La última versión se publicará en <span>www.puzzledesire.com.</span>',
+        contact_info_title: 'Información de Contacto',
+        contact_info_inquiries:
+            'Para consultas o preguntas relacionadas con este Acuerdo, comuníquese con:',
+        contact_info_email:
+            'Correo electrónico: <span>npuzzledesirees@gmail.com</span>',
+        acceptance_acknowledgement:
+            'Al aceptar este Acuerdo, usted reconoce que ha leído, comprendido y acepta quedar vinculado por sus términos.',
+        thank_you_message:
+            '¡Gracias por elegir PuzzleDesire para sus necesidades de diseño y desarrollo web!',
+        return_home_button: 'Volver a la página de inicio',
+        accept_terms_button: 'Aceptar los términos y condiciones',
     },
-    uk: {
+    ua: {
         'nav_btn_messangers-mobile': "Зв'яжіться з нами",
         'nav_link_services-mobile': 'Послуги',
         'nav_link_work-mobile': 'Наш процес',
@@ -1027,7 +1498,8 @@ const lang = {
         plans_subtitle_puzzle_ua2:
             'Можлива розстрочка з першим внеском <span class="plans_info-bold">200 євро + ПДВ</span> та <span class="plans_info-bold">50 євро + ПДВ</span> щомісяця протягом півроку',
         plans_price_puzzle_ua: "500€ <span class='plans_vat'>+ ПДВ</span>",
-        plans_price_puzzle_ua_mobile: "500€ <span class='plans_vat'>+ ПДВ</span>",
+        plans_price_puzzle_ua_mobile:
+            "500€ <span class='plans_vat'>+ ПДВ</span>",
         plans_btn_puzzle_ua: 'Почати',
         plans_text_1_puzzle_ua:
             'Повноцінний односторінковий лендинг (сторінка, що прокручується згорі донизу, еквівалентна 2 екранам)',
@@ -1049,7 +1521,8 @@ const lang = {
         plans_subtitle_puzzle_start:
             'Швидкий спосіб отримати повнофункціональний веб-сайт для старту вашого бізнесу.',
         plans_price_puzzle_start: "1000€ <span class='plans_vat'>+ ПДВ</span>",
-        plans_price_puzzle_start_mobile: "1000€ <span class='plans_vat'>+ ПДВ</span>",
+        plans_price_puzzle_start_mobile:
+            "1000€ <span class='plans_vat'>+ ПДВ</span>",
         plans_btn_puzzle_start: 'Почати',
         plans_text_1_puzzle_start:
             'Повноцінний односторінковий лендинг (сторінка, що прокручується згорі донизу, еквівалентна 2 екранам)',
@@ -1071,7 +1544,8 @@ const lang = {
         plans_subtitle_puzzle_plus:
             'Додаткові переваги та функціональність для вашого веб-сайту - значне покращення для вашого бізнесу.',
         plans_price_puzzle_plus: "3000€ <span class='plans_vat'>+ ПДВ</span>",
-        plans_price_puzzle_plus_mobile: "3000€ <span class='plans_vat'>+ ПДВ</span>",
+        plans_price_puzzle_plus_mobile:
+            "3000€ <span class='plans_vat'>+ ПДВ</span>",
         plans_btn_puzzle_plus: 'Почати',
         plans_point_1_puzzle_plus:
             'Повноцінний односторінковий лендинг (сторінка, що прокручується згорі донизу, еквівалентна до 4 екранів)',
@@ -1095,7 +1569,8 @@ const lang = {
         plans_subtitle_puzzle_pro:
             'Розширені індивідуальні рішення та функціональність веб-сайту - шлях до зростання бізнесу.',
         plans_price_puzzle_pro: "5000€ <span class='plans_vat'>+ ПДВ</span>",
-        plans_price_puzzle_pro_mobile: "5000€ <span class='plans_vat'>+ ПДВ</span>",
+        plans_price_puzzle_pro_mobile:
+            "5000€ <span class='plans_vat'>+ ПДВ</span>",
         plans_btn_puzzle_pro: 'Почати',
         plans_text_1_puzzle_pro:
             'Повноцінний веб-сайт зі затвердженою структурою (лендинг або класичний)',
@@ -1195,9 +1670,10 @@ const lang = {
         footer_menu_link_services: 'Послуги',
         footer_menu_link_work: 'Наш процес',
         footer_menu_link_contacts: 'Контакти',
-        footer_menu_link_price: "Ціна",
+        footer_menu_link_price: 'Ціна',
         footer_text_follow: 'Слідкуйте за нами в соціальних мережах',
-        footer_text_copyright: '© Puzzledesire, 2024. Усі права захищені.',
+        footer_text_copyright:
+            '&copy; Puzzledesire, 2024-2025. Усі права захищені.',
         footer_menu_document_cookies: 'Налаштування файлів cookie',
         footer_menu_document_privacy: 'Політика конфіденційності',
         footer_menu_document_terms: 'Умови обслуговування',
@@ -1264,15 +1740,244 @@ const lang = {
             'Цільова сторінка з високою кількістю конверсій, створена для демонстрації досвіду та послуг арбітражної команди. Елегантні візуальні елементи, чіткі елементи заклику до дії та оптимізовані форми для залучення потенційних клієнтів для залучення та залучення потенційних клієнтів.',
         school_desk:
             'Сучасна, захоплююча цільова сторінка для Nova School, призначена для залучення учнів завдяки чіткій навігації та динамічним візуальним елементам.',
-        view_figma1: 'Переглянути Figma',
-        view_figma2: 'Переглянути Figma',
-        view_figma3: 'Переглянути Figma',
-        view_figma4: 'Переглянути Figma',
-        view_figma5: 'Переглянути Figma',
-        view_figma6: 'Переглянути Figma',
-        view_figma7: 'Переглянути Figma',
-        view_figma8: 'Переглянути Figma',
-        view_figma9: 'Переглянути Figma',
+        privacy_date: 'Дата набуття чинності: 30.12.2024',
+        privacy_title: 'Ласкаво просимо до PuzzleDesire!',
+        privacy_subtitle: `Ваша конфіденційність важлива для нас. Ця Політика конфіденційності пояснює, як ми збираємо, використовуємо та захищаємо ваші персональні дані, коли ви використовуєте наш вебсайт, <span>www.puzzledesire.com</span>, відповідно до Загального регламенту захисту даних (GDPR).`,
+        'privacy-who-we-are-title': '1. Хто ми',
+        'privacy-who-we-are-subtitle': `PuzzleDesire керує вебсайтом <span>www.puzzledesire.com</span> та зобов'язується захищати ваші персональні дані. 
+                                    Якщо у вас є будь-які питання або зауваження щодо цієї політики, ви можете зв'язатися з нами за адресою <span>puzzledesirees@gmail.com</span>.`,
+        'privacy-data-collection-title': '2. Персональні дані, які ми збираємо',
+        'privacy-data-collection-subtitle':
+            'Ми збираємо такі категорії персональних даних:',
+        'privacy-data-contact':
+            "<span>Контактна інформація:</span> Ваше ім'я, електронна адреса, номер телефону та адреса доставки.",
+        'privacy-data-account':
+            '<span>Дані облікового запису:</span> Логін, пароль та інші деталі реєстрації.',
+        'privacy-data-transaction':
+            '<span>Дані про транзакції:</span> Інформація про оплату, історія замовлень та платіжні дані.',
+        'privacy-data-technical':
+            '<span>Технічні дані:</span> IP-адреса, тип браузера та інформація про пристрій (через файли cookie та аналітичні інструменти).',
+        'privacy-data-communication':
+            "<span>Дані комунікації:</span> Повідомлення або зворотний зв'язок, які ви надсилаєте нам через форми або електронну пошту.",
+        'privacy-sensitive-data':
+            'Ми не збираємо чутливі персональні дані, якщо це не є необхідним та без вашої явної згоди.',
+        'privacy-why-collect-title': '3. Чому ми збираємо ваші дані',
+        'privacy-why-collect-subtitle':
+            'Ми збираємо такі категорії персональних даних:',
+        'privacy-purpose-orders':
+            'Щоб обробляти та виконувати ваші замовлення.',
+        'privacy-purpose-support':
+            'Щоб надавати підтримку клієнтам і відповідати на ваші запити.',
+        'privacy-purpose-updates':
+            'Щоб надсилати оновлення про наші продукти, акції чи політики (лише за вашою явною згодою).',
+        'privacy-purpose-analytics':
+            'Щоб покращувати наш вебсайт і послуги через аналітику.',
+        'privacy-purpose-legal':
+            'Щоб виконувати юридичні зобов’язання та вирішувати суперечки.',
+        'privacy-sensitive-data-reason':
+            'Ми не збираємо чутливі персональні дані, якщо це не є необхідним та без вашої явної згоди.',
+        'privacy-legal-basis-title': '4. Правові підстави для обробки',
+        'privacy-legal-basis-subtitle':
+            'Ми обробляємо ваші дані на основі таких правових підстав:',
+        'privacy-legal-basis-contract':
+            '<span>Виконання договору:</span> Для обробки замовлень і надання послуг.',
+        'privacy-legal-basis-consent':
+            '<span>Згода:</span> Для маркетингових комунікацій і аналізу (за наявності).',
+        'privacy-legal-basis-legitimate':
+            '<span>Законні інтереси:</span> Для покращення нашого сайту та послуг.',
+        'privacy-legal-basis-legal':
+            '<span>Юридична відповідність:</span> Для дотримання регуляторних вимог.',
+        'privacy-data-sharing-title': '5. Поділ і передача даних',
+        'privacy-data-sharing-subtitle':
+            'Ваші персональні дані можуть бути розділені з:',
+        'privacy-data-sharing-service':
+            '<span>Постачальники послуг:</span> платіжні процесори, служби доставки та IT-підтримка.',
+        'privacy-data-sharing-legal':
+            '<span>Юридичні органи:</span> Якщо це необхідно для дотримання законів або нормативних вимог.',
+        'privacy-data-sharing-partners':
+            '<span>Комерційні партнери:</span> Тільки за вашої явної згоди для маркетингових чи співпраці.',
+        'privacy-data-sharing-note':
+            'Ми не продаємо ваші персональні дані третім сторонам. Якщо дані передаються за межі ЄС/ЄЕЗ, ми забезпечуємо дотримання GDPR за допомогою відповідних заходів, таких як стандартні договірні клаузули.',
+        'privacy-data-retention-title': '6. Тривалість зберігання ваших даних',
+        'privacy-data-retention-subtitle':
+            'Ми зберігаємо ваші персональні дані тільки доти, доки це необхідно для цілей, викладених у цій політиці, або згідно з вимогами закону. Наприклад:',
+        'privacy-data-retention-transaction':
+            '<span>Транзакційні дані</span> зберігаються протягом 7 років для податкових цілей.',
+        'privacy-data-retention-marketing':
+            '<span>Маркетингові дані</span> зберігаються до тих пір, поки ви не відкличете згоду.',
+        'privacy-data-retention-expiry':
+            'Після закінчення строку зберігання ваші дані буде видалено або анонімізовано.',
+        'privacy-gdpr-rights-title': '7. Ваші права відповідно до GDPR',
+        'privacy-gdpr-rights-subtitle': 'У вас є наступні права:',
+        'privacy-rights-access':
+            '<span>Доступ:</span> Запит на отримання копії ваших персональних даних.',
+        'privacy-rights-rectification':
+            '<span>Виправлення:</span> Виправлення неточних або неповних даних.',
+        'privacy-rights-erasure':
+            '<span>Видалення:</span> Запит на видалення ваших даних («право на забуття»).',
+        'privacy-rights-restriction':
+            '<span>Обмеження:</span> Обмежте обробку ваших даних.',
+        'privacy-rights-portability':
+            '<span>Портативність:</span> Отримайте свої дані в портативному форматі.',
+        'privacy-rights-objection':
+            '<span>Заперечення:</span> Заперечувати проти обробки даних на основі законних інтересів або прямого маркетингу.',
+        'privacy-rights-withdraw':
+            '<span>Відкликати згоду:</span> Ви можете будь-коли відкликати свою згоду на конкретні дії з обробки.',
+        'privacy-gdpr-rights-note':
+            'Щоб скористатися цими правами, зв’яжіться з нами за адресою <span>puzzledesirees@gmail.com.</span>',
+        'privacy-gdpr-rights-response':
+            'Ми відповімо протягом одного місяця з моменту отримання вашого запиту.',
+        'privacy-cookies-title': '8. Файли cookie та відстеження',
+        'privacy-cookies-subtitle':
+            'Наш вебсайт використовує файли cookie для:',
+        'privacy-cookies-li-1': 'Поліпшення вашого досвіду перегляду.',
+        'privacy-cookies-li-2':
+            'Збір технічних даних для аналізу продуктивності вебсайту.',
+        'privacy-cookies-li-3':
+            "Активації певних функціональних можливостей вебсайту (наприклад, запам'ятовування вашого входу).",
+        'privacy-cookies-note':
+            'Для отримання додаткової інформації, будь ласка, перегляньте нашу Політику щодо файлів cookie. Ви можете керувати налаштуваннями файлів cookie через налаштування вашого браузера.',
+
+        'privacy-security-title': '9. Захист Ваших Даних',
+        'privacy-security-subtitle':
+            'Ми впроваджуємо надійні технічні та організаційні заходи для захисту ваших персональних даних від несанкціонованого доступу, втрати або неправомірного використання. Незважаючи на наші зусилля, жодна онлайн-система не є повністю безпечною, і ми закликаємо вас дотримуватись обережності, наприклад, використовуючи міцні паролі.',
+
+        'privacy-updates-title': '10. Оновлення цієї Політики конфіденційності',
+        'privacy-updates-subtitle':
+            'Ми можемо періодично оновлювати цю Політику конфіденційності, щоб відображати зміни в наших практиках або правових вимогах. Остання версія завжди буде доступна за адресою <span>www.puzzledesire.com/privacy-policy.</span>',
+
+        'privacy-contact-title': "Зв'яжіться з нами",
+        'privacy-contact-subtitle':
+            "Якщо у вас є питання, зауваження або скарги щодо цієї Політики конфіденційності або способу обробки ваших даних, зв'яжіться з нами за адресою: <span>puzzledesirees@gmail.com</span>",
+
+        'privacy-footer-text-1':
+            "Ми зобов'язані вирішити ваші питання та забезпечити захист ваших даних.",
+        'privacy-footer-text-2':
+            'Використовуючи наш вебсайт, ви підтверджуєте, що прочитали та зрозуміли цю Політику конфіденційності.',
+        'privacy-footer-text-3': 'Дякуємо за довіру PuzzleDesire!',
+        terms_date: 'Дата набрання чинності: 30.12.2024',
+        terms_title: 'ДОГОВІР ПРО НАДАННЯ ПУБЛІЧНИХ ПОСЛУГ',
+        terms_subtitle: `Цей Договір про надання публічних послуг (далі – "Договір") є юридично зобов'язуючою пропозицією
+з боку PuzzleDesire, розташованого за адресою <span>www.puzzledesire.com</span> (далі – "Постачальник послуг"), на надання послуг
+з веб-дизайну та розробки користувачам (далі – "Замовник"). Приймаючи цей Договір, Замовник погоджується з умовами, викладеними нижче.`,
+        definitions_title: '1. Визначення',
+        definition_service_provider:
+            '1.1. Постачальник послуг: Компанія, що надає послуги через вебсайт <span>www.puzzledesire.com.</span>',
+        definition_customer:
+            '1.2. Замовник: Будь-яка особа або організація, що приймає умови цього Договору шляхом оформлення замовлення на послуги.',
+        definition_services:
+            "1.3. Послуги: Послуги з вебдизайну, розробки та пов'язаних цифрових рішень, які надає Постачальник послуг.",
+        definition_agreement:
+            '1.4. Договір: Ця публічна оферта, включаючи будь-які додатки, оновлення або зміни.',
+        definition_acceptance:
+            '1.5. Прийняття: Повна та безумовна згода з умовами цього Договору через оформлення замовлення або оплату послуг.',
+        subject_title: '2. Предмет Договору',
+        subject_services:
+            "2.1. Постачальник послуг зобов'язується надавати послуги з вебдизайну та розробки, детально описані на <span>www.puzzledesire.com</span>, а Замовник зобов'язується оплатити ці послуги.",
+        subject_details:
+            '2.2. Конкретний обсяг послуг, строки та вартість будуть зазначені у окремому рахунку або пропозиції проекту, що буде надіслано Замовнику після підтвердження замовлення.',
+        acceptance_title: '3. Прийняття пропозиції',
+        acceptance_actions:
+            '3.1. Замовник приймає цей Договір, виконавши одну з таких дій:',
+        acceptance_order: 'Оформлення замовлення на вебсайті.',
+        acceptance_payment: 'Повна або часткова оплата послуг.',
+        acceptance_email:
+            'Надсилання письмового підтвердження прийняття на електронну пошту.',
+        acceptance_acknowledgment:
+            '3.2. Приймаючи цей Договір, Замовник підтверджує, що він прочитав, зрозумів та погодився з його умовами.',
+        services_title: '4. Надані послуги',
+        services_offered: '4.1. Постачальник послуг пропонує такі послуги:',
+        services_web_design: 'Індивідуальний вебдизайн та розробка.',
+        services_ui_ux: 'UI/UX дизайн.',
+        services_maintenance: 'Обслуговування та оновлення вебсайту.',
+        services_branding: 'Цифровий брендинг та консалтинг.',
+        services_details:
+            '4.2. Точні результати, терміни та правки будуть погоджені у пропозиції проекту та додатку до договору.',
+        rights_obligations_title: "5. Права та обов'язки",
+        rights_provider_title: '5.1. Права Постачальника послуг:',
+        rights_provider_refuse:
+            'Відмовити у наданні послуг у разі неналежної поведінки або ненадання необхідних матеріалів Замовником.',
+        rights_provider_suspend:
+            'Призупинити або припинити надання послуг, якщо Замовник порушує цей Договір.',
+        rights_provider_publish:
+            'Публікувати анонімізовані кейси чи портфоліо з виконаною роботою, якщо це не заборонено Замовником.',
+        obligations_provider_title: "5.2. Обов'язки Постачальника послуг:",
+        obligations_provider_deliver:
+            'Надавати послуги відповідно до узгоджених обсягу, якості та строків.',
+        obligations_provider_confidentiality:
+            'Забезпечити конфіденційність даних та інформації Замовника.',
+        obligations_provider_updates:
+            'Надавати регулярні оновлення про стан проекту.',
+        rights_customer_title: '5.3. Права Замовника:',
+        rights_customer_updates: 'Запитувати оновлення про стан проекту.',
+        rights_customer_receive:
+            'Отримувати послуги відповідно до узгоджених умов та специфікацій.',
+        obligations_customer_title: "5.4. Обов'язки Замовника:",
+        obligations_customer_provide:
+            'Надавати всі необхідні матеріали, інформацію та відгуки, необхідні для завершення проекту.',
+        obligations_customer_payment:
+            'Своєчасно здійснювати оплату згідно з узгодженими умовами проекту або рахунком.',
+        obligations_customer_respect:
+            'Поважати права інтелектуальної власності Постачальника послуг.',
+        payment_terms_title: '6. Умови оплати',
+        payment_cost:
+            '6.1. Вартість послуг буде зазначена в проектній пропозиції або рахунку.',
+        payment_currency:
+            '6.2. Оплата здійснюється в євро (EUR) через способи, зазначені на вебсайті або в рахунку.',
+        payment_deposit:
+            '6.3. Постачальник послуг може вимагати авансовий платіж у розмірі 50% перед початком роботи.',
+        payment_delay:
+            '6.4. Затримка оплати може призвести до призупинення послуг до погашення заборгованості.',
+        revisions_modifications_title: '7. Правки та зміни',
+        revisions_free:
+            '7.1. Постачальник послуг надасть [кількість визначається умовами обраного пакета послуг] безкоштовних правок у межах погодженого обсягу проекту.',
+        revisions_additional:
+            '7.2. Додаткові правки або зміни, які виходять за межі погодженого обсягу, будуть оплачуватися за погодинною ставкою 25 EUR/год. + ПДВ IVA 21%',
+        confidentiality_title: '8. Конфіденційність',
+        confidentiality_agreement:
+            '8.1. Обидві сторони погоджуються зберігати конфіденційність будь-якої власної або чутливої інформації, наданої під час проекту.',
+        confidentiality_portfolio:
+            '8.2. Постачальник послуг залишає за собою право включити анонімізовані деталі проекту до свого портфоліо, якщо це не заборонено Замовником.',
+        intellectual_property_title: '9. Інтелектуальна власність',
+        intellectual_property_ownership:
+            '9.1. Після повної оплати Замовник стає власником остаточних матеріалів, включаючи дизайн-файли та вихідний код.',
+        intellectual_property_reuse:
+            '9.2. Постачальник послуг зберігає право повторно використовувати загальні шаблони, фреймворки або бібліотеки, використані в проекті.',
+        termination_title: '10. Розірвання',
+        termination_notice:
+            '10.1. Будь-яка сторона може розірвати Угоду, надавши письмове повідомлення за 14 днів.',
+        termination_payment:
+            '10.2. У разі розірвання Замовник несе відповідальність за оплату всіх виконаних робіт до дати розірвання.',
+        liability_title: '11. Відповідальність',
+        liability_limitation:
+            '11.1. Постачальник послуг не несе відповідальності за:',
+        liability_customer_delay:
+            'Затримки, викликані неспроможністю Замовника надати необхідні матеріали або схвалення.',
+        liability_third_party:
+            'Проблеми, що виникають через інтеграцію сторонніх рішень або провайдерів хостингу.',
+        liability_project_amount:
+            '11.2. Відповідальність Постачальника послуг обмежується сумою, сплаченою Замовником за конкретний проєкт.',
+        dispute_resolution_title: '12. Вирішення спорів',
+        dispute_negotiation:
+            '12.1. Будь-які спори, що виникають за цією Угодою, вирішуються шляхом переговорів.',
+        dispute_court:
+            '12.2. Якщо рішення не буде досягнуто, спори вирішуватимуться в судах Іспанії відповідно до чинного законодавства ЄС.',
+        final_provisions_title: '13. Остаточні положення',
+        final_provisions_validity:
+            '13.1. Ця Угода є публічною офертою і залишається чинною до її змін або скасування Постачальником послуг.',
+        final_provisions_update:
+            '13.2. Постачальник послуг залишає за собою право оновлювати цю Угоду в будь-який час. Остання версія буде опублікована на <span>www.puzzledesire.com.</span>',
+        contact_info_title: 'Контактна інформація',
+        contact_info_inquiries:
+            "Для запитів або питань, пов'язаних з цією Угодою, звертайтеся до:",
+        contact_info_email:
+            'Електронна пошта: <span>puzzledesirees@gmail.com</span>',
+        acceptance_acknowledgement:
+            'Приймаючи цю Угоду, ви підтверджуєте, що прочитали, зрозуміли і погоджуєтесь з її умовами.',
+        thank_you_message:
+            'Дякуємо, що обрали PuzzleDesire для ваших потреб у веб-дизайні та розробці!',
+        return_home_button: 'Повернутися на головну',
+        accept_terms_button: 'Прийняти умови та положення',
     },
 };
 
@@ -1315,15 +2020,3 @@ function openlangdropdown(params) {
 }
 
 openlangdropdown('none');
-
-document.addEventListener('DOMContentLoaded', function () {
-    var elements = document.querySelectorAll('.nav_language_pick');
-    elements.forEach(function (element) {
-        element.addEventListener('click', function () {
-            var lang = element.getAttribute('data-lang');
-            updateTextContent(lang);
-        });
-    });
-
-    updateTextContent('uk');
-});

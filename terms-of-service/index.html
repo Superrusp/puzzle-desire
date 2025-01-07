@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
+        <link
+            rel="icon"
+            type="image/svg"
+            sizes="32x32"
+            href="../icons/favicon_32x32.svg" />
+        <link
+            rel="icon"
+            type="image/svg"
+            sizes="16x16"
+            href="../icons/favicon_16x16.svg" />
+
+        <link
+            href="https://fonts.cdnfonts.com/css/helvetica-neue-55"
+            rel="stylesheet" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+            rel="stylesheet" />
+        <link
+            href="https://fonts.cdnfonts.com/css/liberation-sans"
+            rel="stylesheet" />
+        <link rel="stylesheet" href="../css/style.min.css" />
+        <link rel="stylesheet" href="../css/lang.css" />
+        <title id="title"></title>
+    </head>
+    <body>
+        <nav class="nav">
+            <div class="container">
+                <div class="nav_subwrapper">
+                    <img
+                        class="nav_logo"
+                        onclick="moveTo('/')"
+                        src="./icons/logo.svg"
+                        alt="logo" />
+                    <nav class="nav_menu">
+                        <a
+                            href="/#services"
+                            class="nav_services"
+                            id="nav_services"
+                            onclick="moveTo('/#services')"
+                            >services</a
+                        >
+                        <a
+                            href="/#work"
+                            onclick="moveTo('/#work')"
+                            class="nav_our-process"
+                            id="nav_our-process"
+                            >our process</a
+                        >
+                        <a
+                            href="/#price"
+                            onclick="moveTo('/#price')"
+                            class="nav_our-process"
+                            id="nav_price"
+                            >price</a
+                        >
+                        <a
+                            href="/#contacts-mobile"
+                            onclick="moveTo('/#contacts-mobile')"
+                            class="nav_contacts"
+                            id="nav_contacts"
+                            >contacts</a
+                        >
+                    </nav>
+                    <div class="nav-wrapper">
+                        <div class="nav_language-switcher">
+                            <div class="nav_language" id="nav_language">EN</div>
+                            <img
+                                src="./icons/arrow_down.svg"
+                                alt="arrow_down" />
+
+                            <div
+                                class="languages_dropdown"
+                                id="languages_dropdown">
+                                <div class="nav_language_pick" data-lang="en">
+                                    English
+                                </div>
+                                <div class="nav_language_pick" data-lang="es">
+                                    Spanish
+                                </div>
+                                <div class="nav_language_pick" data-lang="ua">
+                                    Ukrainian
+                                </div>
+                                <!-- <div class="nav_language_pick" data-lang="ru">
+                                    Russian
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="hamburger">
+                            <span class="hamburger-span"></span>
+                            <span class="hamburger-span"></span>
+                        </div>
+                        <a
+                            href="/#contacts-mobile"
+                            class="nav-scrolled-btn"
+                            id="nav-scrolled-btn"
+                            onclick="moveTo('/#contacts-mobile')"
+                            >Contact us</a
+                        >
+                    </div>
+                </div>
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a
+                            href="/#services-mobile"
+                            class="nav_link"
+                            id="nav_link_services-mobile"
+                            onclick="
+                                     moveTo('/#services-mobile')
+                                    "
+                            >services</a
+                        >
+                    </li>
+                    <li class="nav_item">
+                        <a
+                            href="/#work-mobile"
+                            class="nav_link"
+                            id="nav_link_work-mobile"
+                            onclick="moveTo('/#work-mobile')"
+                            >our process</a
+                        >
+                    </li>
+                    <li class="nav_item">
+                        <a
+                            href="/#price"
+                            class="nav_link"
+                            id="nav_link_price-mobile"
+                            onclick="moveTo('/#price')"
+                            >price</a
+                        >
+                    </li>
+                    <li class="nav_item">
+                        <a
+                            href="/#contacts-mobile"
+                            class="nav_link"
+                            id="nav_link_contacts-mobile"
+                            onclick="moveTo('/#contacts-mobile')"
+                            >contacts</a
+                        >
+                    </li>
+                </ul>
+                <a
+                    href="/#messangers-mobile"
+                    class="nav_btn"
+                    id="nav_btn_messangers-mobile"
+                    onclick="moveTo('/#messangers-mobile')"
+                    >Contact us</a
+                >
+            </div>
+        </nav>
+        <section class="terms">
+            <div class="container">
+                <div class="terms__section">
+                    <h2 class="terms__date" id="terms_date">
+                        Effective Date: 12/30/2024
+                    </h2>
+                    <h1 class="terms__title" id="terms_title">
+                        PUBLIC SERVICE AGREEMENT (OFFER)
+                    </h1>
+                    <div class="separator"></div>
+                    <p class="terms__subtitle" id="terms_subtitle">
+                        This Public Service Agreement (hereinafter referred to
+                        as the "Agreement") constitutes a legally binding offer
+                        made by PuzzleDesire, located at
+                        <span id="terms_website">www.puzzledesire.com</span>
+                        (hereinafter referred to as the "Service Provider"), to
+                        provide web design and development services to users
+                        (hereinafter referred to as the "Customer"). By
+                        accepting this Agreement, the Customer agrees to the
+                        terms outlined below.
+                    </p>
+                </div>
+
+                <div class="terms__section">
+                    <h1 class="terms__title" id="definitions_title">
+                        1. Definitions
+                    </h1>
+                    <div class="separator"></div>
+                    <ul>
+                        <li id="definition_service_provider">
+                            1.1. Service Provider: The company offering services
+                            through the website
+                            <span>www.puzzledesire.com.</span>
+                        </li>
+                        <li id="definition_customer">
+                            1.2. Customer: Any individual or entity that accepts
+                            the terms of this Agreement by placing an order for
+                            services.
+                        </li>
+                        <li id="definition_services">
+                            1.3. Services: Web design, development, and related
+                            digital solutions provided by the Service Provider.
+                        </li>
+                        <li id="definition_agreement">
+                            1.4. Agreement: This public offer, including any
+                            annexes, updates, or amendments.
+                        </li>
+                        <li id="definition_acceptance">
+                            1.5. Acceptance: Full and unconditional consent to
+                            the terms of this Agreement through the placement of
+                            an order or payment for services.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="terms__section">
+                    <h1 class="terms__title" id="subject_title">
+                        2. Subject of the Agreement
+                    </h1>
+                    <div class="separator"></div>
+                    <ul>
+                        <li id="subject_services">
+                            2.1. The Service Provider agrees to provide web
+                            design and development services, as detailed on
+                            <span>www.puzzledesire.com</span>, and the Customer
+                            agrees to pay for these services.
+                        </li>
+                        <li id="subject_details">
+                            2.2. The specific scope of services, deadlines, and
+                            costs will be outlined in a separate invoice or
+                            project proposal sent to the Customer upon order
+                            confirmation.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="terms__section">
+                    <h1 class="terms__title" id="acceptance_title">
+                        3. Acceptance of the Offer
+                    </h1>
+                    <div class="separator"></div>
+                    <ul>
+                        <li id="acceptance_actions">
+                            3.1. The Customer accepts this Agreement by
+                            performing one of the following actions:
+                        </li>
+                        <li>
+                            <ul class="terms-second-list">
+                                <li id="acceptance_order">
+                                    Placing an order on the website.
+                                </li>
+                                <li id="acceptance_payment">
+                                    Making full or partial payment for the
+                                    services.
+                                </li>
+                                <li id="acceptance_email">
+                                    Sending written confirmation of acceptance
+                                    via email.
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="acceptance_acknowledgment">
+                            3.2. By accepting this Agreement, the Customer
+                            acknowledges that they have read, understood, and
+                            agree to the terms herein.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="terms__section">
+                    <h1 class="terms__title" id="services_title">
+                        4. Services Provided
+                    </h1>
+                    <div class="separator"></div>
+                    <ul>
+                        <li id="services_offered">
+                            4.1. The Service Provider offers the following
+                            services:
+                        </li>
+                        <li>
+                            <ul class="terms-second-list">
+                                <li id="services_web_design">
+                                    Custom web design and development.
+                                </li>
+                                <li id="services_ui_ux">UI/UX design.</li>
+                                <li id="services_maintenance">
+                                    Website maintenance and updates.
+                                </li>
+                                <li id="services_branding">
+                                    Digital branding and consulting.
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="services_details">
+                            4.2. The exact deliverables, timelines, and
+                            revisions will be agreed upon in the project
+                            proposal and contract annex.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="terms__section">
+                    <h1 class="terms__title" id="rights_obligations_title">
+                        5. Rights and Obligations
+                    </h1>
+                    <div class="separator"></div>
+                    <ul>
+                        <li id="rights_provider_title">
+                            5.1. Service Provider's Rights:
+                        </li>
+                        <li>
+                            <ul class="terms-second-list">
+                                <li id="rights_provider_refuse">
+                                    Refuse service in cases of inappropriate
+                                    conduct or failure to provide necessary
+                                    materials by the Customer.
+                                </li>
+                                <li id="rights_provider_suspend">
+                                    Suspend or terminate services if the
+                                    Customer violates this Agreement.
+                                </li>
+                                <li id="rights_provider_publish">
+                                    Publish anonymized case studies or portfolio
+                                    items showcasing the completed work unless
+                                    explicitly prohibited by the Customer.
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="obligations_provider_title">
+                            5.2. Service Provider's Obligations:
+                        </li>
+                        <li>
+                            <ul class="terms-second-list">
+                                <li id="obligations_provider_deliver">
+                                    Deliver services in accordance with the
+                                    agreed scope, quality, and timeline.
+                                </li>
+                                <li id="obligations_provider_confidentiality">
+                                    Ensure the confidentiality of the Customer's
+                                    data and information.
+                                </li>
+                                <li id="obligations_provider_updates">
+                                    Provide regular updates on project progress.
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="rights_customer_title">
+                            5.3. Customer's Rights:
+                        </li>
+                        <li>
+                            <ul class="terms-second-list">
+                                <li id="rights_customer_updates">
+                                    Request updates on the status of the
+                                    project.
+                                </li>
+                                <li id="rights_customer_receive">
+                                    Receive services in accordance with the
+                                    agreed terms and specifications.
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="obligations_customer_title">
+                            5.4. Customer's Obligations:
+                        </li>
+                        <li>
+                            <ul class="terms-second-list">
+                                <li id="obligations_customer_provide">
+                                    Provide all necessary materials,
+                                    information, and feedback required to
+                                    complete the project.
+                                </li>
+                                <li id="obligations_customer_payment">
+                                    Make timely payments as agreed in the
+                                    project proposal or invoice.
+                                </li>
+                                <li id="obligations_customer_respect">
+                                    Respect the intellectual property rights of
+                                    the Service Provider.
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="terms__section">
+                    <h1 class="terms__title" id="payment_terms_title">
+                        6. Payment Terms
+                    </h1>
+                    <div class="separator"></div>
+                    <ul>
+                        <li id="payment_cost">
+                            6.1. The cost of services will be outlined in the
+                            project proposal or invoice.
+                        </li>
+                        <li id="payment_currency">
+                            6.2. Payment must be made in Euros (EUR) via the
+                            payment methods specified on the website or invoice.
+                        </li>
+                        <li id="payment_deposit">
+                            6.3. The Service Provider may request an upfront
+                            deposit of 50% before commencing work.
+                        </li>
+                        <li id="payment_delay">
+                            6.4. Delayed payments may result in a suspension of
+                            services until the balance is cleared.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="terms__section">
+                    <h1 class="terms__title" id="revisions_modifications_title">
+                        7. Revisions and Modifications
+                    </h1>
+                    <div class="separator"></div>
+                    <ul>
+                        <li id="revisions_free">
+                            7.1. The Service Provider will provide [the quantity
+                            is determined according to the terms of the selected
+                            service package] revisions free of charge within the
+                            agreed project scope.
+                        </li>
+                        <li id="revisions_additional">
+                            7.2. Additional revisions or changes beyond the
+                            agreed scope will be charged at an hourly rate of 25
+                            EUR/hour. + TAX IVA 21%
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="terms__section">
+                    <h1 class="terms__title" id="confidentiality_title">
+                        8. Confidentiality
+                    </h1>
+                    <div class="separator"></div>
+                    <ul>
+                        <li id="confidentiality_agreement">
+                            8.1. Both parties agree to maintain the
+                            confidentiality of any proprietary or sensitive
+                            information shared during the project.
+                        </li>
+                        <li id="confidentiality_portfolio">
+                            8.2. The Service Provider reserves the right to
+                            include anonymized project details in its portfolio
+                            unless explicitly prohibited by the Customer.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="terms__section">
+                    <h1 class="terms__title" id="intellectual_property_title">
+                        9. Intellectual Property
+                    </h1>
+                    <div class="separator"></div>
+                    <ul>
+                        <li id="intellectual_property_ownership">
+                            9.1. Upon full payment, the Customer will own the
+                            final deliverables, including design files and
+                            source code.
+                        </li>
+                        <li id="intellectual_property_reuse">
+                            9.2. The Service Provider retains the right to reuse
+                            generic templates, frameworks, or libraries used in
+                            the project.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="terms__section">
+                    <h1 class="terms__title" id="termination_title">
+                        10. Termination
+                    </h1>
+                    <div class="separator"></div>
+                    <ul>
+                        <li id="termination_notice">
+                            10.1. Either party may terminate the Agreement with
+                            14 days' written notice.
+                        </li>
+                        <li id="termination_payment">
+                            10.2. In the event of termination, the Customer is
+                            responsible for payment of all work completed up to
+                            the termination date.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="terms__section">
+                    <h1 class="terms__title" id="liability_title">
+                        11. Liability
+                    </h1>
+                    <div class="separator"></div>
+                    <ul>
+                        <li id="liability_limitation">
+                            11.1. The Service Provider is not liable for:
+                        </li>
+                        <li>
+                            <ul class="terms-second-list">
+                                <li id="liability_customer_delay">
+                                    Delays caused by the Customer's failure to
+                                    provide required materials or approvals.
+                                </li>
+                                <li id="liability_third_party">
+                                    Issues arising from third-party integrations
+                                    or hosting providers.
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="liability_project_amount">
+                            11.2. The Service Provider's liability is limited to
+                            the amount paid by the Customer for the specific
+                            project.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="terms__section">
+                    <h1 class="terms__title" id="dispute_resolution_title">
+                        12. Dispute Resolution
+                    </h1>
+                    <div class="separator"></div>
+                    <ul>
+                        <li id="dispute_negotiation">
+                            12.1. Any disputes arising under this Agreement will
+                            be resolved amicably through negotiation.
+                        </li>
+                        <li id="dispute_court">
+                            12.2. If a resolution cannot be reached, disputes
+                            will be settled in the courts of Spain, in
+                            accordance with applicable EU law.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="terms__section">
+                    <h1 class="terms__title" id="final_provisions_title">
+                        13. Final Provisions
+                    </h1>
+                    <div class="separator"></div>
+                    <ul>
+                        <li id="final_provisions_validity">
+                            13.1. This Agreement is a public offer and remains
+                            valid until amended or revoked by the Service
+                            Provider.
+                        </li>
+                        <li id="final_provisions_update">
+                            13.2. The Service Provider reserves the right to
+                            update this Agreement at any time. The latest
+                            version will be published on
+                            <span>www.puzzledesire.com.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="privacy__section">
+                    <h1 class="privacy__title" id="contact_info_title">
+                        Contact Information
+                    </h1>
+                    <div class="separator"></div>
+                    <p class="privacy__subtitle" id="contact_info_inquiries">
+                        For inquiries or questions related to this Agreement,
+                        please contact:
+                    </p>
+                    <p class="privacy__subtitle" id="contact_info_email">
+                        Email: <span>puzzledesirees@gmail.com</span>
+                    </p>
+                </div>
+
+                <div style="display: flex; flex-direction: column; gap: 25px">
+                    <p
+                        class="privacy__subtitle"
+                        id="acceptance_acknowledgement">
+                        By accepting this Agreement, you acknowledge that you
+                        have read, understood, and agree to be bound by its
+                        terms.
+                    </p>
+                    <p class="privacy__subtitle" id="thank_you_message">
+                        Thank you for choosing PuzzleDesire for your web design
+                        and development needs!!
+                    </p>
+                </div>
+
+                <div class="terms_flex">
+                    <button
+                        onclick="moveTo('/')"
+                        class="btn-to-home"
+                        id="return_home_button">
+                        Return to Homepage
+                    </button>
+                    <button
+                        onclick="acceptTerms()"
+                        class="btn-accept-terms"
+                        id="accept_terms_button">
+                        Accept the terms and conditions
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer_top">
+                    <div class="footer_nav">
+                        <img
+                            class="footer_logo"
+                            onclick="moveTo('/')"
+                            src="../icons/logo_footer.svg"
+                            alt="logo" />
+                        <div class="footer_menu">
+                            <a
+                                href="/#services"
+                                class="footer_menu-link"
+                                id="footer_menu_link_services"
+                                onclick="moveTo('/#services')"
+                                >services</a
+                            >
+                            <a
+                                href="/#work"
+                                class="footer_menu-link"
+                                id="footer_menu_link_work"
+                                onclick="moveTo('/#work')"
+                                >our process</a
+                            >
+                            <a
+                                href="/#price"
+                                class="footer_menu-link"
+                                id="footer_menu_link_price"
+                                onclick="moveTo('/#price')"
+                                >price</a
+                            >
+                            <a
+                                href="/#contacts-mobile"
+                                class="footer_menu-link"
+                                id="footer_menu_link_contacts"
+                                onclick="moveTo('/#contacts-mobile')"
+                                >contacts</a
+                            >
+                        </div>
+                    </div>
+                    <!-- <div class="footer_social-media">
+                        <div class="footer_text" id="footer_text_follow">
+                            Follow on social media
+                        </div>
+                        <div class="footer_icons">
+                            <a href="#" target="blank"
+                                ><img
+                                    src="./icons/facebook_footer.svg"
+                                    alt="facebook"
+                                    class="footer_icon"
+                            /></a>
+                            <a href="#" target="blank">
+                                <img
+                                    src="./icons/twitter.svg"
+                                    alt="twitter"
+                                    class="footer_icon" />
+                            </a>
+                            <a href="#" target="blank">
+                                <img
+                                    src="./icons/insta.svg"
+                                    alt="instagram"
+                                    class="footer_icon" />
+                            </a>
+                            <a href="#" target="blank">
+                                <img
+                                    src="./icons/youtube.svg"
+                                    alt="youtube"
+                                    class="footer_icon" />
+                            </a>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="footer_divider"></div>
+                <div class="footer_bottom">
+                    <div class="footer_text" id="footer_text_copyright">
+                        © Puzzledesire, 2024. All right reserved.
+                    </div>
+                    <div class="footer_documents">
+                        <a
+                            href="/privacy"
+                            class="footer_menu-document"
+                            id="footer_menu_document_privacy"
+                            >Privacy Policy</a
+                        >
+                        <a
+                            href="/terms-of-service"
+                            class="footer_menu-document"
+                            id="footer_menu_document_terms"
+                            >Terms of Service</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="../script.js"></script>
+        <script src="../lang.js"></script>
+        <script src="../switch-lang.js"></script>
+        <script src="../static-header.js"></script>
+    </body>
+</html>

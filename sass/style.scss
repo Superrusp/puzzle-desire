@@ -221,7 +221,7 @@ a {
         gap: 14px;
     }
     &-scrolled {
-        backdrop-filter: blur(10px);
+        backdrop-filter: blur(16px);
         &-btn {
             display: none;
             background: linear-gradient(
@@ -268,6 +268,9 @@ a {
     }
     .hamburger {
         display: none;
+    }
+    &_logo {
+        cursor: pointer;
     }
 }
 
@@ -1153,7 +1156,6 @@ a {
         font-size: 16px;
         font-weight: 400;
         line-height: 24px;
-
     }
     &_subtitle {
         margin: 4px 0 32px 0;
@@ -1533,6 +1535,7 @@ a {
     &_logo {
         width: 234.02px;
         height: 32.94px;
+        cursor: pointer;
     }
     &_menu {
         display: flex;
@@ -1663,7 +1666,7 @@ a {
     .iti {
         width: 100%;
         &__flag-container {
-            left: 10px !important; 
+            left: 10px !important;
         }
     }
 
@@ -1976,6 +1979,253 @@ a {
 
 .centered {
     text-align: center;
+}
+
+.nav_privacy {
+    background-color: #ffffffcc !important;
+    a {
+        color: #000000 !important;
+    }
+    .nav_language {
+        color: #000000 !important;
+    }
+    .hamburger {
+        span {
+            background: #000000 !important;
+        }
+    }
+}
+
+.btn-desc {
+    color: white !important;
+    display: block !important;
+}
+
+.privacy {
+    margin-top: 140px;
+
+    &__section {
+        margin-bottom: 64px;
+    }
+
+    &__date {
+        color: #120923b2;
+        font-family: DM Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22.4px;
+        text-align: left;
+        margin-bottom: 4px;
+    }
+
+    &__title {
+        color: #120923;
+        font-family: DM Sans;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 44.8px;
+    }
+
+    &__subtitle {
+        color: #120923;
+        font-family: Liberation Sans;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 28px;
+
+        span {
+            font-weight: 700;
+            color: #399cf8;
+            text-decoration: underline;
+        }
+    }
+    ul {
+        margin-left: 30px;
+        padding: 30px 0;
+        li {
+            font-family: Liberation Sans;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 28px;
+            span {
+                font-weight: 700;
+                color: #120923;
+            }
+        }
+    }
+}
+.terms {
+    margin-top: 140px;
+
+    &__section {
+        margin-bottom: 64px;
+    }
+
+    &__date {
+        color: #120923b2;
+        font-family: DM Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22.4px;
+        text-align: left;
+        margin-bottom: 4px;
+    }
+
+    &__title {
+        color: #120923;
+        font-family: DM Sans;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 44.8px;
+    }
+
+    &__subtitle {
+        color: #120923;
+        font-family: Liberation Sans;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 28px;
+
+        span {
+            font-weight: 700;
+            color: #399cf8;
+            text-decoration: underline;
+        }
+    }
+    ul {
+        padding: 30px 0;
+        list-style: none;
+        li {
+            font-family: Liberation Sans;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 28px;
+            span {
+                font-weight: 700;
+                color: #399cf8;
+                text-decoration: underline;
+            }
+        }
+    }
+    &-second-list {
+        list-style: outside !important;
+        margin-left: 30px !important;
+    }
+    &_flex {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        gap: 16px;
+        padding: 60px 0;
+    }
+}
+
+.separator {
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, #00000035, #fefefe);
+    margin: 12px 0;
+}
+
+.btn-to-home,
+.btn-accept-terms {
+    padding: 16px 32px;
+    border: 2px solid #120923b2;
+    color: #120923;
+    font-family: Liberation Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.8px;
+    border-radius: 100px;
+    background-color: transparent;
+    cursor: pointer;
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+.btn-accept-terms {
+    color: #fff;
+    background: linear-gradient(to right, #76bdff, #0c84f2);
+    border: transparent;
+}
+
+#cookieNotice {
+    z-index: 1000;
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    padding: 0 20px;
+    .cookie {
+        max-width: 1360px;
+        width: 100%;
+        background-color: #55acfb;
+        margin: auto;
+        padding: 24px 16px;
+        border-radius: 20px;
+        &_wrapper {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+            max-width: 780px;
+            margin: auto;
+            p {
+                max-width: 430px;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 19.6px;
+                color: #fff;
+                a {
+                    color: #fff;
+                    display: block;
+                    font-weight: 700;
+                    text-decoration: underline;
+                }
+            }
+        }
+        &-flex {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+    }
+}
+
+.cookie-accept {
+    width: 150px;
+    padding: 16px 0;
+    text-align: center;
+    font-family: Liberation Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.8px;
+    color: #120923;
+    background-color: #fff;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    &:hover {
+        opacity: 0.9;
+    }
+}
+
+.cookie-decline {
+    width: 150px;
+    padding: 16px 0;
+    text-align: center;
+    font-family: Liberation Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.8px;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 100px;
+    border: 2px solid #fff;
+    cursor: pointer;
+    &:hover {
+        opacity: 0.9;
+    }
 }
 
 @import './media';
